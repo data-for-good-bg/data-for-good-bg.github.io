@@ -1,5 +1,5 @@
 basic_settings:
-  site_title: Argon Jekyll Theme
+  site_title: Data for good
   favicon_image: /assets/img/favicon.png
 
 header_settings:
@@ -35,14 +35,14 @@ menu_settings:
       submenu_items:
       - title: Landing Page
         url: /
-        icon: ni-spaceship text-success    
+        icon: ni-spaceship text-success
       - title: Blog
         url: /blog
         icon: ni-books text-primary
     - title: 'Features'
-      url: '/features'     
+      url: '/features'
     - title: Pricing
-      url: /pricing        
+      url: /pricing
     - title: 'Blog'
       submenu_items:
       - title: Blog
@@ -56,9 +56,7 @@ menu_settings:
         icon: ni-image text-info
       - title: List Example
         url: /blog-list-example
-        icon: ni-bullet-list-67 text-default    
-    - title: 'About'
-      url: '/about'
+        icon: ni-bullet-list-67 text-default
     - title: 'Contact'
       url: '/contact'
 
