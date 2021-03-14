@@ -1,0 +1,14 @@
+global:
+  tagline: English
+  about: About
+  twitter: Twitter
+  github: GitHub
+langs:
+  bg: Български
+  en: English
+menu:
+  home: Home
+  blog: Blog
+  contact: Contact
+pages:
+  example: example

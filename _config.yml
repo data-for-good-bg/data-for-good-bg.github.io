@@ -37,10 +37,14 @@ sass:
   style: compressed
   sourcemap: never
 
+languages: ["en", "bg"]
+exclude_from_localizations: ["assets"]
+
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-multiple-languages-plugin
 
 paginate: 6
 paginate_path: "/blog/page:num/"

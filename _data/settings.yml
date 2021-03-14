@@ -31,33 +31,11 @@ blog_settings:
   # 3. Add a color of the icon - text-primary, text-success, text-info, text-danger, text-warning and text-default all work! 
 menu_settings:
   menu_items:
-    - title: 'Home'
-      submenu_items:
-      - title: Landing Page
-        url: /
-        icon: ni-spaceship text-success
-      - title: Blog
-        url: /blog
-        icon: ni-books text-primary
-    - title: 'Features'
-      url: '/features'
-    - title: Pricing
-      url: /pricing
-    - title: 'Blog'
-      submenu_items:
-      - title: Blog
-        url: /blog
-        icon: ni-books text-primary
-      - title: Narrow Grid Example
-        url: /blog-narrow-example
-        icon: ni-align-center text-success
-      - title: Wide Grid Example
-        url: /blog-grid-example
-        icon: ni-image text-info
-      - title: List Example
-        url: /blog-list-example
-        icon: ni-bullet-list-67 text-default
-    - title: 'Contact'
+    - title: menu.home
+      url: /
+    - title: menu.blog
+      url: /blog-narrow-example
+    - title: menu.contact
       url: '/contact'
 
 footer_settings:
