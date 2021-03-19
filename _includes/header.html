@@ -80,16 +80,39 @@
                   <span class="nav-link-inner--text"><i class="fas fa-2x fa-language"></i></span>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  {% for lang in site.languages %}
-                    {% if forloop.index0 == 0 %}
-                      <a class="dropdown-item" href="{{ page.url }}" class="nav-link">
-                        <span class="nav-link-inner--text">{{ lang }}</span>
-                      </a>
-                    {% else %}
-                      <a class="dropdown-item" href="/{{ lang }}{{ page.url }}" class="nav-link">
-                        <span class="nav-link-inner--text">{{ lang }}</span>
-                      </a>
-                    {% endif %}
+                  {% for block in site.data.map %}
+                    {% for item in block[page.lang] %}
+                      {% if item == page.path %}
+                        {% for trans in block %}
+                          {% assign trans_path = trans[1] %}
+                          {% assign posts = site.posts | where:"path",trans_path %} 
+
+                          {% for item in posts %}
+                            {% if item.path == page.path %}
+                            <a class="dropdown-item" hreflang="{{item.lang}}" class="nav-link">
+                              <span class="nav-link-inner--text">{{site.data.locales[item.lang].title}}</span>
+                            </a>
+                            {% else %}
+                            <a class="dropdown-item" hreflang="{{item.lang}}" href="{{item.url|absolute_url}}" class="nav-link">
+                              <span class="nav-link-inner--text">{{site.data.locales[item.lang].title}}</span>
+                            </a>
+                          {% endif %}
+                        {% endfor %}
+                        {% assign pages = site.pages | where:"path",trans_path %}
+                          {% for item in pages %}
+                            {% if item.path == page.path %}
+                              <a class="dropdown-item" hreflang="{{item.lang}}" class="nav-link">
+                                <span class="nav-link-inner--text">{{site.data.locales[item.lang].title}}</span>
+                              </a>
+                            {% else %}
+                              <a class="dropdown-item" hreflang="{{item.lang}}" href="{{item.url|absolute_url}}" class="nav-link">
+                                <span class="nav-link-inner--text">{{site.data.locales[item.lang].title}}</span>
+                              </a>
+                            {% endif %}
+                          {% endfor %}
+                        {% endfor %}
+                      {% endif %}
+                    {% endfor %}
                   {% endfor %}
                 </div>
               </li>
