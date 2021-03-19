@@ -9,9 +9,6 @@ collections:
     output: true
     permalink: /blog/:slug
     type: "post"
-  case_studies:
-    output: true
-    permalink: /:collection/:year-:month-:day-:title:output_ext
 
 defaults:
   -
@@ -30,21 +27,18 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "post" 
+      layout: "post"
+      lang: "en"
 
 sass:
   sass_dir: assets/styles
   style: compressed
   sourcemap: never
 
-languages: ["en", "bg"]
-exclude_from_localizations: ["assets"]
-
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-multiple-languages-plugin
 
 paginate: 6
 paginate_path: "/blog/page:num/"

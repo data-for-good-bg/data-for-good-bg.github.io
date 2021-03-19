@@ -1,11 +1,12 @@
 <section class="blogs-4 fullWidth">
     <div class="container-fluid">
-        {% assign psize = site.posts | size %}
+        {% assign psize = site.posts | where:"lang", page.lang | size %}
         {% if psize == 0 %}
         <p>No posts...yet.</p>
         {% endif %}
         <div class="row">
-            {% for post in site.posts limit:6 %}
+            {% assign pposts = site.posts | where:"lang", page.lang %}
+            {% for post in pposts limit:6 %}
             <div class="col-lg-4">
                 <div class="card card-blog card-background" data-animation="zooming">
                     <div class="full-background" style="background-image: url({{ post.featured_image | relative_url }})"></div>

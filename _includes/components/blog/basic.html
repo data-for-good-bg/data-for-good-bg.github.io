@@ -1,12 +1,13 @@
 <section class="blogs-3">
     <div class="container">
-        {% assign psize = site.posts | size %}
+        {% assign psize = site.posts | where:"lang", page.lang | size %}
         {% if psize == 0 %}
         <p>No posts...yet.</p>
         {% endif %}
         <div class="row">
             <div class="col-lg-10 mx-auto">
-                {% for post in site.posts limit:6 %}
+                {% assign pposts = site.posts | where:"lang", page.lang %}
+                {% for post in pposts | limit:6 %}
                 <div class="card card-blog card-plain blog-horizontal mb-5">
                     <div class="row">
                         <div class="col-lg-4 col-md-4">

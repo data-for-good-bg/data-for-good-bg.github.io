@@ -1,6 +1,7 @@
 ---
 title: Blog Example - Narrow Grid
 subtitle: Perfect for varied post types
+lang: en
 ---
 
 ### Narrow Grid
@@ -12,7 +13,5 @@ You'll find this inside the `_data` folder – this is where you can set all of 
 
 ---
 
- {% include components/blog/narrow.html %}  
-
-
-
+ {% include components/blog/narrow.html %}
+ 

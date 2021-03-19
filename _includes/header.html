@@ -55,7 +55,7 @@
                 {% if item.submenu_items %}
                   <li class="nav-item dropdown">
                     <a href="javascript:;" class="nav-link" data-toggle="dropdown" role="button">
-                      <span class="nav-link-inner--text">{% t item.title %}</span>
+                      <span class="nav-link-inner--text">{{ item.title }}</span>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                       {% for subitem in item.submenu_items %}
@@ -69,7 +69,7 @@
                 {% else %}
                   <li class="nav-item">
                     <a href="{{ site.baseurl }}{{ item.url }}" class="nav-link">
-                      <span class="nav-link-inner--text">{% t item.title %}</span>
+                      <span class="nav-link-inner--text">{{ item.title }}</span>
                     </a>
                   </li>
                 {% endif %}
@@ -77,17 +77,17 @@
 
               <li class="nav-item dropdown">
                 <a href="javascript:;" class="nav-link" data-toggle="dropdown" role="button">
-                  <span class="nav-link-inner--text">{% t langs.{{ site.lang }} %}</span>
+                  <span class="nav-link-inner--text"><i class="fas fa-2x fa-language"></i></span>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   {% for lang in site.languages %}
                     {% if forloop.index0 == 0 %}
                       <a class="dropdown-item" href="{{ page.url }}" class="nav-link">
-                        <span class="nav-link-inner--text">{% t langs.{{ lang }} %}</span>
+                        <span class="nav-link-inner--text">{{ lang }}</span>
                       </a>
                     {% else %}
                       <a class="dropdown-item" href="/{{ lang }}{{ page.url }}" class="nav-link">
-                        <span class="nav-link-inner--text">{% t langs.{{ lang }} %}</span>
+                        <span class="nav-link-inner--text">{{ lang }}</span>
                       </a>
                     {% endif %}
                   {% endfor %}

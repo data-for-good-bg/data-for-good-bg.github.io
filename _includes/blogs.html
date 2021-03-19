@@ -1,12 +1,12 @@
 {% if site.data.settings.blog_settings.theme == "grid" %}
 <section class="blogs-4 fullWidth">
     <div class="container-fluid">
-        {% assign psize = site.posts | size %}
+        {% assign psize = site.posts | where:"lang", page.lang | size %}
         {% if psize == 0 %}
         <p>No posts...yet.</p>
         {% endif %}
         <div class="row">
-            {% for post in paginator.posts %}
+            {% for post in paginator.posts | where:"lang", page.lang %}
             <div class="col-lg-4">
                 <div class="card card-blog card-background" data-animation="zooming">
                     <div class="full-background" style="background-image: url({{ post.featured_image | relative_url }})"></div>
@@ -58,12 +58,12 @@
 {% if site.data.settings.blog_settings.theme == "narrow" %}
 <section class="blogs-1">
     <div class="container">
-        {% assign psize = site.posts | size %}
+        {% assign psize = site.posts | where:"lang", page.lang | size %}
         {% if psize == 0 %}
         <p>No posts...yet.</p>
         {% endif %}
         <div class="row align-items-center">
-            {% for post in paginator.posts %}
+            {% for post in paginator.posts | where:"lang", page.lang %}
             <div class="{% if forloop.index == 1 or forloop.index == 6 %}col-lg-6{% else %}col-lg-3{% endif %}">
                 <div class="card card-blog card-background" data-animation="zooming">
                     <div class="full-background" style="background-image: url({{ post.featured_image | relative_url }})"></div>
@@ -113,13 +113,14 @@
 {% if site.data.settings.blog_settings.theme == "basic" %}
 <section class="blogs-3">
     <div class="container">
-        {% assign psize = site.posts | size %}
+        {% assign psize = site.posts | where:"lang", page.lang | size %}
         {% if psize == 0 %}
         <p>No posts...yet.</p>
         {% endif %}
         <div class="row">
             <div class="col-lg-10 mx-auto">
-                {% for post in paginator.posts limit:8 %}
+                {% assign pposts = paginator.posts | where:"lang", page.lang %}
+                {% for post in pposts | limit:8 %}
                 <div class="card card-blog card-plain blog-horizontal mb-5">
                     <div class="row">
                         <div class="col-lg-4 col-md-4">

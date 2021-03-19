@@ -46,13 +46,13 @@ layout: default
   <div class="container">
     <h2 class="title mb-5">You might also like...</h2>
 
-    {% assign psize = site.posts | size %}
+    {% assign psize = site.posts | where:"lang", page.lang | size %}
     {% if psize == 0 %}
     <p>No posts...yet.</p>
     {% endif %}
     <div class="row align-items-center mb-2">
-
-      {% for post in site.posts limit:6 %}
+      {% assign pposts = site.posts | where:"lang", page.lang %}
+      {% for post in pposts limit:6 %}
       <div class="{% if forloop.index == 1 or forloop.index == 6 %}col-lg-6{% else %}col-lg-3{% endif %}">
         <div class="card card-blog card-background" data-animation="zooming">
           <div class="full-background" style="background-image: url({{ post.featured_image | relative_url }})"></div>
