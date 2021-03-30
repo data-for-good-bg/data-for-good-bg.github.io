@@ -55,13 +55,13 @@
                 {% if item.submenu_items %}
                   <li class="nav-item dropdown">
                     <a href="javascript:;" class="nav-link" data-toggle="dropdown" role="button">
-                      <span class="nav-link-inner--text">{{ item.title }}</span>
+                      <span class="nav-link-inner--text">{{ site.data[page.lang].menu[item.title] }}</span>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                       {% for subitem in item.submenu_items %}
                       <a class="dropdown-item" href="{{ subitem.url | relative_url}}">
                         <i class="ni {{ subitem.icon }}"></i>
-                        {{subitem.title}}
+                        {{ site.data[page.lang].menu[item.title] }}
                       </a>
                       {% endfor %}
                     </div>
@@ -69,7 +69,7 @@
                 {% else %}
                   <li class="nav-item">
                     <a href="{{ site.baseurl }}{{ item.url }}" class="nav-link">
-                      <span class="nav-link-inner--text">{{ item.title }}</span>
+                      <span class="nav-link-inner--text">{{ site.data[page.lang].menu[item.title] }}</span>
                     </a>
                   </li>
                 {% endif %}
@@ -85,8 +85,7 @@
                       {% if item == page.path %}
                         {% for trans in block %}
                           {% assign trans_path = trans[1] %}
-                          {% assign posts = site.posts | where:"path",trans_path %} 
-
+                          {% assign posts = site.posts | where:"path",trans_path %}
                           {% for item in posts %}
                             {% if item.path == page.path %}
                             <a class="dropdown-item" hreflang="{{item.lang}}" class="nav-link">
@@ -96,9 +95,9 @@
                             <a class="dropdown-item" hreflang="{{item.lang}}" href="{{item.url|absolute_url}}" class="nav-link">
                               <span class="nav-link-inner--text">{{site.data.locales[item.lang].title}}</span>
                             </a>
-                          {% endif %}
-                        {% endfor %}
-                        {% assign pages = site.pages | where:"path",trans_path %}
+                            {% endif %}
+                          {% endfor %}
+                          {% assign pages = site.pages | where:"path",trans_path %}
                           {% for item in pages %}
                             {% if item.path == page.path %}
                               <a class="dropdown-item" hreflang="{{item.lang}}" class="nav-link">

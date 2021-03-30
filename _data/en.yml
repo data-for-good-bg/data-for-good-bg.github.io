@@ -1,0 +1,8 @@
+menu:
+  home: Home
+  blog: Blog
+  contact: Contact
+post:
+  seeAlso: You might also like...
+  noPosts: No posts...yet.
+  postedOn: Posted

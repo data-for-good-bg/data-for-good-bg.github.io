@@ -5,5 +5,8 @@
   en: index.html
   bg: bg/index.html
 -
-  en: about.md
-  bg: za-nas.md
+  en: _pages/about.md
+  bg: _pages/za-nas.md
+-
+  en: _pages/blog-en.md
+  bg: _pages/blog-bg.md

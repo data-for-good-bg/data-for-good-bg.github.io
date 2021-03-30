@@ -31,15 +31,15 @@ blog_settings:
   # 3. Add a color of the icon - text-primary, text-success, text-info, text-danger, text-warning and text-default all work! 
 menu_settings:
   menu_items:
-    - title: menu.home
+    - title: home
       url: /
-    - title: menu.blog
-      url: /blog-narrow-example
-    - title: menu.contact
+    - title: blog
+      url: /blog-en
+    - title: contact
       url: '/contact'
 
 footer_settings:
-  footer_tagline: Argon & Jekyll, together at last.
+  footer_tagline: Data for Good Bulgaria
 
 contact_settings:
   form_action: 'https://formspree.io/hello@jekyllthemes.io'
@@ -50,14 +50,14 @@ contact_settings:
 social_settings:
   facebook_url: 'https://www.facebook.com/jekyllthemes/'
   twitter_url: 'https://twitter.com/jekyllthemesio'
-  instagram_url: 'https://twitter.com/jekyllthemesio'
+  instagram_url: ''
   youtube_url: ''
   vimeo_url: ''
   pinterest_url: ''
   tumblr_url: ''
   dribbble_url: ''
   behance_url: ''
-  github_url: 'https://twitter.com/jekyllthemesio'
+  github_url: 'https://github.com/data-for-good-bg'
   reddit_url: ''
   linkedin_url: ''
 

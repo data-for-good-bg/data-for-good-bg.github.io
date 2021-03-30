@@ -17,7 +17,7 @@ layout: default
           </div>
         </div>
         <blockquote class="blockquote text-center mt-2">
-          <p class="mb-0 text-white">Posted {{ page.date | date_to_long_string }}</p>
+          <p class="mb-0 text-white">{{ site.data[page.lang].post.postedOn }} {{ page.date | date_to_long_string }}</p>
         </blockquote>
         <h2 class="lead text-white pl-5 pr-5 pb-5 text-center">{{page.description}}</h2>
       </div>
@@ -44,11 +44,11 @@ layout: default
 {% if site.data.settings.blog_settings.read_more == "yes" %}
 <section class="blogs-1">
   <div class="container">
-    <h2 class="title mb-5">You might also like...</h2>
+    <h2 class="title mb-5">{{ site.data[page.lang].post.seeAlso }}</h2>
 
     {% assign psize = site.posts | where:"lang", page.lang | size %}
     {% if psize == 0 %}
-    <p>No posts...yet.</p>
+    <p>{{ site.data[page.lang].post.noPosts }}</p>
     {% endif %}
     <div class="row align-items-center mb-2">
       {% assign pposts = site.posts | where:"lang", page.lang %}
