@@ -48,8 +48,8 @@ contact_settings:
   send_button_text: 'Send Message'
 
 social_settings:
-  facebook_url: 'https://www.facebook.com/jekyllthemes/'
-  twitter_url: 'https://twitter.com/jekyllthemesio'
+  facebook_url: 'https://www.facebook.com/dataforgoodbg'
+  twitter_url: 'https://twitter.com/dataforgoodbg'
   instagram_url: ''
   youtube_url: ''
   vimeo_url: ''
@@ -59,7 +59,7 @@ social_settings:
   behance_url: ''
   github_url: 'https://github.com/data-for-good-bg'
   reddit_url: ''
-  linkedin_url: ''
+  linkedin_url: 'https://www.linkedin.com/company/data-for-good-bg'
 
 authors:
   tom:
