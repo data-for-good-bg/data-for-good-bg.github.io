@@ -6,6 +6,5 @@ description: This theme comes with a built-in contact form that's free and easy 
 lang: en
 ---
 
-{% include components/headers/contact-page-header.html %}
+{% include components/headers/contact-page-header-lite.html %}
 
-{% include contact-form.html %}
