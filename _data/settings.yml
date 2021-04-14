@@ -32,11 +32,17 @@ blog_settings:
 menu_settings:
   menu_items:
     - title: home
-      url: /
+      urls:
+        bg: /
+        en: /
     - title: blog
-      url: /blog-en
+      urls:
+        bg: /blog-bg
+        en: /blog-en
     - title: contact
-      url: '/contact'
+      urls:
+        bg: /contact-bg
+        en: /contact-en
 
 footer_settings:
   footer_tagline: Data for Good Bulgaria

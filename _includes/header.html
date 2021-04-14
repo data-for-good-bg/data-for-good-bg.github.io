@@ -59,7 +59,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                       {% for subitem in item.submenu_items %}
-                      <a class="dropdown-item" href="{{ subitem.url | relative_url}}">
+                      <a class="dropdown-item" href="{{ subitem.urls[page.lang] | relative_url}}">
                         <i class="ni {{ subitem.icon }}"></i>
                         {{ site.data[page.lang].menu[item.title] }}
                       </a>
@@ -68,7 +68,8 @@
                   </li>
                 {% else %}
                   <li class="nav-item">
-                    <a href="{{ site.baseurl }}{{ item.url }}" class="nav-link">
+                    <!-- aa{{ item.urls[page.lang] }} -->
+                    <a href="{{ site.baseurl }}{{ item.urls[page.lang] }}" class="nav-link">
                       <span class="nav-link-inner--text">{{ site.data[page.lang].menu[item.title] }}</span>
                     </a>
                   </li>

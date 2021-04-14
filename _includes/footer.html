@@ -12,7 +12,9 @@
     <div class="row align-items-center justify-content-md-between">
       <div class="col-md-6">
         <div class="copyright">
-          <span> © {{ 'now' | date: "%Y" }} Argon Design System by <a href="https://www.creative-tim.com/" target="_blank">Creative Tim</a> & <a href="https://jekyllthemes.io" target="_blank">Jekyll Themes</a></span>
+          <span> © {{ 'now' | date: "%Y" }} Data for good Bulgaria
+            <!-- Argon Design System by <a href="https://www.creative-tim.com/" target="_blank">Creative Tim</a> & <a href="https://jekyllthemes.io" target="_blank">Jekyll Themes</a> -->
+          </span>
         </div>
       </div>
       <div class="col-md-6">
@@ -22,7 +24,7 @@
 
           {% else %}
           <li class="nav-item">
-            <a href="{{ item.url | relative_url }}" class="nav-link">
+            <a href="{{ item.urls[page.lang] | relative_url }}" class="nav-link">
               <span class="nav-link-inner--text">{{ site.data[page.lang].menu[item.title] }}</span>
             </a>
           </li>
