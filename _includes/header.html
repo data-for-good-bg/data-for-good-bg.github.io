@@ -68,7 +68,6 @@
                   </li>
                 {% else %}
                   <li class="nav-item">
-                    <!-- aa{{ item.urls[page.lang] }} -->
                     <a href="{{ site.baseurl }}{{ item.urls[page.lang] }}" class="nav-link">
                       <span class="nav-link-inner--text">{{ site.data[page.lang].menu[item.title] }}</span>
                     </a>
@@ -86,6 +85,11 @@
                       {% if item == page.path %}
                         {% for trans in block %}
                           {% assign trans_path = trans[1] %}
+                          {% if trans_path contains 'index.html' %}
+                            <a class="dropdown-item" hreflang="en" href="/" class="nav-link">
+                              <span class="nav-link-inner--text">{{site.data.locales['en'].title}}</span>
+                            </a>
+                          {% endif %}
                           {% assign posts = site.posts | where:"path",trans_path %}
                           {% for item in posts %}
                             {% if item.path == page.path %}
@@ -100,6 +104,7 @@
                           {% endfor %}
                           {% assign pages = site.pages | where:"path",trans_path %}
                           {% for item in pages %}
+                      
                             {% if item.path == page.path %}
                               <a class="dropdown-item" hreflang="{{item.lang}}" class="nav-link">
                                 <span class="nav-link-inner--text">{{site.data.locales[item.lang].title}}</span>
