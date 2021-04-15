@@ -24,7 +24,7 @@ It took us 4 weeks to explore the data, analyse the problem and produce a predic
 Our team crunched the data looking into two different hypotheses. On the one hand, we estimated the shortage of teachers, and on the other hand, calculated the number of teachers who will reach retirement age.
 
 ##### What was tricky in this project?
-In the process of analysing the data we encountered several problems. Although Teach for Bulgaria had comprehensive data, it was scattered. For example, one data set represented the number of teachers by subject, another the number of teachers by age, but none of them contained the number of teachers by subject and age that we needed in order to analyze the issue of teachers reaching retirement age. A separate difficulty was the presentation of the age of teachers as a range - we had the number of teachers aged 57-62 years, but we needed an exact age and gender to match that against the conditions for retirement age for teachers.
+<img align="right" src="/assets/img/pages/what-we-did-Teach-for-Bulgaria-Data-for-Good-casestudy.PNG" width="400">In the process of analysing the data we encountered several problems. Although Teach for Bulgaria had comprehensive data, it was scattered. For example, one data set represented the number of teachers by subject, another the number of teachers by age, but none of them contained the number of teachers by subject and age that we needed in order to analyze the issue of teachers reaching retirement age. A separate difficulty was the presentation of the age of teachers as a range - we had the number of teachers aged 57-62 years, but we needed an exact age and gender to match that against the conditions for retirement age for teachers.
 
 ##### How did we solve the problem?
 From the very beginning, Data for Good Bulgaria worked closely with Teach for Bulgaria and communicated our ideas for solving the problem. We discussed our approach and made sure we are on the right track.
@@ -38,6 +38,12 @@ We used tools such as Graph DB, Python and Jupyter for delivering the project, w
 * The chosen approach allowed us to overcome the problem mentioned above.
 * Calculated statistical error to assure Teach for Bulgaria of the reliability of the prediction.
 * Documented the analysis process, which ensured reusability of the code in future analysis.
+<br/><br/>
+<p align="center">
+<img src="/assets/img/pages/age-composition-of-teachers-in-Sofia-region-Teach-for-Bulgaria-Data-for-Good-casestudy.png"
+     alt="Age composition of teachers in Sofia region Teach for Bulgaria & Data for Good casestudy"
+     style="float: left; margin-right: 10px;" />
+</p>
 
 #### What was the result?
 Data for Good Bulgaria provided free of charge the expertise and knowledge to Teach for Bulgaria, which received a reliable prediction of the number of teachers vacancies in each district of the country in the coming school years. That enabled Teach for Bulgaria to make data-driven decisions on the recruitment of candidates for their program and better plan their activities in short and mid-term, optimizing costs and maximizing impact.
