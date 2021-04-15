@@ -3,7 +3,7 @@ title: Teach for Bulgaria
 date: 2021-03-14 00:00:00
 description: Teach for Bulgaria works towards positive change in education in Bulgaria by recruiting, training, and developing new teachers, supports educational teams  and builds partnerships for the introduction of good practices in the education system in the country.
 featured_image: /assets/img/pages/school.jpg
-author: Tom
+author: Magdalena Petrova
 lang: en
 ---
 
