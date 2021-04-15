@@ -3,6 +3,12 @@ title: Данни за добро и Заедно в час
 date: 2021-03-14 00:00:00
 description: Фондация „Заедно в час“ работи за подобряването на образованието в България като открива, обучава и развива нови учители, подкрепя училищни екипи и изгражда партньорства за въвеждането на добри практики в образователната система в страната.
 featured_image: /assets/img/pages/school.jpg
+```{r, echo=FALSE}
+htmltools::img(src = knitr::image_uri(file.path("/assets/img/pages/Zaedno_v_chas_BG-Logo_RGB_raster_transparency.png")), 
+               alt = 'Zaedno v chas logo', 
+               style = 'position:absolute; top:0; right:0; padding:10px;',
+               width = "300px")
+```
 author: Magdalena Petrova  
 lang: bg
 ---
