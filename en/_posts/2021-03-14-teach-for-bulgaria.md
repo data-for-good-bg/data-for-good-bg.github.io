@@ -1,7 +1,7 @@
 ---
-title: Teach for Bulgaria / Predicting teacher vacancies using sparse data
+title: Teach for Bulgaria / Predicting teacher vacancies using statistical sampling
 date: 2021-03-14 00:00:00
-description: Teach for Bulgaria supports educational teams  and builds partnerships for the introduction of good practices in the education system in the country. We helped them predict future teacher vacancies using what sparse data was available.
+description: Teach for Bulgaria supports educational teams  and builds partnerships for the introduction of good practices in the education system in the country. We helped them predict future teacher vacancies using statistical sampling techniques.
 featured_image: /assets/img/pages/school.jpg
 author: Magdalena Petrova
 lang: en
