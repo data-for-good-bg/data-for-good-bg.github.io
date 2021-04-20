@@ -1,14 +1,18 @@
 ---
-title: Teach for Bulgaria
+title: Teach for Bulgaria / Predicting teacher vacancies using sparse data
 date: 2021-03-14 00:00:00
-description: Teach for Bulgaria works towards positive change in education in Bulgaria by recruiting, training, and developing new teachers, supports educational teams  and builds partnerships for the introduction of good practices in the education system in the country.
+description: Teach for Bulgaria supports educational teams  and builds partnerships for the introduction of good practices in the education system in the country. We helped them predict future teacher vacancies using what sparse data was available.
 featured_image: /assets/img/pages/school.jpg
 author: Magdalena Petrova
 lang: en
 ---
 
 #### About Teach for Bulgaria
-Teach for Bulgaria works towards positive change in education in Bulgaria by recruiting, training, and developing new teachers, supports educational teams  and builds partnerships for the introduction of good practices in the education system in the country.
+
+![](/assets/img/partner-logos/tfb/Zaedno_v_chas_EN-Logo_RGB_raster_transparency.png)
+
+[Teach for Bulgaria](https://zaednovchas.bg/en/) work towards positive change in education in Bulgaria by recruiting, training, and developing new teachers, supports educational teams  and builds partnerships for the introduction of good practices in the education system in the country.
+
 
 #### Background to the case
 Although it is a non-governmental organization with high expertise and a holistic view of the education system in Bulgaria, the Teach for Bulgaria’s team was seeking an answer to the question of how many vacancies for teachers there will be per district and per subject  in the coming few years, and was trying to gain a better understanding of the factors influencing the demand for teachers.
