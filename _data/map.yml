@@ -6,8 +6,8 @@
 -
   bg: bg/_posts/2021-04-21-kindergartens-infographic.md
 -
-  en: index.html
-  bg: _pages/index-bg.html
+  bg: index.html
+  en: _pages/index-en.html
 -
   en: _pages/about.md
   bg: _pages/za-nas.md
