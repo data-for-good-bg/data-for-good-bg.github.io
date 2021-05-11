@@ -45,7 +45,7 @@ menu_settings:
         en: /contact-en
 
 footer_settings:
-  footer_tagline: Data for Good Bulgaria
+  footer_tagline: Data for Good - Bulgaria
 
 contact_settings:
   form_action: 'https://formspree.io/hello@jekyllthemes.io'
