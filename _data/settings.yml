@@ -1,6 +1,6 @@
 basic_settings:
   site_title: Data for Good
-  favicon_image: /assets/img/favicon.png
+  favicon_image: /assets/img/brand/dfg_logo_16x16_hor.png
 
 header_settings:
   logo_image: /assets/img/brand/white.png
