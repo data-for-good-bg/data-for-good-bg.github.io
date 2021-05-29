@@ -77,3 +77,4 @@ csvformat -D=";" -K 1  pi2021_no_risky.csv  > pi2017_no_risky.ok.csv
 | ДПС	 | **-7**   |	30	         |            23              |
 | ИСМВ   |	0       |	14           |            14              |
 | ИТН    |	+1	    |   51	         |            52              |
+{: .table .table-striped .table-responsive}
