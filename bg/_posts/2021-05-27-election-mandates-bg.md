@@ -7,7 +7,75 @@ author: Nikola Tulechki
 lang: bg
 ---
 
-![](/assets/img/pages/risky_mandates_2021.png)
+<!-- ![](/assets/img/pages/risky_mandates_2021.png) -->
+
+<div class="chart-container">
+  <canvas id="risky-mandates-chart"></canvas>
+</div>
+
+<script>
+Chart.defaults.font.size = 16;
+
+var ctx = document.getElementById('risky-mandates-chart').getContext('2d');
+
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ['БСП', 'ГЕРБ', 'ДБ', 'ДПС', 'ИСМВ', 'ИТН'],
+        datasets: [{
+            label: 'бр мандати',
+            data: [3, 2, 1, -7, 0.2, 1],
+            backgroundColor: [
+                'rgba(204, 0, 0, 0.7)',
+                'rgba(17, 85, 204, 0.7)',
+                'rgba(153, 0, 255, 0.7)',
+                'rgba(159, 197, 232, 0.7)',
+                'rgba(235, 200, 21, 0.7)',
+                'rgba(70, 189, 198, 0.7)'
+            ],
+            min: -100
+        }]
+    },
+    options: {
+        plugins: {
+            legend: {
+                display: false,
+                position: 'bottom'
+            },
+            title: {
+                display: true,
+                align: 'start',
+                text: 'рисков вот - разлика в мандати по партия'
+            },
+            tooltip: {
+                callbacks: {
+                    label: function(context) {
+                        var label = context.dataset.label || '';
+                        var value = context.dataset.data[context.dataIndex];
+
+                        if (value === 0.2) {
+                            value = 0;
+                        }
+
+                        return label + ': ' + value;
+                    }
+                }
+            },
+        },
+        scales: {
+            y: {
+                title: {
+                    display: true,
+                    text: 'Мандати'
+                },
+                max: 4,
+                min: -8
+            }
+        }
+    }
+});
+</script>
+
 
 ### Методология 
 
@@ -77,3 +145,4 @@ csvformat -D=";" -K 1  pi2021_no_risky.csv  > pi2017_no_risky.ok.csv
 | ДПС	 | **-7**   |	30	         |            23              |
 | ИСМВ   |	0       |	14           |            14              |
 | ИТН    |	+1	    |   51	         |            52              |
+{: .table .table-striped .table-responsive}
