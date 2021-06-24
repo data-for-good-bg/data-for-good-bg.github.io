@@ -39,6 +39,10 @@ menu_settings:
       urls:
         bg: /blog-bg
         en: /blog-en
+    - title: team
+      urls:
+        bg: /team-bg
+        en: /team
     - title: contact
       urls:
         bg: /contact-bg

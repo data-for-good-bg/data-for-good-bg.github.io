@@ -13,8 +13,8 @@
   bg: index.html
   en: _pages/index-en.html
 -
-  en: _pages/about.md
-  bg: _pages/za-nas.md
+  en: _pages/team.md
+  bg: _pages/team-bg.md
 -
   en: _pages/blog-en.md
   bg: _pages/blog-bg.md
