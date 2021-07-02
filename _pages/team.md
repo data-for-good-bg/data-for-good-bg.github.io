@@ -36,3 +36,5 @@ lang: en
 ```components/teams/team-carousel-5.html ```
 {% include components/teams/team-carousel-5.html %}
 -->
+
+© Photographs by [Boris Bartos Photography](https://www.borisbartos.com/)
