@@ -36,3 +36,5 @@ lang: bg
 ```components/teams/team-carousel-5.html ```
 {% include components/teams/team-carousel-5.html %}
 -->
+
+[Photography Boris Bartos](https://www.borisbartos.com/)
