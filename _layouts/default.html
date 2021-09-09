@@ -80,13 +80,19 @@
         {% endif %}
       </div>
     </div>
-    {% endif%}
+    {% endif %}
     {% endif %}
     {% endif %}
 
+    {% if page.url = '/sebra' %}
+    <div id="main" class="container-fluid">
+      {{content}}
+    </div>
+    {% else %}
     <div id="main" class="container">
       {{content}}
     </div>
+    {% endif %}
   </div>
 
 

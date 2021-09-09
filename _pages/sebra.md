@@ -1,5 +1,5 @@
 ---
-title: СЕБРА - Плащания по институции 
+title: СЕБРА - Плащания по институции
 lang: bg
 ---
 {% include components/sebra.html %}
