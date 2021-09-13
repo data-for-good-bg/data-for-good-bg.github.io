@@ -4,4 +4,6 @@ lang: bg
 ---
 {% include components/sebra.html %}
 
-Всички налични данни от СЕБРА са достъпни в CSV формат на този [линк](https://docs.google.com/spreadsheets/d/e/2PACX-1vTe4UzbHONNqMkQp8C_QszS0X0zHTCPdVFyOW3R9-8nZ2qIpNwA90X3inE6im_n3Lvitv_fLhduYibW/pub?gid=1974652646&single=true&output=csv)
+Всички налични данни от СЕБРА са достъпни в CSV формат на този [линк](https://docs.google.com/spreadsheets/d/1VoB4dIH2Y2x2O-eH0ivNmBUYCcT-1NR6T5h8eWkE33Y/gviz/tq?tqx=out:csv&gid=1639699984) 
+
+Проекта в [github](https://github.com/data-for-good-bg/sebra-scrape)
