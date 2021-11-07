@@ -176,3 +176,245 @@ Minor changes only
 ## ITN
 
 [Fullscreen viz](https://vega.github.io/editor/#/url/vega-lite/N4IgJAzgxgFgpgWwIYgFwhgF0wBwqgegIDc4BzJAOjIEtMYBXAI0poHsDp5kTykBaADZ04JAKyUAVhDYA7EABoQAEySYUqUAwBOgtBmx5CBbUgDu1OoyYMIcbVDmY4szJUcICsmgGs2gtQZBOFgfGk5EJFcaKABRYKhMdlkIAmQIZ20CKKRBAE8IGlScbTgAM35iGgAvAjpZAH0AJgAGJoBGdwhiEABfJTMaZXo0dtaWpXgaMiw0AE4WiZBkbR80UEw8nDh9KBoHYMUQNhwkPc20FsoADiUM7TYfHfQmAKg1u8wHp4B1IZHUO0lI5BGxtPoAMRwFpQJBNJp9JQuRzKGiyMjrEAAD0xZRocEEyl2UWUDVkDAQTHsR02230YNRslyRyQWKKmLI2iGaDKuTsvX6IDyuPxhP0CH2ZLBCBpW2ex20jOZSlZ7M0ICSmEO6D6gsK1WeoDxBKJ6BK5QaxDYzggsrp6AAjgwopq1DRSEdoLlDSBTOi4ABZVloMSLFoCpSYNj+JI4NAAbSNotNy0lsmldvlDLRyo1dG1IEAOCCADBBAAQgiKTJuJslJ5Mp1Mjcvpipzekj+flgFwQQB8IIAeEEArCCAARAKyBjWL0EyEDtG-aQOmJUy23mtfLAFgggAYQQC8IIAWEEAHCDb9eAIRAR2OU+aypbrXBbTP5U6XXQ3R72yv9IB8EEH-cAIiBD-ubwBiILuu59AAupMpRlCKVboMIsgfBqTYTmwC7MhGICOLIeIYuqwRkC4pqgKiEBIK8zxfAwcACr0QA/view)
+
+# 2021_07 
+
+## GERB
+
+
+```json 
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "ГЕРБ - Разпределение на преференициалния вот - 11.07.2021",
+  "data": {
+    "url": "https://raw.githubusercontent.com/nikolatulechki/semanticElections/master/analysis/pref-viz/gerb_2021_07.csv"
+  },
+  "width": 1200,
+  "height": 900,
+  "mark": {
+    "type": "circle",
+    "opacity": 0.8,
+    "stroke": "black",
+    "strokeWidth": 1,
+    "color": "#1c4d9c"
+  },
+  "encoding": {
+    "x": {"field": "cand_number", "type": "ordinal", "axis": {"grid": false, "title": "Кандидат номер"}},
+    "y": {"field": "mir_norm", "type": "ordinal", "axis": {"title": "МИР"}},
+    "size": {
+      "field": "pref_votes",
+      "type": "quantitative",
+      "scale": {"rangeMax": 5000}
+    },
+    "tooltip": [
+      {"field": "mir_norm", "type": "ordinal", "title": "МИР"},
+      {"field": "cand_number", "type": "ordinal", "title": "Номер"},
+      {"field": "name", "type": "nominal", "title": "Кандидат"},
+      {"field": "pref_votes", "type": "quantitative", "title": "Преференции"}
+    ],
+    "href": {"field": "link", "type": "nominal"}
+  },
+  "config": {"legend": {"disable": true}}
+}
+```
+
+[viz](https://vega.github.io/editor/#/url/vega-lite/N4IgJAzgxgFgpgWwIYgFwhgF0wBwqgegIDc4BzJAOjIEtMYBXAI0poHsDp5kTykBaADZ04JAKyUAVhDYA7EABoQmOoLhoQgZBBAqCCACEECIIAAJ+h3YAYQQOwggfhBAAiCBWEEAsIHcDcIHcC8IIA4QO4bdnDtu0AREDt7T0AxEA8zZ09AeRBDQCYQQD4QQCEQY0MARnTKAAYAdkoAJmyC9MUQABMkTBRUUAYAJ0ENLFx8InqkAHdqOkYmBgg4eqg5TDhZTEoRhAJZGgBrNkEqhjVYeZpORCQJmigAUTWVOQgCZAgx+oIdpEEATwgaU5x6uAAzfmIaAC8CMiGmAB9IolQF5KYQYggAC+Sk6NHK9DQ6SK2SU8BoZCwaAAnNk0SBkPV5mhQJg7jh1OgoDRhmoymwcEgaeS0NlKAAOJQXepseZUkBMZZQEnczC8-kAdQRSNQ6SUI0EbHqGgAxOkoAAWco4qAwpTjEblGiyMikkAAD3NbxocEE5Q0UB25UBsgYCCYQzK5MpGmVxtktzKSAtT3NZHqCLQb1ugyUKkw9PQgCwQMxuBweBxmVJuRKAHhAQjDYSA7tbbfaNAhaa7lQhvRSBf6TUGlCGw7VlKoBYAcEEAGCC6Ivcn5U0A2u0O9Avd6A4hsMYQeu+9AARwYOwTVRopDK0FuI5AHVNcAAsiG0GJ8dlocXMGwliocGgANqj8sTwnV2S1xeN+oBludomPb9vqr7jo6zquu6noqvGDZ+n+zZNPGXYaIAuCD5oWsJgRW6CBgg6hwUuIBflWgbIYBSYgKm6aZtmoEgGOuEgFObwznOcALkRAqruudCbtuKFARogD4IPYwShBEHgwgAuuirxvGW4HoMIsiiso8F4WwZFBteCpyDaZodmo-yyBOoDGhASBClS4oMHA17QkAA)
+## ITN
+
+```json
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "ПП ИТН - Разпределение на преференициалния вот - 11.07.2021",
+  "data": {
+    "url": "https://raw.githubusercontent.com/nikolatulechki/semanticElections/master/analysis/pref-viz/itn_2021_07.csv"
+  },
+  "width": 1200,
+  "height": 900,
+  "mark": {
+    "type": "circle",
+    "opacity": 0.8,
+    "stroke": "black",
+    "strokeWidth": 1,
+    "color": "#07abecc2"
+  },
+  "encoding": {
+    "x": {"field": "cand_number", "type": "ordinal", "axis": {"grid": false, "title": "Кандидат номер"}},
+    "y": {"field": "mir_norm", "type": "ordinal", "axis": {"title": "МИР"}},
+    "size": {
+      "field": "pref_votes",
+      "type": "quantitative",
+      "scale": {"rangeMax": 5000}
+    },
+    "tooltip": [
+      {"field": "mir_norm", "type": "ordinal", "title": "МИР"},
+      {"field": "cand_number", "type": "ordinal", "title": "Номер"},
+      {"field": "name", "type": "nominal", "title": "Кандидат"},
+      {"field": "pref_votes", "type": "quantitative", "title": "Преференции"}
+    ],
+    "href": {"field": "link", "type": "nominal"}
+  },
+  "config": {"legend": {"disable": true}}
+}
+```
+
+[viz](https://vega.github.io/editor/#/url/vega-lite/N4IgJAzgxgFgpgWwIYgFwhgF0wBwqgegIDc4BzJAOjIEtMYBXAI0poHsDp5kTykBaADZ04JAKyUAVhDYA7EABoQmOoLhoQgfBBNAAkAYIICIQQLggO-jsAEIIAYQQOwggfhBAAiCBWEEAsII8DcII8C8IIA4QRzs+WOg6OgCIgjk4+gGIg3pZuPoDyIDqATCCAfCCAQiCmOgCMWZQADADslABMecVZiiAAJkiYKKigDABOghpYuPhETUgA7tR0jEwMEHBNUHKYcLKYlOMIBLI0ANZsgrUMarBLNJyISNM0UACimypyEATIEJNNBPtIggCeEDQXOE1wAGb8xDQAXgQ6LIAPqlcrAwqzCDEEAAXyUPRoVXoaCypTySngNDIWDQAE48hiQMgmks0KBMI8cOp0FAaGM1JU2DgkHTKWg8pQABxKa5NNhLGkgJhrKBk3mYfmCgDqSJRqCySnGgjYTQ0AGJCkgmHAoFBinClFNxlUaLIyOSQAAPS2fGhwQRVDRQfZVYGyBgIHVqpSU6kaVWm2QPSpIK2vS1kJpItCfB4jX2qIWALBBLJ5nN5nJYMp4UoAeEHCcPhIEetvtjo0CHp7tVCEqfqFgbNIaUYYjDWUSY0gBwQPTmIu8-400B2h1O9DvL7A4hsSYQetUoUARwY+xUdRUpEq0Aew5A3XNcAAsmG0GJCXlYcXMGxViocGgANoj8vj4nV2S1hf+9BN4OtRNMEZdBe37eEXzHZ1XXdT1vW-RsmiDFtOyAoUjHzQtwJAUcK3QYMEHUX1Fw0T8q3-esu3QVN00zbNDQg3CQEnT5p1nOB5yIn8QBXNc6FqGgt0A4CtCcMIImibw4QAXUxD5PjLSD0GEWRxWUYi8LYMiQyvJU5DtC0OzUMgpnHUBTQgbVgMlBg4CvWEgA)
+
+## BSP
+
+```json
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "БСП  - Разпределение на преференициалния вот - 11.07.2021",
+  "data": {
+    "url": "https://raw.githubusercontent.com/nikolatulechki/semanticElections/master/analysis/pref-viz/bsp_2021_07.csv"
+  },
+  "width": 1200,
+  "height": 900,
+  "mark": {
+    "type": "circle",
+    "opacity": 0.8,
+    "stroke": "black",
+    "strokeWidth": 1,
+    "color": "#be0b0bc2"
+  },
+  "encoding": {
+    "x": {"field": "cand_number", "type": "ordinal", "axis": {"grid": false, "title": "Кандидат номер"}},
+    "y": {"field": "mir_norm", "type": "ordinal", "axis": {"title": "МИР"}},
+    "size": {
+      "field": "pref_votes",
+      "type": "quantitative",
+      "scale": {"rangeMax": 5000}
+    },
+    "tooltip": [
+      {"field": "mir_norm", "type": "ordinal", "title": "МИР"},
+      {"field": "cand_number", "type": "ordinal", "title": "Номер"},
+      {"field": "name", "type": "nominal", "title": "Кандидат"},
+      {"field": "pref_votes", "type": "quantitative", "title": "Преференции"}
+    ],
+    "href": {"field": "link", "type": "nominal"}
+  },
+  "config": {"legend": {"disable": true}}
+}
+```
+
+[viz](https://vega.github.io/editor/#/url/vega-lite/N4IgJAzgxgFgpgWwIYgFwhgF0wBwqgegIDc4BzJAOjIEtMYBXAI0poHsDp5kTykBaADZ04JAKyUAVhDYA7EABoQmOoLhoQgRBBAhCCB8EAAE+-vsAEIIAYQQOwggfhBAAiCBWEEAsIHcDcIHcC8IIA4QO-rdn9tu0AREDt7T0AxEA8zZ09AeRB9QCYQQD4QQCEQI30ARnTKAAYAdkoAJmyC9MUQABMkTBRUUAYAJ0ENLFx8InqkAHdqOkYmBgg4eqg5TDhZTEoRhAJZGgBrNkEqhjVYeZpORCQJmigAUTWVOQgCZAgx+oIdpEEATwgaU5x6uAAzfmIaAC8CJggcAB9IolQF5KYQYggAC+Sk6NHK9DQ6SK2SU8BoZCwaAAnNk0SBkPV5mhQJg7jh1OgoDRhmoymwcEgaeS0NlKAAOJQXepseZUkBMZZQEnczC8-kAdQRSNQ6SUI0EbHqGgAxEw4NkmFqoAUYUpxiNyjRZGRSSAAB7mt40OCCcoaKA7cqA2QMBAalVKcmUjTK42yW5lJAWp7msj1BFoN63Qbe1QCwBYIGY3A4PA4zKk3IlADwgIRhsJAd2ttvtGgQtNdyoQZR9Av9JqDShDYdqygTGkAOCCADBATAXuT8qaAbXaHegXu9AcQ2GMILWKQKAI4MHYqaoqUhlaC3IcgDqmuAAWRDaDE+Oy0MLmDYSxUODQAG1h6Wx4TK7Jq-PfegG4GmvHMHpdAez7WFn1HR1nVdd1PS-et6gDJt20AgVAFwQXN8zAkARzLdBAwQdRvQXDQPwrP9aw7dBk1TdNM31cDcJACc3inGc4DnIjvxAZdVzoKoaE3ACgJAXR7GCUIIg8GEAF10VeN4Swg9BhFkUVlGIvC2DIoNLwVOQbTNNs1DIcYx1AY0ICQIUqXFBg4EvaEgA)
+
+## DB
+
+```json
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "ДБ  - Разпределение на преференициалния вот - 11.07.2021",
+  "data": {
+    "url": "https://raw.githubusercontent.com/nikolatulechki/semanticElections/master/analysis/pref-viz/db_2021_07.csv"
+  },
+  "width": 1200,
+  "height": 900,
+  "mark": {
+    "type": "circle",
+    "opacity": 0.8,
+    "stroke": "black",
+    "strokeWidth": 1,
+    "color": "#aa03f8"
+  },
+  "encoding": {
+    "x": {"field": "cand_number", "type": "ordinal", "axis": {"grid": false, "title": "Кандидат номер"}},
+    "y": {"field": "mir_norm", "type": "ordinal", "axis": {"title": "МИР"}},
+    "size": {
+      "field": "pref_votes",
+      "type": "quantitative",
+      "scale": {"rangeMax": 5000}
+    },
+    "tooltip": [
+      {"field": "mir_norm", "type": "ordinal", "title": "МИР"},
+      {"field": "cand_number", "type": "ordinal", "title": "Номер"},
+      {"field": "name", "type": "nominal", "title": "Кандидат"},
+      {"field": "pref_votes", "type": "quantitative", "title": "Преференции"}
+    ],
+    "href": {"field": "link", "type": "nominal"}
+  },
+  "config": {"legend": {"disable": true}}
+}
+```
+
+[viz](https://vega.github.io/editor/#/url/vega-lite/N4IgJAzgxgFgpgWwIYgFwhgF0wBwqgegIDc4BzJAOjIEtMYBXAI0poHsDp5kTykBaADZ04JAKyUAVhDYA7EABoQmOoLhoQgFBBAiCAACXf12ACEEAMIIHYQQPwggARBArCCAWEBuBuEBuBeEEAcIDd0uTu6zcAiIDa27oBiIG4mju6A8iC6gEwggHwggEIgBroAjKmUAAwA7JQATJl5qYogACZImCiooAwAToIaWLj4RLVIAO7UdIxMDBBwtVBymHCymJRDCASyNADWbIIVDGqwszSciEhjNFAAoisqchAEyBAjtQRbSIIAnhA0xzi1cABm-MQ0AF4EpUwA+gUin8chMIMQQABfJTtGilehoVIFTJKeA0MhYNAATkyyJAyFqszQoEwNxw6nQUBogzUJTYOCQlJJaEylAAHEozrU2LNySAmIsoISOZguTyAOqw+GoVJKIaCNi1DQAYiQSEyAGYXqzIUpRkNSjRZGQiSAAB4ml40OCCUoaKBbUp-WQMBBMAYlElkjQKg2ya4lJCmh4msi1WFoF7XfpKFSYGnoQBYICYXHY3HYTMkXPFADwgQUhUJANwtVptGgQVKdCoQHtJvJ9hv9SkDweqylUvMAOCCADBAjPmOV9yaBLdbbegnq8-sQ2CMIDWvegAI4MLaxio0UglaDXQcgNpGuAAWUDaDEOMyEILmDYCxUODQAG0hyXR3iK7Iq3O67VfY223HOz2OpPiOdoOk6LpuoqMa1t634Ng0MbthogC4IDmeZQsBpboH6CDqNB84gO+5Z+ghf7xiASYpmmGZASAw5YSA44vJO05wLO+G8kuK50GuG6If+GiAPggtiBMEYRuJCAC6KLPC8xYgegwiyEKygwdhbDEf6F6ynIlrGq2ahkKMo6gAaEBIPy5IigwcAXhCQA)
+
+## ДПС
+
+```json
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": " ДПС - Разпределение на преференициалния вот - 11.07.2021",
+  "data": {
+    "url": "https://raw.githubusercontent.com/nikolatulechki/semanticElections/master/analysis/pref-viz/dps_2021_07.csv"
+  },
+  "width": 1200,
+  "height": 900,
+  "mark": {
+    "type": "circle",
+    "opacity": 0.8,
+    "stroke": "black",
+    "strokeWidth": 1,
+    "color": "#4f667c"
+  },
+  "encoding": {
+    "x": {"field": "cand_number", "type": "ordinal", "axis": {"grid": false, "title": "Кандидат номер"}},
+    "y": {"field": "mir_norm", "type": "ordinal", "axis": {"title": "МИР"}},
+    "size": {
+      "field": "pref_votes",
+      "type": "quantitative",
+      "scale": {"rangeMax": 5000}
+    },
+    "tooltip": [
+      {"field": "mir_norm", "type": "ordinal", "title": "МИР"},
+      {"field": "cand_number", "type": "ordinal", "title": "Номер"},
+      {"field": "name", "type": "nominal", "title": "Кандидат"},
+      {"field": "pref_votes", "type": "quantitative", "title": "Преференции"}
+    ],
+    "href": {"field": "link", "type": "nominal"}
+  },
+  "config": {"legend": {"disable": true}}
+}
+```
+
+[viz](https://vega.github.io/editor/#/url/vega-lite/N4IgJAzgxgFgpgWwIYgFwhgF0wBwqgegIDc4BzJAOjIEtMYBXAI0poHsDp5kTykBaADZ04JAKyUAVhDYA7EABoQmOoLhoQAAkAoIIHwQQIQgm-psAEIIAYQQOwggfhBAAiCBWEEAsIHcDcIHcC8IIA4QO5rdnNtu0AREDt7T0AxEA8zZ09AeRBNQCYQQD4QQCEQI00ARnTKAAYAdkoAJmyC9MUQABMkTBRUUAYAJ0ENLFx8InqkAHdqOkYmBgg4eqg5TDhZTEoRhAJZGgBrNkEqhjVYeZpORCQJmigAUTWVOQgCZAgx+oIdpEEATwgaU5x6uAAzfmIaAC8CcrwAPpFEoAvJTCDEEAAXyUnRo5XoaHSRWySngNDIWDQAE5sqiQMh6vM0KBMHccOp0FAaMM1GU2DgkNSyWhspQABxKC71NjzSkgJjLKDErmYHl8gDq8MRqHSShGgjY9Q0AGIACxvABsmtyUGhSnGI3KNFkZBJIAAHua3jQ4IJyhooDtygDZAwEEwhmUyRSNErjbJbmUkBanuayPV4Wg3rdBkoVJg6ehAFggZjcDg8DjMqTciUAPCAhaEwkB3a22+0aBA011KhDe8n8-0moNKENh2rKVT8wA4IIAMEBMRa5P0poBtdod6Be7wBxDYYwg9d96AAjgwdgmqjRSGVoLcRyAOqa4ABZENoMR47JQ4uYNhLFQ4NAAbVH5YnBOrslri8b9QDLc7RMe37fVX3HR1nVdd1PWVeMGz9P9myaeMuw0QBcEHzQsYTAit0EDBB1DgpcQC-KtA2QwCkxAVN00zbNQJAMdcJAKc3hnOc4AXIj+VXdc6E3bcUKAjRdHsYJQgiDxoQAXTRV43jLcD0GEWQRWUeC8LYMig2veU5BtM0OzUMhxgnUBjQgJBBUpMUGDga8oSAA)
+
+## ISMV
+
+```json
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "ИСБГ  - Разпределение на преференициалния вот - 11.07.2021",
+  "data": {
+    "url": "https://raw.githubusercontent.com/nikolatulechki/semanticElections/master/analysis/pref-viz/ismv_2021_07.csv"
+  },
+  "width": 1200,
+  "height": 900,
+  "mark": {
+    "type": "circle",
+    "opacity": 0.8,
+    "stroke": "black",
+    "strokeWidth": 1,
+    "color": "#028d25"
+  },
+  "encoding": {
+    "x": {"field": "cand_number", "type": "ordinal", "axis": {"grid": false, "title": "Кандидат номер"}},
+    "y": {"field": "mir_norm", "type": "ordinal", "axis": {"title": "МИР"}},
+    "size": {
+      "field": "pref_votes",
+      "type": "quantitative",
+      "scale": {"rangeMax": 5000}
+    },
+    "tooltip": [
+      {"field": "mir_norm", "type": "ordinal", "title": "МИР"},
+      {"field": "cand_number", "type": "ordinal", "title": "Номер"},
+      {"field": "name", "type": "nominal", "title": "Кандидат"},
+      {"field": "pref_votes", "type": "quantitative", "title": "Преференции"}
+    ],
+    "href": {"field": "link", "type": "nominal"}
+  },
+  "config": {"legend": {"disable": true}}
+}
+```
+
+[viz](https://vega.github.io/editor/#/url/vega-lite/N4IgJAzgxgFgpgWwIYgFwhgF0wBwqgegIDc4BzJAOjIEtMYBXAI0poHsDp5kTykBaADZ04JAKyUAVhDYA7EABoQmOoLhoQgDBBAhCCBEEEDIIAAJD-Q4AIQQAwggdhBA-CCABEECsIIBYQB4G4QB4F4QQBwgDwx4uG9g6AIiAOjt6AYiBeFq7egPIghoBMIIB8IIBCICaGAIyZlAAMAOyUAEy5RZmKIAAmSJgoqKAMAE6CGli4+ESNSADu1HSMTAwQcI1QcphwspiUYwgEsjQA1myCNQxqsIs0nIhIUzRQAKIbKnIQBMgQE40Ee0iCAJ4QNOc4jXAAZvzENABeBC8EMQAPolMrAgozCDEEAAXyU3RolXoaEyJVySngNDIWDQAE5chiQMhGos0KBMA8cOp0FAaKM1BU2DgkHTKWhcpQABxKK6NNiLGkgJirKBk3mYfmCgDqSJRqEySjGgjYjQ0AGJSlzKkUxHClJMxpUaLIyOSQAAPc0fGhwQSVDRQPaVYGyBgIJgjCqU6kaVXG2T3CpIC0vc1kRpItAfe7DJQqTCM9CALBALB4nF4nBZ0h5koAeEDCcPhIAe1tt9o0CHprtVCG9VKF-pNQaUIbD9WUqiFgBwQTRmIu8v400A2u0O9BvT7A4hsCYQeu+9AARwYewTNRopAq0Huw5AXVNcAAsiG0GJCblYcXMGwViocGgANoj8vj4nV2S1heNxoBludxMez7fUXzHR1nVdd1PTVeMGz9X9mxaeMuw0QBcEHzQt4VAit0EDBB1FgxcQE-KtAyQgCkxAVN00zbMQJAUccJAScPmnWc4HnQihRXNc6A3LdkMAjRAHwQRxQnCKIvDhABdTF3g+MswPQYRZHFZQ4NwthSKDK8lTkG0zQ7NQyEmcdQGNCAkBFGlJQYOAr1hIA)
