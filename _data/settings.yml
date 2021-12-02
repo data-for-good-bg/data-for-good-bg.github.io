@@ -47,6 +47,10 @@ menu_settings:
       urls:
         bg: /contact-bg
         en: /contact-en
+    - title: sebra
+      urls:
+        bg: /sebra
+        en: /sebra
 
 footer_settings:
   footer_tagline: Data for Good - Bulgaria
