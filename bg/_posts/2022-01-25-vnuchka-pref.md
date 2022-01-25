@@ -10,7 +10,7 @@ lang: bg
 Днес ще ви разкажем как за малко щяхме да се изложим и да обвиним неправилно хора в лъжа. 
  
 Историята, освен интересна, защото се отнася до една от по-шарените части на българската електорална съвременност, 
-е и поучителна, защото илюстрира колко е важно да се произвждат еднозначни входни данни, 
+е и поучителна, защото илюстрира колко е важно да се произвеждат еднозначни входни данни, 
 каквито отворените данни на ЦИК за съжаление все още не са.  
 
 Както знаете, заедно с нашите приятели от [Антикорупционния Фонд](https://acf.bg/bg/) много обичаме да се ровичкаме в изборни данни и
@@ -29,14 +29,14 @@ lang: bg
 ["Тази Събота и Неделя"](https://btvnovinite.bg/predavania/tazi-sabota-i-nedelia/aleksandar-metodiev-bat-sali-i-negovata-vnuchka-veselina.html)
 по БТВ. 
 Гледаме с интерес предаването.
-От думите на гостите се разбира че интересът към политкита се предава през поколение. 
+От думите на гостите се разбира че интересът към политката се предава през поколение. 
 По-интересно обаче е, че на въпроса за спечелените преференции, дядото с увереност казва, че г-жа Радославова е спечелила **точно 1306** преференции. 
 Не само това, но и че тя се е явява за трети път на избори. Това ни учудва, защото не отговаря на нашата представа и на числата, които сме извадили от данните. 
 Нямаше как да не проверим това несъответствие. 
 
 Тук стана интересно.
 
-Изпозлвайки [свързаните изборни данни](https://www.ontotext.com/blog/5-star-linked-open-elections-data/),
+Използвайки [свързаните изборни данни](https://www.ontotext.com/blog/5-star-linked-open-elections-data/),
 е лесно да се провери даден кандидат колко пъти се е явявал на избори.
 [Тази заявка](https://elections.ontotext.com/sparql?name=&infer=true&sameAs=true&query=PREFIX%20my:%20%3Chttps:%2F%2Felections.ontotext.com%2Fresource%2Fentity%2F%3E%0APREFIX%20rdfs:%20%3Chttp:%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX%20myd:%20%3Chttps:%2F%2Felections.ontotext.com%2Fresource%2Fprop%2Fdirect%2F%3E%0Aselect%20%3Fcandidate_uri%20%3Fcandidate_name%20%3Felection_label%20%3Felection_date%20%3Fcandidate_list_number%20%3Fparty_label%20%3Fparty_number%20where%20%7B%20%0A%09%3Fcandidate_uri%20a%20my:Candidate%20;%20rdfs:label%20%3Fcandidate_name%20;%20myd:candidacy%20%3Fel%20;%20myd:represents%20%3Fparty%20.%0A%20%20%20%20%3Fparty%20rdfs:label%20%3Fparty_label%20;%20myd:number%20%3Fparty_number.%20%0A%20%20%20%20optional%7B%3Fel%20rdfs:label%20%3Felection_label%20;%20myd:date%20%3Felection_date%7D%0A%20%20%20%20optional%7B%3Fcandidate_uri%20myd:number%20%3Fcandidate_list_number%7D%0A%20%20%20%20filter(contains(lcase(%3Fcandidate_name),%22%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%8A%D1%80%20%D1%85%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%B2%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D0%B8%D0%B5%D0%B2%22))%0A%7D%20order%20by%20desc(%3Felection_date)&execute)
 например илюстрира кариерата на г-н Методиев и неговите шест отделни кандидатури за периода за който събираме данни. 
@@ -51,13 +51,13 @@ lang: bg
 за МИР 26. Внимателен анализ на имената в листите ни даде и липсващото парче от този електорален пъзел.
 
 Кандидат с имена "Веселина Иванова Василева" се е явявала съответно на 6-то място през април и на 7-мо място през юли.
-Очевидно е и какво е причнило липста в данните, а именно, че в някой щастлив момент между юли и ноември, г-ца Василева се е омъжила и е вече г-жа Радославова.  
+Очевидно е и какво е причнило липсата в данните, а именно, че в някой щастлив момент между юли и ноември, г-ца Василева се е омъжила и е вече г-жа Радославова.  
 
 Сега вече с можем да сметнем с [тази заявка](https://elections.ontotext.com/sparql?name=&infer=true&sameAs=true&query=PREFIX%20my:%20%3Chttps:%2F%2Felections.ontotext.com%2Fresource%2Fentity%2F%3E%0APREFIX%20rdfs:%20%3Chttp:%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX%20myd:%20%3Chttps:%2F%2Felections.ontotext.com%2Fresource%2Fprop%2Fdirect%2F%3E%0APREFIX%20myp:%20%3Chttps:%2F%2Felections.ontotext.com%2Fresource%2Fprop%2Findirect%2F%3E%0APREFIX%20myps:%20%3Chttps:%2F%2Felections.ontotext.com%2Fresource%2Fprop%2Fstatement%2F%3E%0APREFIX%20mypq:%20%3Chttps:%2F%2Felections.ontotext.com%2Fresource%2Fprop%2Fqualifier%2F%3E%0Aselect%0A(sum(%3Fpref)%20as%20%3Fsum)%20%0A%7B%0A%09%0A%20%20%20%20%7Bselect%20*%20where%20%7B%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Fcand%20a%20my:Candidate%20;%20rdfs:label%20%3Flab%20;%20myd:candidacy%20%3Fel%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Fel%20myd:main_election%2Fmyd:type%20%22parliamentary%22%0A%20%20%20%20%20%20%20%20%20%20%20%20optional%7B%3Fel%20rdfs:label%20%3FelLabel%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20filter(contains(lcase(%3Flab),%22%D0%B2%D0%B5%D1%81%D0%B5%D0%BB%D0%B8%D0%BD%D0%B0%20%D0%B8%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D1%80%D0%B0%D0%B4%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BE%D0%B2%D0%B0%22)%20%7C%7C%0A%20%20%20%20%20%20%20%20%20%20%20%20contains(lcase(%3Flab),%22%D0%B2%D0%B5%D1%81%D0%B5%D0%BB%D0%B8%D0%BD%D0%B0%20%D0%B8%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%B2%D0%B0%D1%81%D0%B8%D0%BB%D0%B5%D0%B2%D0%B0%22))%0A%20%20%20%20%7D%7D%0A%20%20%20%20%3Fvoting%20myp:preference_vote%20%3Fpv%20;%20myd:election%20%3Fel.%0A%20%20%20%20%3Fpv%20myps:preference_vote%20%3Fcand%20;%20mypq:valid_votes_recieved%20%3Fpref%20.%0A%7D%20&execute)
 сборът префенции, 1303, който и отговаря на споделеното от г-н Методиев число.
 
 
-**Изводът от всичко това е, че 3-те имена са крайно недостатъчни за иднентифкация на кандидатите в данните, които ЦИК споделят.**  
+**Изводът от всичко това е, че 3-те имена са крайно недостатъчни за идентификация на кандидатите в данните, които ЦИК споделят.**  
 
 Не за първи път го казваме, [тук](https://github.com/nikolatulechki/semanticElections/tree/master/analysis/cand-id) 
 сме описали и други случаи, в които трите имена водят до многозначие и невъзможност да се проследи траекторията на отделните кандидати.
