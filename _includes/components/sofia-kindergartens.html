@@ -1,0 +1,31 @@
+<body onload="initViz();">
+    <div id="vizContainer" style="width:1400px; height:800px; margin:auto;"></div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-12">
+            
+            <p>
+                Повече информация за визуализацията може да прочетете в нашия <a href="https://data-for-good.bg/blog/sofia-kindergartens-bg">блог</a>.
+            </p>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+    <script type="text/javascript">
+        function initViz() {
+            var containerDiv = document.getElementById("vizContainer"),
+                url = "https://public.tableau.com/views/SofiaKindergartens20212022/SofiaKindergartens",
+                options = {
+                    hideTabs: true,
+                    onFirstInteractive: function () {
+                        console.log("Run this code when the viz has finished loading.");
+                    }
+                };
+
+            var viz = new tableau.Viz(containerDiv, url, options);
+            // Create a viz object and embed it in the container div.
+        }
+    </script>
+</body>
