@@ -96,6 +96,16 @@
       {{content}}
     </div>
     {% endif %}
+    
+    {% if page.url == "/sofia-kindergartens" %}
+    <div id="main" class="container-fluid">
+      {{content}}
+    </div>
+    {% else %}
+    <div id="main" class="container">
+      {{content}}
+    </div>
+    {% endif %}
   </div>
 
 
