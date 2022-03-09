@@ -87,7 +87,7 @@
     {% endif %}
     {% endif %}
 
-    {% if page.url == "/sebra" %}
+    {% if page.url == "/sebra" or page.url == "/sofia-kindergartens"%}
     <div id="main" class="container-fluid">
       {{content}}
     </div>
@@ -97,15 +97,6 @@
     </div>
     {% endif %}
     
-    {% if page.url == "/sofia-kindergartens" %}
-    <div id="main" class="container-fluid">
-      {{content}}
-    </div>
-    {% else %}
-    <div id="main" class="container">
-      {{content}}
-    </div>
-    {% endif %}
   </div>
 
 
