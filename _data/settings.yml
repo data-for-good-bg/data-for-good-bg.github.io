@@ -51,6 +51,10 @@ menu_settings:
       urls:
         bg: /sebra
         en: /sebra
+    - title: sofia-kindergartens
+      urls:
+        bg: /sofia-kindergartens
+        en: /sofia-kindergartens
 
 footer_settings:
   footer_tagline: Data for Good - Bulgaria
