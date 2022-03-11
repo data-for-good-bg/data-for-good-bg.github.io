@@ -1,4 +1,4 @@
-<body onload="initViz();">
+<body onload="ChangeClass(); initViz();">
 
     <div id="vizContainer" style="width:1400px; height:800px; margin-left: 0px;"></div>
 
@@ -15,6 +15,11 @@
 
 
     <script type="text/javascript" src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+	<script type="text/javascript">
+	    function ChangeClass() {
+		    document.getElementById("main").className = "container-fluid";
+		}
+	</script>
     <script type="text/javascript">
         function initViz() {
             var containerDiv = document.getElementById("vizContainer"),
