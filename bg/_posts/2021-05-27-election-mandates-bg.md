@@ -10,72 +10,51 @@ lang: bg
 <!-- ![](/assets/img/pages/risky_mandates_2021.png) -->
 
 <div class="chart-container">
-  <canvas id="risky-mandates-chart"></canvas>
+  <div id="vis"></div>
 </div>
 
-<script>
-Chart.defaults.font.size = 16;
-
-var ctx = document.getElementById('risky-mandates-chart').getContext('2d');
-
-var myChart = new Chart(ctx, {
-    type: 'bar',
+<script type="text/javascript">
+var vlSpec = {
+    $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
+    description: 'рисков вот - разлика в мандати по партия',
     data: {
-        labels: ['БСП', 'ГЕРБ', 'ДБ', 'ДПС', 'ИСМВ', 'ИТН'],
-        datasets: [{
-            label: 'бр мандати',
-            data: [3, 2, 1, -7, 0.2, 1],
-            backgroundColor: [
-                'rgba(204, 0, 0, 0.7)',
-                'rgba(17, 85, 204, 0.7)',
-                'rgba(153, 0, 255, 0.7)',
-                'rgba(159, 197, 232, 0.7)',
-                'rgba(235, 200, 21, 0.7)',
-                'rgba(70, 189, 198, 0.7)'
-            ],
-            min: -100
-        }]
+      values: [
+        {party: 'БСП', mandates: 3, color: 'rgba(204, 0, 0, 0.7)'},
+        {party: 'ГЕРБ', mandates: 2, color: 'rgba(17, 85, 204, 0.7)'},
+        {party: 'ДБ', mandates: 1, color: 'rgba(153, 0, 255, 0.7)'},
+        {party: 'ДПС', mandates: -7, color: 'rgba(159, 197, 232, 0.7)'},
+        {party: 'ИСМВ', mandates: 0.2, color: 'rgba(235, 200, 21, 0.7)'},
+        {party: 'ИТН', mandates: 1, color: 'rgba(70, 189, 198, 0.7)'}
+      ]
     },
-    options: {
-        plugins: {
-            legend: {
-                display: false,
-                position: 'bottom'
-            },
-            title: {
-                display: true,
-                align: 'start',
-                text: 'рисков вот - разлика в мандати по партия'
-            },
-            tooltip: {
-                callbacks: {
-                    label: function(context) {
-                        var label = context.dataset.label || '';
-                        var value = context.dataset.data[context.dataIndex];
-
-                        if (value === 0.2) {
-                            value = 0;
-                        }
-
-                        return label + ': ' + value;
-                    }
-                }
-            },
-        },
-        scales: {
-            y: {
-                title: {
-                    display: true,
-                    text: 'Мандати'
-                },
-                max: 4,
-                min: -8
-            }
-        }
+    width: 600,
+    height: 250,
+    mark: 'bar',
+    title: {
+      text: {"signal": "'рисков вот - разлика в мандати по партия'"},
+      anchor: 'start',
+      frame: 'group',
+      titleFontSize: 15
+    },
+    encoding: {
+        x: {field: 'party', type: 'nominal', title: '', axis: { labelAngle: 0 } },
+        y: {field: 'mandates', type: 'quantitative', title: 'Мандати', axis: { titleFontWeight: 'normal', titleFontSize: 14 }, scale: { domainMax: 4, domainMin: -8 } },
+        color: {field: 'color', type: 'nominal', scale: null}
     }
-});
-</script>
+};
 
+function init() {
+    var containers = document.getElementsByClassName('chart-container');
+    if (containers.length) {
+        vlSpec.width = containers[0].offsetWidth - 80;
+    }
+
+    vegaEmbed('#vis', vlSpec);
+}
+
+init();
+window.addEventListener('resize', init);
+</script>
 
 ### Методология 
 
