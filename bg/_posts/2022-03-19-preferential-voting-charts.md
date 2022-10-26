@@ -2,7 +2,7 @@
 title:  Парламентарни избори - преференциален вот по партия 
 date: 2022-03-19 00:00:00
 description: Графики на преференциалния вот на парламентарните избори.     
-featured_image: /assets/img/elecions.png
+featured_image: /assets/img/elections.png
 author: Nikola Tulechki 
 lang: bg
 ---

@@ -2,7 +2,7 @@
 title:  Преход на гласове 2017 - 2022
 date: 2022-10-26 00:00:00
 description: Как резултатите от изборите разкриват прехода на гласове от една партия в друга?     
-featured_image: /assets/img/voter-transition.png
+featured_image: assets/img/voter-transitions.png
 author: Ivailo Partchev & Nikola Tulechki 
 lang: bg
 ---
