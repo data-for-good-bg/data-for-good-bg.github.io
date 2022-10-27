@@ -323,8 +323,8 @@ $transition-collapse:         height .35s ease !default;
 
 // Fonts
 
-$font-family-base: 'Open Sans', sans-serif !default;
-$font-family-alt: 'Open Sans', sans-serif !default;
+$font-family-base: 'SofiaSansRegular', 'Open Sans', sans-serif !default;
+$font-family-alt: 'SofiaSansRegular', 'Open Sans', sans-serif !default;
 
 $font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
 $font-size-xl:                ($font-size-base * 1.5);
