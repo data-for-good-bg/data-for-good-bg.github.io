@@ -142,7 +142,7 @@ function init() {
     vegaEmbed('#vis_2022_db', vlSpec_2022_db);
     
     vlSpec_2022_bv=JSON.parse(JSON.stringify(vlSpec));
-    vlSpec_2022_bv.title = "ДБ  - Разпределение на преференициалния вот - 02.10.2022" ;
+    vlSpec_2022_bv.title = "БВ  - Разпределение на преференициалния вот - 02.10.2022" ;
     vlSpec_2022_bv.data.url = urlbase+"bv_2022.csv" ;
     vlSpec_2022_bv.mark.color = "#770C03";  
     vegaEmbed('#vis_2022_bv', vlSpec_2022_bv);
