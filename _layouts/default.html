@@ -55,6 +55,11 @@
   {{ site.data.settings.advanced_settings.header_js }}
   {% endif %}
 
+  <!-- MathJax Support -->
+  {% if page.use_math %}
+  {% include mathjax_support.html %}
+  {% endif %}
+
 </head>
 
 <body>
