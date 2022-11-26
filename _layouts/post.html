@@ -29,8 +29,8 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-md-8 ml-auto mr-auto">
-        <h6 class="category">{{ page.date | date_to_long_string }}</h6>
         <h3 class="title">{{ page.title }}</h3>
+        <h6 class="category">{{ page.author }}</h6>
         <article class="blog-post">
           {{ page.content }}
         </article>

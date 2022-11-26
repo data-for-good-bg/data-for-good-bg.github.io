@@ -3,7 +3,7 @@ title: Вероятност за засичане на измама при ко�
 date: 2022-11-26 00:00:00
 description: Колко избирателни секции трябва да се проверят за да се засече скрита в кода на машините манипулация на вота?     
 featured_image: /assets/img/elections.png
-author: Laura Tolosi & Nikola Tulechki 
+author: Nikola Tulechki, Laura Tolosi
 lang: bg
 use_math: true
 ---
