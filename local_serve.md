@@ -1,13 +1,16 @@
-# Local testing
+# Local serving of the page
 
 ## Ubuntu
 
 ```bash
 sudo apt-get install ubuntu-dev-tools ruby-full
 bundle install
+```
+
+```bash
 bundle add webrick
 ```
-Then
+
 ```bash
  bundle exec jekyll serve
 ``
