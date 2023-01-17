@@ -3,7 +3,7 @@ title: Прием в общински детски ясли и градини в
 date: 2021-04-21 00:00:00
 description: Интересни диаграми и интерактивни карти за свободни места и брой кандидатстващи деца в детски ясли и градини в гр. София.     
 featured_image: /assets/img/pages/Sofia-kindergarten-admission-map.png
-author: Magdalena Petrova  
+author: Магдалена Петрова
 lang: bg
 ---
 
@@ -14,11 +14,13 @@ lang: bg
 
 [ ![](/assets/img/pages/Sofia-kindergarten-admission-probability-infographic-19.04.2021-small.png) ](/assets/img/pages/Sofia-kindergarten-admission-probability-infographic-19.04.2021-large.png)
 
+<!--
 ### Интерактивни карти
 
 * [Набор 2020](https://kepler.gl/demo/map/carto?mapId=813ff022-e4d5-d3dc-e3ce-01fff3327423&owner=data-for-good-bg&privateMap=false)
 * [Набор 2019](https://kepler.gl/demo/map/carto?mapId=d384e6da-932c-5b42-e824-a4f9854d924b&owner=data-for-good-bg&privateMap=false)
 * [Набор 2018](https://kepler.gl/demo/map/carto?mapId=d5eb737b-4b8b-df0f-3800-83de5daae37d&owner=data-for-good-bg&privateMap=false)
+-->
 
 ### Как са обобщени данните?
 Данните са взети от Информационна система за обслужване на детските заведения (ИСОДЗ) и са актуални към 19.04.2021. С помощта на Python е компилирана достъпната информация за свободни места по район, детско заведение и групи за децата родени през 2020 г., 2019 г. и 2018 г., както и кандидатурите на деца към 19.04.2021. Всяко дете е преброено веднъж с максималния си брой точки в района, за който се отнасят. Тъй като инфографиката има за цел да даде най-обща картина, не са разглеждани свободните места по социални критерии и хронични заболявания.

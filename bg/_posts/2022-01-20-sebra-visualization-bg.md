@@ -3,7 +3,7 @@ title:  Системата за електронни бюджетни плаща
 date: 2022-01-20 00:00:00
 description: Визуализация на направените плащания през централизираната система за обслужване на сметки на бюджетни организации.     
 featured_image: /assets/img/pages/sebra-21st-anniversary.png
-author: Nikola Tulechki 
+author: Никола Тулечки
 lang: bg
 ---
 
