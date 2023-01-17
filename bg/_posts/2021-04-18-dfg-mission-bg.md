@@ -3,7 +3,7 @@ title: Какво е Данни за добро
 date: 2021-04-08 00:00:00
 description: Ние сме Данни за добро. Нашата цел е да подпомагаме гражданския сектор в България чрез предоставяне на услуги, свързани с обработката и анализа на данни.
 featured_image: /assets/img/pages/color-graph.png
-author: Nikola Tulechki
+author: Никола Тулечки
 lang: bg
 ---
 
