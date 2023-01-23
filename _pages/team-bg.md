@@ -37,4 +37,4 @@ lang: bg
 {% include components/teams/team-carousel-5.html %}
 -->
 
-© Снимки: [Boris Bartos Photography](https://www.borisbartos.com/)
+© Снимки: [Boris Bartos Photography](https://www.borisbartos.com/){:target="_blank"}

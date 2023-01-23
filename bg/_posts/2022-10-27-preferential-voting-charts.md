@@ -60,7 +60,7 @@ lang: bg
   <div id="vis_2022_bv"></div>
 </div>
 
-Графиките и производните им данни могат да се използват съгласно условията на отворения лиценз [CC-BY](https://creativecommons.org/licenses/by/2.0/).
+Графиките и производните им данни могат да се използват съгласно условията на отворения лиценз [CC-BY](https://creativecommons.org/licenses/by/2.0/){:target="_blank"}.
 
 <script type="text/javascript">
 var vlSpec = {
