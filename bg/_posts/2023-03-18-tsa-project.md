@@ -2,7 +2,7 @@
 title:  Анализ на съществуващи бариери пред достъпа до детска градина - проект в сътрудничество с ТСА
 date: 2023-03-18 00:00:00
 description: Събиране и анализ на данни относно съществуващи бариери пред достъпа до детска градина      
-featured_image: /assets/img/pages/color-graph.png
+featured_image: /assets/img/pages/sofia-kindergartens-map.PNG
 lang: bg
 ---
 
@@ -20,6 +20,6 @@ lang: bg
 
 Проектът се финансира от Тръст за социална алтернатива.
 
-[ ![](/assets/img/pages/logo-tsa-bg.PNG) ](https://data-for-good.bg/tsa-project)
+[ ![](/assets/img/pages/logo-tsa-bg.PNG](/assets/img/pages/logo-tsa-bg.PNG)
 
 Повече информация за дейността на Тръст за социална алтернатива в сферата на ранното детско развитие може да намерите [тук](https://socialachievement.org/bg/).
