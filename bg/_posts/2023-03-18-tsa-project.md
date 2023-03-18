@@ -20,6 +20,6 @@ lang: bg
 
 Проектът се финансира от Тръст за социална алтернатива.
 
-[ ![](/assets/img/pages/logo-tsa-bg.png](/assets/img/pages/logo-tsa-bg.png)
+![/assets/img/pages/logo-tsa-bg.png](/assets/img/pages/logo-tsa-bg.png)
 
 Повече информация за дейността на Тръст за социална алтернатива в сферата на ранното детско развитие може да намерите [тук](https://socialachievement.org/bg/).
