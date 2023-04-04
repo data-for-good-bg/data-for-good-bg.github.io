@@ -17,6 +17,6 @@ The collected and processed data will be available after the completion of the p
 
 The project is financed by the Trust for Social Achievement.
 
-![/assets/img/pages/resized-logo-tsa-bg.png](/assets/img/pages/logo-tsa-en.png)
+![/assets/img/partner-logos/tfb/resized-logo-tsa-en.png](/assets/img/partner-logos/tfb/resized-logo-tsa-en.png)
 
 More information about the activities of the Trust for Social Achievement in the field of early childhood development can be found here. [тук](https://socialachievement.org/bg/).
