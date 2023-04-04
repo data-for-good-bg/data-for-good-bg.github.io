@@ -1,6 +1,6 @@
 ---
 title:  Analysis of existing barriers to participation in kindergartens - a project in cooperation with TSA
-date: 2023-04-04 00:00:00
+date: 2023-03-18 00:00:00
 description: Collection and analysis of data on existing barriers to participation in kindergartens January 13, 2023 - August 31, 2023
 featured_image: /assets/img/pages/sofia-kindergartens-map.PNG
 lang: en
