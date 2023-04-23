@@ -78,19 +78,19 @@ var vlSpec = {
     "x": {
       "field": "cand_number",
       "type": "ordinal",
-      "axis": {"grid": false, "title": "Кандидат номер"}
+      "axis": {"grid": false, "title": "Candidate number"}
     },
-    "y": {"field": "mir_norm", "type": "ordinal", "axis": {"title": "МИР"}},
+    "y": {"field": "mir_norm", "type": "ordinal", "axis": {"title": "MMC"}},
     "size": {
       "field": "pref_votes",
       "type": "quantitative",
       "scale": {"rangeMax": 5000}
     },
     "tooltip": [
-      {"field": "mir_norm", "type": "ordinal", "title": "МИР"},
-      {"field": "cand_number", "type": "ordinal", "title": "Номер"},
-      {"field": "name", "type": "nominal", "title": "Кандидат"},
-      {"field": "pref_votes", "type": "quantitative", "title": "Преференции"}
+      {"field": "mir_norm", "type": "ordinal", "title": "MMC"},
+      {"field": "cand_number", "type": "ordinal", "title": "Number"},
+      {"field": "name", "type": "nominal", "title": "Candidate"},
+      {"field": "pref_votes", "type": "quantitative", "title": "Preferences"}
     ],
     "href": {"field": "link", "type": "nominal"}
   },
@@ -102,37 +102,37 @@ function init() {
     var containers = document.getElementsByClassName('chart-container');
  
     vlSpec_gerb=JSON.parse(JSON.stringify(vlSpec));
-    vlSpec_gerb.title = "КП ГЕРБ СДС  - Разпределение на преференициалния вот - 02.04.2023" ;
+    vlSpec_gerb.title = "Coalition GERB - SDS  - Preferential vote distribution - 02.04.2023" ;
     vlSpec_gerb.data.url = urlbase+"gerb_2023.csv" ;
     vlSpec_gerb.mark.color = "#2c92e6";
     vegaEmbed('#vis_gerb', vlSpec_gerb);
 
     vlSpec_ppdb=JSON.parse(JSON.stringify(vlSpec));
-    vlSpec_ppdb.title = "КП ПП ДБ  - Разпределение на преференициалния вот - 02.04.2023" ;
+    vlSpec_ppdb.title = "Coalition We Continue the Change / Democratic Bulgaria  - Preferential vote distribution - 02.04.2023" ;
     vlSpec_ppdb.data.url = urlbase+"ppdb_2023.csv" ;
     vlSpec_ppdb.mark.color = "#1e0985";
     vegaEmbed('#vis_ppdb', vlSpec_ppdb);
     
     vlSpec_dps=JSON.parse(JSON.stringify(vlSpec));
-    vlSpec_dps.title = "ДПС  - Разпределение на преференициалния вот - 02.04.2023" ;
+    vlSpec_dps.title = "Movement for Rights and Freedoms  - Preferential vote distribution - 02.04.2023" ;
     vlSpec_dps.data.url = urlbase+"dps_2023.csv" ;
     vlSpec_dps.mark.color = "#0d518898";  
      vegaEmbed('#vis_dps', vlSpec_dps);
 
     vlSpec_vuz=JSON.parse(JSON.stringify(vlSpec));
-    vlSpec_vuz.title = "Възраждане  - Разпределение на преференициалния вот - 02.04.2023" ;
+    vlSpec_vuz.title = "Revival  - Preferential vote distribution - 02.04.2023" ;
     vlSpec_vuz.data.url = urlbase+"vuz_2023.csv" ;
     vlSpec_vuz.mark.color = "#7b5804";  
     vegaEmbed('#vis_vuz', vlSpec_vuz);
 
     vlSpec_bsp=JSON.parse(JSON.stringify(vlSpec));
-    vlSpec_bsp.title = "БСП  - Разпределение на преференициалния вот - 02.04.2023" ;
+    vlSpec_bsp.title = "Bulgarian Socialist Party  - Preferential vote distribution - 02.04.2023" ;
     vlSpec_bsp.data.url = urlbase+"bsp_2023.csv" ;
     vlSpec_bsp.mark.color = "#BB3214";  
     vegaEmbed('#vis_bsp', vlSpec_bsp);
  
     vlSpec_itn=JSON.parse(JSON.stringify(vlSpec));
-    vlSpec_itn.title = "ИТН  - Разпределение на преференициалния вот - 02.04.2023" ;
+    vlSpec_itn.title = "There Is Such A People  - Preferential vote distribution - 02.04.2023" ;
     vlSpec_itn.data.url = urlbase+"itn_2023.csv" ;
     vlSpec_itn.mark.color = "#D8E013";  
     vegaEmbed('#vis_itn', vlSpec_itn);
