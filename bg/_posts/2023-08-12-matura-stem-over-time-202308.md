@@ -7184,9 +7184,9 @@ window.addEventListener('resize', init);
 
 [^3]: БЕЛ = Български език и литература - съдържа въпроси по правилно ползване на езика и писане на анализ на творба
 
-[^4] [https://www.segabg.com/category-education/maturata-po-profesiya-stava-zadulzhitelna-dogodina](https://www.google.com/url?q=https://www.segabg.com/category-education/maturata-po-profesiya-stava-zadulzhitelna-dogodina&sa=D&source=editors&ust=1691823245334769&usg=AOvVaw3tdjjJZEh7MaiIZFnfjZoc)
+[^4]: [https://www.segabg.com/category-education/maturata-po-profesiya-stava-zadulzhitelna-dogodina](https://www.google.com/url?q=https://www.segabg.com/category-education/maturata-po-profesiya-stava-zadulzhitelna-dogodina&sa=D&source=editors&ust=1691823245334769&usg=AOvVaw3tdjjJZEh7MaiIZFnfjZoc)
 
-[^5] В рамките на анализа професионални са всички училища, чието име съдържа думата "Професионален/на"
+[^5]: В рамките на анализа професионални са всички училища, чието име съдържа думата "Професионален/на"
 
-[^6] [https://www.segabg.com/category-education/dnes-e-izpitut-po-profesiya-za-blizo-13-000-zrelostnici](https://www.google.com/url?q=https://www.segabg.com/category-education/dnes-e-izpitut-po-profesiya-za-blizo-13-000-zrelostnici&sa=D&source=editors&ust=1691823245335237&usg=AOvVaw2Vw5Xi8kFvI-UxArzFvAs_)
+[^6]: [https://www.segabg.com/category-education/dnes-e-izpitut-po-profesiya-za-blizo-13-000-zrelostnici](https://www.google.com/url?q=https://www.segabg.com/category-education/dnes-e-izpitut-po-profesiya-za-blizo-13-000-zrelostnici&sa=D&source=editors&ust=1691823245335237&usg=AOvVaw2Vw5Xi8kFvI-UxArzFvAs_)
 
