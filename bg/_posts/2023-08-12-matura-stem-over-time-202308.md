@@ -7182,9 +7182,9 @@ window.addEventListener('resize', init);
 
 [^3]: БЕЛ = Български език и литература - съдържа въпроси по правилно ползване на езика и писане на анализ на творба
 
-[^4] [https://www.segabg.com/category-education/maturata-po-profesiya-stava-zadulzhitelna-dogodina](https://www.segabg.com/category-education/maturata-po-profesiya-stava-zadulzhitelna-dogodina)
+[^4]: [https://www.segabg.com/category-education/maturata-po-profesiya-stava-zadulzhitelna-dogodina](https://www.segabg.com/category-education/maturata-po-profesiya-stava-zadulzhitelna-dogodina)
 
 [^5]: В рамките на анализа професионални са всички училища, чието име съдържа думата "Професионален/на"
 
-[^6] [https://www.segabg.com/category-education/dnes-e-izpitut-po-profesiya-za-blizo-13-000-zrelostnici](https://www.segabg.com/category-education/dnes-e-izpitut-po-profesiya-za-blizo-13-000-zrelostnici)
+[^6]: [https://www.segabg.com/category-education/dnes-e-izpitut-po-profesiya-za-blizo-13-000-zrelostnici](https://www.segabg.com/category-education/dnes-e-izpitut-po-profesiya-za-blizo-13-000-zrelostnici)
 
