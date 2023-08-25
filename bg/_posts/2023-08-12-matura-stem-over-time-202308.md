@@ -1261,7 +1261,7 @@ var vlSpec1 = {
 function init() {
     var containers = document.getElementsByClassName('chart-container');
     if (containers.length) {
-        vlSpec.width = containers[0].offsetWidth - 80;
+        vlSpec1.width = containers[0].offsetWidth - 80;
     }
 
     vegaEmbed('#vis1', vlSpec1);
@@ -2521,7 +2521,7 @@ var vlSpec2 = {
 function init() {
     var containers = document.getElementsByClassName('chart-container');
     if (containers.length) {
-        vlSpec.width = containers[0].offsetWidth - 80;
+        vlSpec2.width = containers[0].offsetWidth - 80;
     }
 
     vegaEmbed('#vis2', vlSpec2);
@@ -3784,7 +3784,7 @@ var vlSpec3 = {
 function init() {
     var containers = document.getElementsByClassName('chart-container');
     if (containers.length) {
-        vlSpec.width = containers[0].offsetWidth - 80;
+        vlSpec3.width = containers[0].offsetWidth - 80;
     }
 
     vegaEmbed('#vis3', vlSpec3);
@@ -5049,7 +5049,7 @@ var vlSpec4 = {
 function init() {
     var containers = document.getElementsByClassName('chart-container');
     if (containers.length) {
-        vlSpec.width = containers[0].offsetWidth - 80;
+        vlSpec4.width = containers[0].offsetWidth - 80;
     }
 
     vegaEmbed('#vis4', vlSpec4);
@@ -6312,7 +6312,7 @@ var vlSpec5 = {
 function init() {
     var containers = document.getElementsByClassName('chart-container');
     if (containers.length) {
-        vlSpec.width = containers[0].offsetWidth - 80;
+        vlSpec5.width = containers[0].offsetWidth - 80;
     }
 
     vegaEmbed('#vis5', vlSpec5);
@@ -7147,7 +7147,7 @@ var vlSpec6 = {
 function init() {
     var containers = document.getElementsByClassName('chart-container');
     if (containers.length) {
-        vlSpec.width = containers[0].offsetWidth - 80;
+        vlSpec6.width = containers[0].offsetWidth - 80;
     }
 
     vegaEmbed('#vis6', vlSpec6);
