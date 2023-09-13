@@ -1,0 +1,43 @@
+{{ $lang := cond (eq .Lang "en") "en" "" }}
+{{ $path :=  path.Join $lang }}
+<header class="mb-10">
+  <div class="d-flex">
+    <div class="flex-fill">
+      <a href="{{ site.BaseURL }}{{ $path }}" class="header link-black link-underline link-underline-opacity-0">
+        <div>
+          <hr class="border border-1 border-black opacity-100 my-1">
+          <b>{{ i18n "data" }}</b>
+          <span class="float-end">{{ i18n "education" }}</span>
+          <hr class="border border-1 border-black opacity-100 my-1">
+          <b>{{ i18n "for" }}</b>
+          <span class="float-end">{{ i18n "democracy" }} {{ i18n "and" }}</span>
+          <hr class="border border-1 border-black opacity-100 my-1">
+          <b class="text-primary">{{ i18n "good" }}</b>
+          <span class="float-end">{{ i18n "environment" }}</span>
+          <hr class="border border-1 border-primary opacity-100 my-1">
+        </div>
+      </a>
+    </div>
+    <div class="ps-3">
+      <div class="d-flex flex-column justify-content-between">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <div style="width: 40px;">
+            <hr class="border border-1 border-primary opacity-100 mt-1">
+            <hr class="border border-1 border-primary opacity-100">
+            <hr class="border border-1 border-primary opacity-100 mb-1">
+          </div>
+        </button>
+        <div style="padding-top: 38px;">
+          {{ partial "common/i18nlist" . }}
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="collapse" id="navbarHeader">
+  <div class="list-group">
+    <a href="{{ site.BaseURL }}{{ $path }}" class="list-group-item list-group-item-action text-uppercase">{{ i18n "projects" }}</a>
+    <a href="{{ site.BaseURL }}{{ $path }}/about" class="list-group-item list-group-item-action text-uppercase">{{ i18n "about" }}</a>
+    {{/*  <a href="{{ site.BaseURL }}{{ $path }}/authors" class="list-group-item list-group-item-action text-uppercase">Team</a>  */}}
+  </div>
+</div>

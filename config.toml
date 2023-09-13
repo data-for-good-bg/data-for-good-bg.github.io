@@ -1,0 +1,22 @@
+baseURL = 'http://example.org/'
+languageCode = 'bg'
+defaultContentLanguage = 'bg'
+[languages]
+  [languages.bg]
+    languageName = "Български"
+    title = 'Данни за добро - България'
+    copyright = 'Всички права са запазени.'
+    weight = 1
+  [languages.en]
+    languageName = "English"
+    title = 'Data for good - Bulgaria'
+    copyright = 'All Rights Reserved.'
+    weight = 2
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+[taxonomies]
+  author = "authors"
+  tag = "tags"
+  category = "categories"

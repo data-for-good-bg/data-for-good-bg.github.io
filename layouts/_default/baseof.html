@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en">
+  {{ partial "common/head" . }}
+  <body>
+    {{ block "main" . }}{{ end }}
+    {{ partial "common/scripts" . }}
+    {{ block "scripts" . }}{{ end }}
+  </body>
+</html>

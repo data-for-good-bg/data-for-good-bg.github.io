@@ -1,0 +1,136 @@
+{{ define "main" }}
+{{ $categoryName := cond (and (isset .Params "categories") (gt (len .Params.categories) 0)) (index .Params.categories 0) "" }}
+{{ $category := index $.Site.Data.categories $categoryName }}
+{{ $color := cond (isset .Params "color") .Params.color (cond (isset $category "color") $category.color "") }}
+<main class="page-{{ $color }}">
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.21.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.20.2"></script>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 pt-2 pb-4">
+        {{ partial "common/header" . }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-12 col-lg-8 col-xl-9 col-xxl-10">
+        <h1 class="h5 text-uppercase mb-0">{{ i18n "projects" }}</h1>
+        <hr class="border border-1 border-black opacity-100 my-1">
+        {{ partial "common/categories" . }}
+      </div>
+      <div class="col-12 col-md-12 col-lg-4 col-xl-3 col-xxl-2 d-none d-lg-block">
+        <h1 class="h5 text-uppercase mb-0">{{ i18n "readAlso" }}</h1>
+        <hr class="border border-1 border-black opacity-100 my-1">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-12 col-lg-8 col-xl-9 col-xxl-10">
+        <div class="container-fluid border border-2 border-primary">
+          <div class="row">
+            <div class="col-12 text-end h2 text-primary pt-2">
+              <i class="bi bi-x-lg close-article" onclick="history.back()"></i>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-5 col-xl-4 col-xxl-3 border-md-end border-2 border-primary">
+              <h1 class="h5 pb-3 text-primary">{{ .Title }}</h1>
+              <hr class="border border-1 border-primary opacity-100 my-2">
+
+              {{ if isset .Params "date" }}
+                {{ .Params.date.Format "02.01.2006" }}
+                <hr class="border border-1 opacity-100 border-primary my-2">
+              {{ end }}
+
+              {{ if and (isset .Params "authors") (gt (len .Params.authors) 0) }}
+                {{ if and (isset .Params "authors") (eq (len .Params.authors) 1) }}
+                  {{ i18n "author" }}:
+                {{ else }}
+                  {{ i18n "authors" }}:
+                {{ end }}
+                {{- range .Params.authors }}
+                  {{ $person := index $.Site.Data.people . }}
+                  {{ $i18nPerson := index $person $.Lang }}
+                  {{/*  <a href="{{ "/authors/" | relLangURL }}{{ . | urlize }}"
+                    class="link-underline link-underline-opacity-0">
+                    <img src="{{ $person.picture }}" class="rounded" width="42" />
+                  </a> */}}
+                  <a href="{{ "/authors/" | relLangURL }}{{ . | urlize }}"
+                    class="link-offset-2 link-opacity-75-hover">
+                    {{ $i18nPerson.name }}
+                  </a>
+                  &nbsp;
+                {{ end }}
+                <hr class="border border-1 opacity-100 border-primary my-2">
+              {{ end }}
+
+              {{ if isset .Params "description" }}
+                <p class="text-uppercase my-3">{{ i18n "summary" }}</p>
+                <p>{{ .Params.description }}</p>
+              {{ end }}
+
+              {{ if and (isset .Params "tags") (gt (len .Params.tags) 0) }}
+              <div class="py-3 ps-1">
+                <hr class="border border-1 opacity-100 border-primary my-2">
+                <p class="text-uppercase my-3">{{ i18n "tags" }}</p>
+                {{- range .Params.tags }}
+                  <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="btn btn-sm btn-outline-black border-2 my-1">{{ . }}</a>
+                {{ end }}
+              </div>
+              {{ end }}
+            </div>
+            <div class="col-12 col-lg-7 col-xl-8 col-xxl-9">
+              {{/*  {{ if isset .Params "featured_image" }}
+                <img src="{{ site.BaseURL }}{{ .Params.featured_image }}" />
+              {{ end }}  */}}
+              {{ .Content }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-12 col-lg-4 col-xl-3 col-xxl-2">
+        <div class="d-block d-lg-none py-3">
+          <h1 class="h5 text-uppercase mb-0">{{ i18n "readAlso" }}</h1>
+          <hr class="border border-1 border-black opacity-100 my-1">
+        </div>
+        {{ partial "common/read-also" . }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 py-2">
+        {{ partial "common/footer" . }}
+      </div>
+    </div>
+  </div>
+</main>
+{{ end }}
+
+{{ define "scripts" }}
+
+  {{ if .Params.use_math }}
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      TeX: {
+        equationNumbers: {
+          autoNumber: "AMS"
+        }
+      },
+      tex2jax: {
+        inlineMath: [ ['$', '$'] ],
+        displayMath: [ ['$$', '$$'] ],
+        processEscapes: true,
+      }
+    });
+
+    MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+    });
+
+    MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+    });
+  </script>
+  <script type="text/javascript" async
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+  {{ end }}
+{{ end }}

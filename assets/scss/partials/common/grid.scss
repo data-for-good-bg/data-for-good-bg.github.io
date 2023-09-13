@@ -1,0 +1,45 @@
+// X-Small devices (portrait phones, less than 576px)
+.grid-sizer,
+.grid-item {
+  width: 100%;
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (min-width: 768px) {
+  .grid-sizer,
+  .grid-item {
+    width: 100%;
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (min-width: 992px) {
+  .grid-sizer,
+  .grid-item {
+    width: 50%;
+  }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (min-width: 1200px) {
+  .grid-sizer,
+  .grid-item {
+    width: 33.3333%;
+  }
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (min-width: 1400px) {
+  .grid-sizer,
+  .grid-item {
+    width: 25%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .grid-sizer,
+  .grid-item {
+    width: 20%;
+  }
+}
+/* End Home */

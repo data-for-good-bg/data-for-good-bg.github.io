@@ -1,0 +1,14 @@
+{{ $pages := $.Site.RegularPages.ByDate.Reverse }}
+{{ $pages := where $pages "Params.type" "blog" }}
+{{ $pages := where $pages "Params.categories" "intersect" .Params.categories }}
+{{ $pages := where $pages "Permalink" "ne" .Permalink }}
+
+{{ range first 3 $pages }}
+<div class="grid-item pb-4" style="width: 100%;">
+  {{ partial "blog/post" . }}
+</div>
+{{ end }}
+
+<div class="grid-item pb-4" style="width: 100%;">
+  {{ partial "blog/new-post" . }}
+</div>

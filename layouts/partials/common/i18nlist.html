@@ -1,0 +1,15 @@
+{{ if .IsTranslated }}
+  <p class="mb-0">
+    {{ range .Translations }}
+      <a href="{{ .Permalink }}" class="link-offset-3 link-opacity-75-hover link-lang">
+        &nbsp;
+        {{- if eq .Lang "en" -}}
+          En
+        {{- else -}}
+          Бг
+        {{- end -}}
+        &nbsp;
+      </a>
+    {{ end }}
+  </p>
+{{ end }}

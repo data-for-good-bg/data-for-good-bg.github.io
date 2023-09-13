@@ -1,0 +1,77 @@
+{{ define "main" }}
+{{ $person := index .Site.Data.people .Title }}
+{{ $i18nPerson := index $person .Lang }}
+<main class="page-orange">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 pt-2 pb-4">
+        {{ partial "common/header" . }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-lg-4 col-xl-3 col-xxl-2">
+        <article>
+          <h1 class="h5 text-uppercase mb-0">{{ $i18nPerson.name }}</h1>
+          <hr class="border border-1 border-black opacity-100 mt-1 mb-3">
+          {{/* <img src="{{ $person.picture }}" class="rounded" alt="{{ $i18nPerson.name }}" /> */}}
+          <ul>
+            {{ range $i18nPerson.facts }}
+            <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+
+          {{ $contacts := $person.contacts }}
+          <div class="social my-3">
+            {{ if isset $contacts "email" }}
+              <a href="mailto:{{ $contacts.email }}" class="btn btn-outline-dark me-1 pt-2 my-1">
+                <i class="bi bi-envelope"></i>
+              </a>
+            {{ end }}
+            {{/*  <a href="https://www.facebook.com/dataforgoodbg" target="_blank" class="btn btn-outline-dark me-1 pt-2 my-1">
+              <i class="bi bi-facebook"></i>
+            </a>  */}}
+            {{ if isset $contacts "twitter" }}
+              <a href="{{ $contacts.twitter }}" target="_blank" class="btn btn-outline-dark me-1 pt-2 my-1">
+                <i class="bi bi-twitter"></i>
+              </a>
+            {{ end }}
+            {{/*  <a href="https://github.com/data-for-good-bg" target="_blank" class="btn btn-outline-dark me-1 pt-2 my-1">
+              <i class="bi bi-github"></i>
+            </a>  */}}
+            {{ if isset $contacts "linkedin" }}
+              <a href="{{ $contacts.linkedin }}" target="_blank" class="btn btn-outline-dark pt-2 my-1">
+                <i class="bi bi-linkedin"></i>
+              </a>
+            {{ end }}
+          </div>
+        </article>
+      </div>
+      <div class="col-12 col-lg-8 col-xl-9 col-xxl-10">
+        <h1 class="h5 text-uppercase mb-0">{{ i18n "projects" }}</h1>
+        <hr class="border border-1 border-black opacity-100 my-1">
+        <div  class="grid mx-auto js-masonry"
+          data-masonry-options='{ "itemSelector": ".grid-item", "percentPosition": true, "columnWidth": ".grid-sizer" }'>
+          <div class="grid-sizer"></div>
+          {{ range .Data.Pages }}
+          <div class="grid-item p-2">
+            {{ partial "blog/post" . }}
+          </div>
+          {{ end }}
+          <div class="grid-item p-2">
+            {{ partial "blog/new-post" . }}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 py-2">
+        {{ partial "common/footer" . }}
+      </div>
+    </div>
+  </div>
+</main>
+{{ end }}
+
+{{ define "scripts" }}
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+{{ end }}
