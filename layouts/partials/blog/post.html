@@ -1,0 +1,17 @@
+{{ $categoryName := cond (and (isset .Params "categories") (gt (len .Params.categories) 0)) (index .Params.categories 0) "" }}
+{{ $category := index $.Site.Data.categories $categoryName }}
+{{ $color := cond (isset .Params "color") .Params.color (cond (isset $category "color") $category.color "") }}
+<a href="{{ .Permalink }}">
+  <div class="card border-2 border-{{ $color }} opacity-100 p-2">
+    <div class="p-2 text-center">
+      {{ .Title }}
+    </div>
+    <hr class="border border-1 border-{{ $color }} opacity-100 my-0" />
+    <div class="d-flex justify-content-between p-2">
+      <span>{{ .Date.Format "02.01.2006" }}</span>
+      {{ if and (isset .Params "categories") (gt (len .Params.categories) 0) }}
+        <span class="text-uppercase text-{{ $color }}">{{ i18n (index (.Params.categories) 0) }}</span>
+      {{ end }}
+    </div>
+  </div>
+</a>

@@ -1,0 +1,12 @@
+{{ $lang := cond (eq .Lang "en") "en" "" }}
+{{ $path :=  path.Join $lang "about" }}
+<a href="{{ site.BaseURL }}{{ $path }}">
+  <div class="card border-2 border-primary border-dashed opacity-100 p-2">
+    <p class="p-3">&nbsp;</p>
+    <div class="d-flex justify-content-between p-2">
+      <span class="btn btn-outline-primary btn-sm border-2 border-dashed my-1">
+        {{ i18n "requestProject" }}
+      </span>
+    </div>
+  </div>
+</a>

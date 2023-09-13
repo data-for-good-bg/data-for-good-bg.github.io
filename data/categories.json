@@ -1,0 +1,46 @@
+{
+  "education": {
+    "color": "orange",
+    "bg": {
+      "title": "Образование",
+      "description": "Силно вярваме, че ключът към подсигуряването на добро бъдеще за обществото е качественото образование, достъпно за всеки човек. Именно за това наш приоритет е да подпомагаме организациите, работещи за подобряването качеството и достъпността на образованието."
+    },
+    "en": {
+      "title": "Education",
+      "description": "We strongly believe that the key to securing the future of society is high quality education accessible to every person. That is why it is our priority to help organizations working for improving the quality and accessibility of education."
+    }
+  },
+  "environment": {
+    "color": "green",
+    "bg": {
+      "title": "Околна среда",
+      "description": "Опазването на водните басейни, гористите и планински местности е от изключителна важност за поддържането на биоразнообразието и дългосрочното съжителство между човека и природата. За това ние подпомагаме организациите, работещи в посока защита на околната среда и изследване на рисковите фактори от глобален и локален характер."
+    },
+    "en": {
+      "title": "Environment",
+      "description": "The preservation of waters, forests and mountains is extremely important for maintaining the biodiversity and the long-term co-existance of humans and nature. That is why we help organizations working for the protection of the natural environment and the investigation of global and local risk factors."
+    }
+  },
+  "democracy": {
+    "color": "cyan",
+    "bg": {
+      "title": "Демокрация",
+      "description": "Подсигуряването на доброто функциониране на демократичните процеси е от изключителна важност за подобряването на качеството на живот в обществото. За това ние подпомагаме организациите, които следят и коригират процесите свързани със свободата на словото, прозрачността и всички други аспекти на демократичното общество."
+    },
+    "en": {
+      "title": "Democracy",
+      "description": "Ensuring the good functioning of the democratic processes is paramount for improving the quality of life in the society. That is why we help organizations which monitor and correct the processes related to freedom of speech, transparency and all other aspects of the democratic society."
+    }
+  },
+  "cultural-heritage": {
+    "color": "purple",
+    "bg": {
+      "title": "Културно наследство",
+      "description": ""
+    },
+    "en": {
+      "title": "Cultural heritage",
+      "description": ""
+    }
+  }
+}

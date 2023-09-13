@@ -1,0 +1,49 @@
+{{ define "main" }}
+<main class="page-blue">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 pt-2 pb-4">
+        {{ partial "common/header" . }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-lg-4 col-xl-3 col-xxl-2">
+        <article>
+          <h1 class="h5 text-uppercase mb-0">{{ .Title }}</h1>
+          <hr class="border border-1 border-black opacity-100 my-1">
+          <div class="pt-3">
+            {{ .Content }}
+          </div>
+        </article>
+      </div>
+      <div class="col-12 col-lg-8 col-xl-9 col-xxl-10 px-0">
+        <div class="px-2">
+          <h1 class="h5 text-uppercase mb-0">{{ i18n "projects" }}</h1>
+          <hr class="border border-1 border-black opacity-100 my-1">
+        </div>
+        <div  class="grid mx-auto js-masonry"
+          data-masonry-options='{ "itemSelector": ".grid-item", "percentPosition": true, "columnWidth": ".grid-sizer" }'>
+          <div class="grid-sizer"></div>
+          {{ range .Data.Pages }}
+            <div class="grid-item p-2">
+              {{ partial "blog/post" . }}
+            </div>
+          {{ end }}
+          <div class="grid-item p-2">
+            {{ partial "blog/new-post" . }}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 py-2">
+        {{ partial "common/footer" . }}
+      </div>
+    </div>
+  </div>
+</main>
+{{ end }}
+
+{{ define "scripts" }}
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+{{ end }}

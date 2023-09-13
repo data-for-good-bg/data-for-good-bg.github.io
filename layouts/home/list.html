@@ -1,0 +1,69 @@
+{{ define "main" }}
+{{ $lang := cond (eq .Lang "en") "en" "" }}
+{{ $path :=  path.Join $lang "about" }}
+<main class="page-orange">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 pt-2 pb-4">
+        {{ partial "common/header" . }}
+      </div>
+      <div class="col-12 col-lg-4 col-xl-3 col-xxl-2">
+        <article>
+          <h1 class="h5 text-uppercase mb-0">{{ .Title }}</h1>
+          <hr class="border border-1 border-black opacity-100 my-1">
+          <div class="pt-3">
+            <a href="{{ site.BaseURL }}{{ $path }}" class="btn btn-sm btn-outline-black border-2 px-3 my-1">
+              {{ i18n "about" }}
+            </a>
+          </div>
+          <div class="pt-3">
+            {{ .Content }}
+          </div>
+          <h2 class="h5 text-uppercase mb-0 mt-2">{{ i18n "ourApps" }} Нашите приложения</h1>
+          <hr class="border border-1 border-black opacity-100 my-1">
+          <div class="py-3">
+            <a href="{{ site.BaseURL }}/sebra" class="btn btn-sm btn-outline-orange border-2 px-3 my-1">
+              {{ i18n "sebra" }}
+            </a>
+            <a href="{{ site.BaseURL }}/sofia-kindergartens" class="btn btn-sm btn-outline-cyan border-2 px-3 my-1">
+              {{ i18n "kindergartens" }}
+            </a>
+          </div>
+          <h2 class="h5 text-uppercase mb-0 mt-2"> {{ i18n "forVolunteers" }}</h1>
+          <hr class="border border-1 border-black opacity-100 my-1">
+          <p>{{ i18n "volunteersText" }}</p>
+          <a href="{{ site.BaseURL }}{{ $path }}" class="btn btn-outline-green btn-sm border-2 my-1 mb-4">
+            {{ i18n "learnMore" }}
+          </a>
+        </article>
+      </div>
+      <div class="col-12 col-lg-8 col-xl-9 col-xxl-10">
+        <div>
+          <h1 class="h5 text-uppercase mb-0">{{ i18n "projects" }}</h1>
+          <hr class="border border-1 border-black opacity-100 my-1">
+          {{ partial "common/categories" . }}
+        </div>
+        <div  class="grid mx-auto js-masonry"
+          data-masonry-options='{ "itemSelector": ".grid-item", "percentPosition": true, "columnWidth": ".grid-sizer" }'>
+          <div class="grid-sizer"></div>
+          {{ range where .Site.RegularPages "Section" "posts" }}
+            <div class="grid-item p-2">
+              {{ partial "blog/post" . }}
+            </div>
+          {{ end }}
+          <div class="grid-item p-2 page-blue">
+            {{ partial "blog/new-post" . }}
+          </div>
+        </div>
+      </div>
+      <div class="col-12 py-2">
+        {{ partial "common/footer" . }}
+      </div>
+    </div>
+  </div>
+</main>
+{{ end }}
+
+{{ define "scripts" }}
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+{{ end }}

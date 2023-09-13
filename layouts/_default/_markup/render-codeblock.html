@@ -1,0 +1,37 @@
+{{ $class := .Attributes.class | default ""    }}
+{{ $lang  := .Attributes.lang  | default .Type }}
+
+{{ if eq $lang "json:vega-light" }}
+    {{ $seed := now.Unix }}
+    {{ $rnd := mod (add (mul 13 $seed) 97) 400000}}
+
+<div class="chart-container">
+  <div id="vis{{$rnd}}"></div>
+</div>
+
+<script>
+function init() {
+    var vlSpec ={{ .Inner }};
+    vlSpec = vlSpec.replaceAll('\r', '');
+    vlSpec = vlSpec.replaceAll('\n', '');
+    vlSpec =  JSON.parse(vlSpec);
+
+    var containers = document.getElementsByClassName('chart-container');
+    if (containers.length) {
+        vlSpec.width = containers[0].offsetWidth - 80;
+    }
+
+    vegaEmbed('#vis{{$rnd}}', vlSpec);
+}
+
+init();
+window.addEventListener('resize', init);
+</script>
+
+
+
+{{ else if transform.CanHighlight $lang }}
+<div class="{{ $class }}">{{ highlight .Inner $lang }}</div>
+{{else}}
+<pre><code class="{{ $class }}">{{.Inner}}</code></pre>
+{{end}}
