@@ -154,7 +154,7 @@
     },
     "contacts": {
     },
-    "isMember": false
+    "isMember": true
   },
   "laura-tolosi": {
     "picture": "/img/people/no-avatar.png",
@@ -178,6 +178,20 @@
     },
     "en": {
       "name": "Ivailo Partchev",
+      "facts": []
+    },
+    "contacts": {
+    },
+    "isMember": false
+  },
+  "izabella-taskova": {
+    "picture": "/img/people/no-avatar.png",
+    "bg": {
+      "name": "Изабела Таскова",
+      "facts": []
+    },
+    "en": {
+      "name": "Izabella Taskova",
       "facts": []
     },
     "contacts": {
