@@ -8,7 +8,7 @@ categories: [ "education" ]
 tags: []
 lang: bg
 use_math: false
-draft: true
+draft: false
 type: "blog"
 ---
 
