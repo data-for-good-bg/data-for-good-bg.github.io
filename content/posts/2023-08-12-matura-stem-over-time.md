@@ -20,13 +20,8 @@ type: "blog"
 
 Матурата (ДЗИ[^2]) по български език и литература (БЕЛ[^3]) е задължителна и затова подсказва общия брой завършващи средно образование в България. В последните години те намаляват - от явилите се 49 156 през 2019 г. до само 43 053 през 2022, това е спад от 12%. Макар спадът да е във всички области, той е по-голям в Ямбол (-32%) и Ловеч (-29%) и по-малък в областите с най-големите български градове.
 
-<div class="chart-container">
-  <div id="vis1"></div>
-</div>
-
-<script type="text/javascript">
-var vlSpec1 = {
-
+```json:vega-light
+{
   "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
   "config": {
     "view": {
@@ -1261,31 +1256,15 @@ var vlSpec1 = {
     "step": 20
   },
   "mark": "point"
-};    
-
-function init() {
-    var containers = document.getElementsByClassName('chart-container');
-    if (containers.length) {
-        vlSpec1.width = containers[0].offsetWidth - 80;
-    }
-
-    vegaEmbed('#vis1', vlSpec1);
 }
-
-init();
-window.addEventListener('resize', init);
-</script>
+```
 
 ### Повече ученици вземат втора матура
 
 Броят на явилите се на втора матура скача с цели 23%: от 33 798 през 2021 до 41 672 през 2022. С други думи, общо взетите втори матури вече са почти колкото "първите" по БЕЛ. Големи увеличения се наблюдават в областите София - град (+1339 явили се или +18%) и Ямбол (+50% или +200 явили се). Възможни причини за увеличенията са промени за учениците от професионалните и езиковите гимназии. От 2022 година дванадесетокласниците с професионално образование полагат задължителен изпит за професионална квалификация, който обединява двата предишни изпита по теория и по практика на професията и специалността. Също от 2022, завършващите езикови гимназии се явяват на втора матура по един от профилиращите предмети от втория гимназиален етап.[^4]
 
-<div class="chart-container">
-  <div id="vis2"></div>
-</div>
-
-<script type="text/javascript">
-var vlSpec2 = {
+```json:vega-light
+{
 
   "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
   "config": {
@@ -2521,20 +2500,8 @@ var vlSpec2 = {
     "step": 20
   },
   "mark": "point"
-};    
-
-function init() {
-    var containers = document.getElementsByClassName('chart-container');
-    if (containers.length) {
-        vlSpec2.width = containers[0].offsetWidth - 80;
-    }
-
-    vegaEmbed('#vis2', vlSpec2);
 }
-
-init();
-window.addEventListener('resize', init);
-</script>
+```
 
 ### 10% от учениците с матура по СТЕМ, от 25% през 2019
 
@@ -2542,12 +2509,8 @@ window.addEventListener('resize', init);
 
 Също както общия брой на зрелостниците в страната, учениците с матура по СТЕМ предмети намаляват във всички области от 2019 до  2022. Но ако спадът по БЕЛ е 12%, то спадът по СТЕМ е две трети - от 12 601 през 2019 до 4228 през 2022. Забележете, че спадът е най-вече между 2021 и 2022 г. През 2019 общо положилите матура по СТЕМ в страната са 25% от всички дванадесетокласници, явили се на матура по БЕЛ. За 2022 делът им е 10%.
 
-<div class="chart-container">
-  <div id="vis3"></div>
-</div>
-
-<script type="text/javascript">
-var vlSpec3 = {
+```json:vega-light
+{
 
   "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
   "config": {
@@ -3783,21 +3746,8 @@ var vlSpec3 = {
     "step": 20
   },
   "mark": "point"
-};
-
-
-function init() {
-    var containers = document.getElementsByClassName('chart-container');
-    if (containers.length) {
-        vlSpec3.width = containers[0].offsetWidth - 80;
-    }
-
-    vegaEmbed('#vis3', vlSpec3);
 }
-
-init();
-window.addEventListener('resize', init);
-</script>
+```
 
 София - град (намаление с 1137 ученици), Пловдив (-767), Бургас (-691) и Шумен (-471) бележат най-голям отлив в броя ученици, явили се на матура по СТЕМ предмети между 2019 и 2022. Перник, Сливен, Пазарджик и Монтана са областите, в които положилите матура по СТЕМ през 2022 са с над 80%
 по-малко спрямо 2019.
@@ -3808,13 +3758,8 @@ window.addEventListener('resize', init);
 ### Учениците от професионалните училища[^5] не полагат втора матура по СТЕМ, а вместо това по специалност на училището
 
 
-<div class="chart-container">
-  <div id="vis4"></div>
-</div>
-
-<script type="text/javascript">
-var vlSpec4 = {
-
+```json:vega-light
+{
   "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
   "config": {
     "view": {
@@ -5049,21 +4994,8 @@ var vlSpec4 = {
     "step": 20
   },
   "mark": "point"
-};
-
-function init() {
-    var containers = document.getElementsByClassName('chart-container');
-    if (containers.length) {
-        vlSpec4.width = containers[0].offsetWidth - 80;
-    }
-
-    vegaEmbed('#vis4', vlSpec4);
 }
-
-init();
-window.addEventListener('resize', init);
-</script>
-
+```
 
 Броят ученици от професионалните училища, които избират матура по някои от СТЕМ предметите, намалява през периода 2019-2021. Всъщност през 2022 няма ученици от професионални гимназии, които се явяват на матура по СТЕМ предмети, а тези училища включват към 30 и 40% от гимназистите в страната. Възможно е учениците да вземат трета матура по тези предмети - които са извън разглежданите данни. От една страна, това означава, че учениците от професионални паралелки могат да се фокусират изцяло върху теорията и практиката на своята професия и да специализират по-тясно в изучаваната сфера. От друга страна обаче, това може да е пропусната възможност или потенциал в сферите, различни от избраната професия от учениците, включително и СТЕМ.
 
@@ -5071,13 +5003,8 @@ window.addEventListener('resize', init);
 
 Общият брой ученици с матура по СТЕМ в училищата, различни от професионални, също спада между 2019 и 2022. И тук намалението от 2021 до 2022 г. е значително по-голямо, отколкото за предходните години.
 
-<div class="chart-container">
-  <div id="vis5"></div>
-</div>
-
-<script type="text/javascript">
-var vlSpec5 = {
-
+```json:vega-light
+{
   "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
   "config": {
     "view": {
@@ -5092,7 +5019,7 @@ var vlSpec5 = {
   "datasets": {
     "data-a5057c4fb8da189e390f844e8ce38578": [
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "tot_pup_bel": 1407.0,
         "tot_pup_other": 364.0,
         "tot_pup_second": 935.0,
@@ -6312,20 +6239,8 @@ var vlSpec5 = {
     "step": 20
   },
   "mark": "point"
-};
-
-function init() {
-    var containers = document.getElementsByClassName('chart-container');
-    if (containers.length) {
-        vlSpec5.width = containers[0].offsetWidth - 80;
-    }
-
-    vegaEmbed('#vis5', vlSpec5);
 }
-
-init();
-window.addEventListener('resize', init);
-</script>
+```
 
 Възможно е този спад да се дължи и на промяната във втората матура за езиковите гимназии - от 2022 учениците там полагат втора матура по един от профилиращите предмети.[^6]
 
@@ -6336,12 +6251,8 @@ window.addEventListener('resize', init);
 
 ### Оценките по СТЕМ в училищата, различни от професионални, се понижават
 
-<div class="chart-container">
-  <div id="vis6"></div>
-</div>
-
-<script type="text/javascript">
-var vlSpec6 = {
+```json:vega-light
+{
   "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
   "config": {
     "view": {
@@ -7147,20 +7058,8 @@ var vlSpec6 = {
   },
   "mark": "point",
   "title": "\u0421\u0440\u0435\u0434\u043d\u0430 \u043e\u0446\u0435\u043d\u043a\u0430 \u043e\u0442 \u043c\u0430\u0442\u0443\u0440\u0430 \u043f\u043e \u0421\u0422\u0415\u041c \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u0438 \u043f\u043e \u043e\u0431\u043b\u0430\u0441\u0442\u0438, \u0443\u0447\u0438\u043b\u0438\u0449\u0430, \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u0438 \u043e\u0442 \u043f\u0440\u043e\u0444\u0435\u0441\u0438\u043e\u043d\u0430\u043b\u043d\u0438 (2019-2022)"
-};
-
-function init() {
-    var containers = document.getElementsByClassName('chart-container');
-    if (containers.length) {
-        vlSpec6.width = containers[0].offsetWidth - 80;
-    }
-
-    vegaEmbed('#vis6', vlSpec6);
 }
-
-init();
-window.addEventListener('resize', init);
-</script>
+```
 
 *Бележки: Графиката представя средна оценка на ниво област от втора матура по СТЕМ предмет. При осредняването, стойностите на ниво училище са претеглени по броя ученици, явили се на втора матура по СТЕМ предмет.*
 
@@ -7180,16 +7079,9 @@ window.addEventListener('resize', init);
 "Образование без раници" работи българските деца да имат най-добрите в света безплатни образователни ресурси и в подкрепа на всички, ангажирани
 в образованието и в постигането на високи образователни успехи - учащите, учителите, семейството и всички други.
 
-------------------------------------------------------------------------
 [^1]: В този анализ използваме дефиниция на СТЕМ предметите, която включва предмеите биология, математика, физика и химия.
-
 [^2]: ДЗИ = Държавен зрелостен изпит, често наричан матура
-
 [^3]: БЕЛ = Български език и литература - съдържа въпроси по правилно ползване на езика и писане на анализ на творба
-
 [^4]: [https://www.segabg.com/category-education/maturata-po-profesiya-stava-zadulzhitelna-dogodina](https://www.segabg.com/category-education/maturata-po-profesiya-stava-zadulzhitelna-dogodina)
-
 [^5]: В рамките на анализа професионални са всички училища, чието име съдържа думата "Професионален/на"
-
 [^6]: [https://www.segabg.com/category-education/dnes-e-izpitut-po-profesiya-za-blizo-13-000-zrelostnici](https://www.segabg.com/category-education/dnes-e-izpitut-po-profesiya-za-blizo-13-000-zrelostnici)
-

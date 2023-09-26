@@ -2,11 +2,9 @@
 {{ $lang  := .Attributes.lang  | default .Type }}
 
 {{ if eq $lang "json:vega-light" }}
-    {{ $seed := now.Unix }}
-    {{ $rnd := mod (add (mul 13 $seed) 97) 400000}}
 
 <div class="chart-container">
-  <div id="vis{{$rnd}}"></div>
+  <div id="vis{{md5 .Inner}}"></div>
 </div>
 
 <script>
@@ -21,7 +19,7 @@ function init() {
         vlSpec.width = containers[0].offsetWidth - 80;
     }
 
-    vegaEmbed('#vis{{$rnd}}', vlSpec);
+    vegaEmbed('#vis{{md5 .Inner}}', vlSpec);
 }
 
 init();
