@@ -9,7 +9,7 @@ type: "blog"
     <div id="vizContainer" style="width:100%; min-width: 600px; height:800px;" class="mx-auto"></div>
     <div class="mt-5">
         <p>
-            Повече информация за визуализацията може да прочетете в нашия <a href="https://data-for-good.bg/blog/sofia-kindergartens-2021-2022">блог</a>.
+            Повече информация за визуализацията може да прочетете в <a href="https://data-for-good.bg/posts/2022-03-15-sofia-kindergartens-2021-2022/">публикацията по темата</a>.
         </p>
         <p>
             Всички налични данни обобщени и използвани в приложението са достъпни в машинночетим формат като
