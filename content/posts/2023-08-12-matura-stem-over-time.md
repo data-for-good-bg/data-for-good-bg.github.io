@@ -2,7 +2,7 @@
 title:  Втора матура по СТЕМ предмети - Анализ на данни от матури за периода 2019-2022 г.
 date: 2023-08-12 00:00:00
 description: Анализ на представянето на матурите по СТЕМ предмети по области в България за периода 2019-2022 г.      
-featured_image: img/posts/2023-08-12-matura-stem-over-timе/post_main.jpg
+featured_image: img/posts/2023-08-12-matura-stem-over-timе/post_main.png
 authors: [ "izabella-taskova", "ognyana-hristova" ]
 categories: [ "education" ]
 tags: []
