@@ -1,7 +1,7 @@
 ---
 title:  Втора матура по СТЕМ предмети - Анализ на данни от матури за периода 2019-2022 г.
 date: 2023-08-12 00:00:00
-description: Анализ на представянето на матурите по СТЕМ предмети по области в България за периода 2019-2022 г.      
+description: Анализ на представянето на матурите по СТЕМ предмети по области в България за периода 2019-2022 г.
 featured_image: img/posts/2023-08-12-matura-stem-over-time/post_main.png
 authors: [ "izabella-taskova", "ognyana-hristova" ]
 categories: [ "education" ]
@@ -23,6 +23,7 @@ type: "blog"
 ```json:vega-light
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+  "background": "#fff7d3",
   "config": {
     "view": {
       "continuousHeight": 300,
@@ -36,7 +37,7 @@ type: "blog"
   "datasets": {
     "data-ded6310303e98fe74c9fbb31a707bed5": [
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "tot_pup_bel": 2425.0,
         "tot_pup_other": 413.0,
         "tot_pup_second": 1224.0,
@@ -44,7 +45,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "tot_pup_bel": 2571.0,
         "tot_pup_other": 1111.0,
         "tot_pup_second": 1683.0,
@@ -52,7 +53,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "tot_pup_bel": 2322.0,
         "tot_pup_other": 912.0,
         "tot_pup_second": 1417.0,
@@ -60,7 +61,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "tot_pup_bel": 2423.0,
         "tot_pup_other": 1138.0,
         "tot_pup_second": 1604.0,
@@ -68,7 +69,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "tot_pup_bel": 2300.0,
         "tot_pup_other": 1965.0,
         "tot_pup_second": 2212.0,
@@ -76,7 +77,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "tot_pup_bel": 2927.0,
         "tot_pup_other": 914.0,
         "tot_pup_second": 2100.0,
@@ -84,7 +85,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "tot_pup_bel": 3057.0,
         "tot_pup_other": 1404.0,
         "tot_pup_second": 2449.0,
@@ -92,7 +93,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "tot_pup_bel": 2811.0,
         "tot_pup_other": 1177.0,
         "tot_pup_second": 2059.0,
@@ -100,7 +101,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "tot_pup_bel": 2853.0,
         "tot_pup_other": 1511.0,
         "tot_pup_second": 2277.0,
@@ -108,7 +109,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "tot_pup_bel": 2824.0,
         "tot_pup_other": 2351.0,
         "tot_pup_second": 2705.0,
@@ -116,7 +117,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "tot_pup_bel": 3355.0,
         "tot_pup_other": 1156.0,
         "tot_pup_second": 2112.0,
@@ -124,7 +125,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "tot_pup_bel": 3325.0,
         "tot_pup_other": 1632.0,
         "tot_pup_second": 2313.0,
@@ -132,7 +133,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "tot_pup_bel": 3210.0,
         "tot_pup_other": 1508.0,
         "tot_pup_second": 2163.0,
@@ -140,7 +141,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "tot_pup_bel": 3121.0,
         "tot_pup_other": 1660.0,
         "tot_pup_second": 2286.0,
@@ -148,7 +149,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "tot_pup_bel": 3101.0,
         "tot_pup_other": 2632.0,
         "tot_pup_second": 3017.0,
@@ -156,7 +157,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "tot_pup_bel": 1604.0,
         "tot_pup_other": 394.0,
         "tot_pup_second": 822.0,
@@ -164,7 +165,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "tot_pup_bel": 1598.0,
         "tot_pup_other": 688.0,
         "tot_pup_second": 1057.0,
@@ -172,7 +173,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "tot_pup_bel": 1449.0,
         "tot_pup_other": 569.0,
         "tot_pup_second": 941.0,
@@ -180,7 +181,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "tot_pup_bel": 1475.0,
         "tot_pup_other": 718.0,
         "tot_pup_second": 1001.0,
@@ -188,7 +189,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "tot_pup_bel": 1388.0,
         "tot_pup_other": 1267.0,
         "tot_pup_second": 1357.0,
@@ -196,7 +197,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "tot_pup_bel": 576.0,
         "tot_pup_other": 168.0,
         "tot_pup_second": 356.0,
@@ -204,7 +205,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "tot_pup_bel": 556.0,
         "tot_pup_other": 286.0,
         "tot_pup_second": 471.0,
@@ -212,7 +213,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "tot_pup_bel": 555.0,
         "tot_pup_other": 250.0,
         "tot_pup_second": 433.0,
@@ -220,7 +221,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "tot_pup_bel": 500.0,
         "tot_pup_other": 225.0,
         "tot_pup_second": 386.0,
@@ -228,7 +229,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "tot_pup_bel": 447.0,
         "tot_pup_other": 382.0,
         "tot_pup_second": 440.0,
@@ -236,7 +237,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "tot_pup_bel": 1234.0,
         "tot_pup_other": 186.0,
         "tot_pup_second": 543.0,
@@ -244,7 +245,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "tot_pup_bel": 1304.0,
         "tot_pup_other": 477.0,
         "tot_pup_second": 714.0,
@@ -252,7 +253,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "tot_pup_bel": 1126.0,
         "tot_pup_other": 390.0,
         "tot_pup_second": 591.0,
@@ -260,7 +261,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "tot_pup_bel": 1182.0,
         "tot_pup_other": 608.0,
         "tot_pup_second": 779.0,
@@ -268,7 +269,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "tot_pup_bel": 1093.0,
         "tot_pup_other": 959.0,
         "tot_pup_second": 1017.0,
@@ -276,7 +277,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "tot_pup_bel": 706.0,
         "tot_pup_other": 184.0,
         "tot_pup_second": 429.0,
@@ -284,7 +285,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "tot_pup_bel": 704.0,
         "tot_pup_other": 301.0,
         "tot_pup_second": 536.0,
@@ -292,7 +293,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "tot_pup_bel": 696.0,
         "tot_pup_other": 248.0,
         "tot_pup_second": 497.0,
@@ -300,7 +301,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "tot_pup_bel": 706.0,
         "tot_pup_other": 402.0,
         "tot_pup_second": 590.0,
@@ -308,7 +309,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "tot_pup_bel": 641.0,
         "tot_pup_other": 565.0,
         "tot_pup_second": 634.0,
@@ -316,7 +317,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "tot_pup_bel": 1001.0,
         "tot_pup_other": 280.0,
         "tot_pup_second": 473.0,
@@ -324,7 +325,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "tot_pup_bel": 952.0,
         "tot_pup_other": 464.0,
         "tot_pup_second": 566.0,
@@ -332,7 +333,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "tot_pup_bel": 865.0,
         "tot_pup_other": 416.0,
         "tot_pup_second": 523.0,
@@ -340,7 +341,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "tot_pup_bel": 915.0,
         "tot_pup_other": 459.0,
         "tot_pup_second": 560.0,
@@ -348,7 +349,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "tot_pup_bel": 809.0,
         "tot_pup_other": 741.0,
         "tot_pup_second": 798.0,
@@ -356,7 +357,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "tot_pup_bel": 1078.0,
         "tot_pup_other": 188.0,
         "tot_pup_second": 658.0,
@@ -364,7 +365,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "tot_pup_bel": 1239.0,
         "tot_pup_other": 446.0,
         "tot_pup_second": 877.0,
@@ -372,7 +373,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "tot_pup_bel": 1108.0,
         "tot_pup_other": 375.0,
         "tot_pup_second": 755.0,
@@ -380,7 +381,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "tot_pup_bel": 1089.0,
         "tot_pup_other": 358.0,
         "tot_pup_second": 748.0,
@@ -388,7 +389,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "tot_pup_bel": 1017.0,
         "tot_pup_other": 714.0,
         "tot_pup_second": 959.0,
@@ -396,7 +397,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "tot_pup_bel": 758.0,
         "tot_pup_other": 154.0,
         "tot_pup_second": 477.0,
@@ -404,7 +405,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "tot_pup_bel": 821.0,
         "tot_pup_other": 311.0,
         "tot_pup_second": 636.0,
@@ -412,7 +413,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "tot_pup_bel": 718.0,
         "tot_pup_other": 252.0,
         "tot_pup_second": 546.0,
@@ -420,7 +421,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "tot_pup_bel": 711.0,
         "tot_pup_other": 346.0,
         "tot_pup_second": 625.0,
@@ -428,7 +429,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "tot_pup_bel": 666.0,
         "tot_pup_other": 570.0,
         "tot_pup_second": 636.0,
@@ -436,7 +437,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "tot_pup_bel": 978.0,
         "tot_pup_other": 282.0,
         "tot_pup_second": 497.0,
@@ -444,7 +445,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "tot_pup_bel": 1025.0,
         "tot_pup_other": 619.0,
         "tot_pup_second": 806.0,
@@ -452,7 +453,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "tot_pup_bel": 905.0,
         "tot_pup_other": 492.0,
         "tot_pup_second": 697.0,
@@ -460,7 +461,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "tot_pup_bel": 868.0,
         "tot_pup_other": 502.0,
         "tot_pup_second": 679.0,
@@ -468,7 +469,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "tot_pup_bel": 730.0,
         "tot_pup_other": 656.0,
         "tot_pup_second": 716.0,
@@ -476,7 +477,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "tot_pup_bel": 924.0,
         "tot_pup_other": 194.0,
         "tot_pup_second": 533.0,
@@ -484,7 +485,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "tot_pup_bel": 862.0,
         "tot_pup_other": 370.0,
         "tot_pup_second": 621.0,
@@ -492,7 +493,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "tot_pup_bel": 793.0,
         "tot_pup_other": 324.0,
         "tot_pup_second": 500.0,
@@ -500,7 +501,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "tot_pup_bel": 796.0,
         "tot_pup_other": 339.0,
         "tot_pup_second": 532.0,
@@ -508,7 +509,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "tot_pup_bel": 638.0,
         "tot_pup_other": 579.0,
         "tot_pup_second": 627.0,
@@ -516,7 +517,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "tot_pup_bel": 1814.0,
         "tot_pup_other": 341.0,
         "tot_pup_second": 986.0,
@@ -524,7 +525,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "tot_pup_bel": 1680.0,
         "tot_pup_other": 660.0,
         "tot_pup_second": 1172.0,
@@ -532,7 +533,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "tot_pup_bel": 1534.0,
         "tot_pup_other": 497.0,
         "tot_pup_second": 958.0,
@@ -540,7 +541,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "tot_pup_bel": 1677.0,
         "tot_pup_other": 601.0,
         "tot_pup_second": 989.0,
@@ -548,7 +549,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "tot_pup_bel": 1498.0,
         "tot_pup_other": 1310.0,
         "tot_pup_second": 1407.0,
@@ -556,7 +557,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "tot_pup_bel": 841.0,
         "tot_pup_other": 199.0,
         "tot_pup_second": 322.0,
@@ -564,7 +565,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "tot_pup_bel": 751.0,
         "tot_pup_other": 360.0,
         "tot_pup_second": 462.0,
@@ -572,7 +573,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "tot_pup_bel": 724.0,
         "tot_pup_other": 263.0,
         "tot_pup_second": 365.0,
@@ -580,7 +581,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "tot_pup_bel": 679.0,
         "tot_pup_other": 519.0,
         "tot_pup_second": 596.0,
@@ -588,7 +589,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "tot_pup_bel": 668.0,
         "tot_pup_other": 629.0,
         "tot_pup_second": 646.0,
@@ -596,7 +597,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "tot_pup_bel": 1841.0,
         "tot_pup_other": 374.0,
         "tot_pup_second": 1090.0,
@@ -604,7 +605,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "tot_pup_bel": 1684.0,
         "tot_pup_other": 621.0,
         "tot_pup_second": 1120.0,
@@ -612,7 +613,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "tot_pup_bel": 1608.0,
         "tot_pup_other": 564.0,
         "tot_pup_second": 1023.0,
@@ -620,7 +621,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "tot_pup_bel": 1581.0,
         "tot_pup_other": 601.0,
         "tot_pup_second": 917.0,
@@ -628,7 +629,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "tot_pup_bel": 1473.0,
         "tot_pup_other": 1174.0,
         "tot_pup_second": 1386.0,
@@ -636,7 +637,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "tot_pup_bel": 4413.0,
         "tot_pup_other": 1338.0,
         "tot_pup_second": 2862.0,
@@ -644,7 +645,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "tot_pup_bel": 4514.0,
         "tot_pup_other": 2199.0,
         "tot_pup_second": 3253.0,
@@ -652,7 +653,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "tot_pup_bel": 4206.0,
         "tot_pup_other": 1740.0,
         "tot_pup_second": 2935.0,
@@ -660,7 +661,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "tot_pup_bel": 4241.0,
         "tot_pup_other": 2274.0,
         "tot_pup_second": 3307.0,
@@ -668,7 +669,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "tot_pup_bel": 3847.0,
         "tot_pup_other": 3437.0,
         "tot_pup_second": 3724.0,
@@ -676,7 +677,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "tot_pup_bel": 862.0,
         "tot_pup_other": 131.0,
         "tot_pup_second": 613.0,
@@ -684,7 +685,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "tot_pup_bel": 845.0,
         "tot_pup_other": 265.0,
         "tot_pup_second": 667.0,
@@ -692,7 +693,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "tot_pup_bel": 748.0,
         "tot_pup_other": 203.0,
         "tot_pup_second": 526.0,
@@ -700,7 +701,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "tot_pup_bel": 795.0,
         "tot_pup_other": 230.0,
         "tot_pup_second": 516.0,
@@ -708,7 +709,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "tot_pup_bel": 718.0,
         "tot_pup_other": 602.0,
         "tot_pup_second": 703.0,
@@ -716,7 +717,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "tot_pup_bel": 1502.0,
         "tot_pup_other": 439.0,
         "tot_pup_second": 900.0,
@@ -724,7 +725,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "tot_pup_bel": 1453.0,
         "tot_pup_other": 704.0,
         "tot_pup_second": 1082.0,
@@ -732,7 +733,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "tot_pup_bel": 1332.0,
         "tot_pup_other": 585.0,
         "tot_pup_second": 988.0,
@@ -740,7 +741,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "tot_pup_bel": 1395.0,
         "tot_pup_other": 724.0,
         "tot_pup_second": 1073.0,
@@ -748,7 +749,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "tot_pup_bel": 1254.0,
         "tot_pup_other": 1110.0,
         "tot_pup_second": 1225.0,
@@ -756,7 +757,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "tot_pup_bel": 831.0,
         "tot_pup_other": 136.0,
         "tot_pup_second": 446.0,
@@ -764,7 +765,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "tot_pup_bel": 748.0,
         "tot_pup_other": 292.0,
         "tot_pup_second": 493.0,
@@ -772,7 +773,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "tot_pup_bel": 688.0,
         "tot_pup_other": 217.0,
         "tot_pup_second": 394.0,
@@ -780,7 +781,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "tot_pup_bel": 684.0,
         "tot_pup_other": 258.0,
         "tot_pup_second": 377.0,
@@ -788,7 +789,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "tot_pup_bel": 597.0,
         "tot_pup_other": 523.0,
         "tot_pup_second": 586.0,
@@ -796,7 +797,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "tot_pup_bel": 1098.0,
         "tot_pup_other": 261.0,
         "tot_pup_second": 560.0,
@@ -804,7 +805,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "tot_pup_bel": 1041.0,
         "tot_pup_other": 416.0,
         "tot_pup_second": 645.0,
@@ -812,7 +813,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "tot_pup_bel": 1007.0,
         "tot_pup_other": 374.0,
         "tot_pup_second": 582.0,
@@ -820,7 +821,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "tot_pup_bel": 1002.0,
         "tot_pup_other": 567.0,
         "tot_pup_second": 778.0,
@@ -828,7 +829,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "tot_pup_bel": 935.0,
         "tot_pup_other": 868.0,
         "tot_pup_second": 910.0,
@@ -836,7 +837,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "tot_pup_bel": 762.0,
         "tot_pup_other": 102.0,
         "tot_pup_second": 450.0,
@@ -844,7 +845,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "tot_pup_bel": 837.0,
         "tot_pup_other": 302.0,
         "tot_pup_second": 656.0,
@@ -852,7 +853,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "tot_pup_bel": 694.0,
         "tot_pup_other": 237.0,
         "tot_pup_second": 495.0,
@@ -860,7 +861,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "tot_pup_bel": 798.0,
         "tot_pup_other": 365.0,
         "tot_pup_second": 640.0,
@@ -868,7 +869,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "tot_pup_bel": 688.0,
         "tot_pup_other": 559.0,
         "tot_pup_second": 673.0,
@@ -876,7 +877,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "tot_pup_bel": 8419.0,
         "tot_pup_other": 3998.0,
         "tot_pup_second": 6130.0,
@@ -884,7 +885,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "tot_pup_bel": 8942.0,
         "tot_pup_other": 5457.0,
         "tot_pup_second": 7242.0,
@@ -892,7 +893,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "tot_pup_bel": 8548.0,
         "tot_pup_other": 4668.0,
         "tot_pup_second": 6495.0,
@@ -900,7 +901,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "tot_pup_bel": 8805.0,
         "tot_pup_other": 5667.0,
         "tot_pup_second": 7323.0,
@@ -908,7 +909,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "tot_pup_bel": 8686.0,
         "tot_pup_other": 7933.0,
         "tot_pup_second": 8581.0,
@@ -916,7 +917,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "tot_pup_bel": 2260.0,
         "tot_pup_other": 605.0,
         "tot_pup_second": 1429.0,
@@ -924,7 +925,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "tot_pup_bel": 2331.0,
         "tot_pup_other": 962.0,
         "tot_pup_second": 1555.0,
@@ -932,7 +933,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "tot_pup_bel": 2120.0,
         "tot_pup_other": 899.0,
         "tot_pup_second": 1423.0,
@@ -940,7 +941,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "tot_pup_bel": 2048.0,
         "tot_pup_other": 993.0,
         "tot_pup_second": 1432.0,
@@ -948,7 +949,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "tot_pup_bel": 1805.0,
         "tot_pup_other": 1582.0,
         "tot_pup_second": 1749.0,
@@ -956,7 +957,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "tot_pup_bel": 729.0,
         "tot_pup_other": 74.0,
         "tot_pup_second": 411.0,
@@ -964,7 +965,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "tot_pup_bel": 723.0,
         "tot_pup_other": 191.0,
         "tot_pup_second": 458.0,
@@ -972,7 +973,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "tot_pup_bel": 666.0,
         "tot_pup_other": 156.0,
         "tot_pup_second": 349.0,
@@ -980,7 +981,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "tot_pup_bel": 629.0,
         "tot_pup_other": 184.0,
         "tot_pup_second": 392.0,
@@ -988,7 +989,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "tot_pup_bel": 594.0,
         "tot_pup_other": 495.0,
         "tot_pup_second": 582.0,
@@ -996,7 +997,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "tot_pup_bel": 1551.0,
         "tot_pup_other": 426.0,
         "tot_pup_second": 1048.0,
@@ -1004,7 +1005,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "tot_pup_bel": 1569.0,
         "tot_pup_other": 659.0,
         "tot_pup_second": 1140.0,
@@ -1012,7 +1013,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "tot_pup_bel": 1421.0,
         "tot_pup_other": 540.0,
         "tot_pup_second": 941.0,
@@ -1020,7 +1021,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "tot_pup_bel": 1311.0,
         "tot_pup_other": 580.0,
         "tot_pup_second": 913.0,
@@ -1028,7 +1029,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "tot_pup_bel": 1366.0,
         "tot_pup_other": 1126.0,
         "tot_pup_second": 1287.0,
@@ -1036,7 +1037,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "tot_pup_bel": 1151.0,
         "tot_pup_other": 239.0,
         "tot_pup_second": 866.0,
@@ -1044,7 +1045,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "tot_pup_bel": 1292.0,
         "tot_pup_other": 369.0,
         "tot_pup_second": 1039.0,
@@ -1052,7 +1053,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "tot_pup_bel": 1185.0,
         "tot_pup_other": 294.0,
         "tot_pup_second": 878.0,
@@ -1060,7 +1061,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "tot_pup_bel": 1172.0,
         "tot_pup_other": 522.0,
         "tot_pup_second": 1066.0,
@@ -1068,7 +1069,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "tot_pup_bel": 1073.0,
         "tot_pup_other": 818.0,
         "tot_pup_second": 1017.0,
@@ -1076,7 +1077,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "tot_pup_bel": 848.0,
         "tot_pup_other": 152.0,
         "tot_pup_second": 305.0,
@@ -1084,7 +1085,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "tot_pup_bel": 900.0,
         "tot_pup_other": 306.0,
         "tot_pup_second": 402.0,
@@ -1092,7 +1093,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "tot_pup_bel": 717.0,
         "tot_pup_other": 222.0,
         "tot_pup_second": 310.0,
@@ -1100,7 +1101,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "tot_pup_bel": 712.0,
         "tot_pup_other": 284.0,
         "tot_pup_second": 357.0,
@@ -1108,7 +1109,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "tot_pup_bel": 616.0,
         "tot_pup_other": 518.0,
         "tot_pup_second": 602.0,
@@ -1116,7 +1117,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "tot_pup_bel": 1665.0,
         "tot_pup_other": 286.0,
         "tot_pup_second": 761.0,
@@ -1124,7 +1125,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "tot_pup_bel": 1611.0,
         "tot_pup_other": 667.0,
         "tot_pup_second": 980.0,
@@ -1132,7 +1133,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "tot_pup_bel": 1538.0,
         "tot_pup_other": 528.0,
         "tot_pup_second": 826.0,
@@ -1140,7 +1141,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "tot_pup_bel": 1402.0,
         "tot_pup_other": 737.0,
         "tot_pup_second": 950.0,
@@ -1148,7 +1149,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "tot_pup_bel": 1408.0,
         "tot_pup_other": 1236.0,
         "tot_pup_second": 1308.0,
@@ -1156,7 +1157,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "tot_pup_bel": 221.0,
         "tot_pup_other": 34.0,
         "tot_pup_second": 123.0,
@@ -1164,7 +1165,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "tot_pup_bel": 221.0,
         "tot_pup_other": 90.0,
         "tot_pup_second": 135.0,
@@ -1172,7 +1173,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "tot_pup_bel": 184.0,
         "tot_pup_other": 66.0,
         "tot_pup_second": 100.0,
@@ -1180,7 +1181,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "tot_pup_bel": 191.0,
         "tot_pup_other": 81.0,
         "tot_pup_second": 105.0,
@@ -1188,7 +1189,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "tot_pup_bel": 173.0,
         "tot_pup_other": 143.0,
         "tot_pup_second": 168.0,
@@ -1201,7 +1202,7 @@ type: "blog"
     "color": {
       "field": "year",
       "legend": {
-        "title": "\u0413\u043e\u0434\u0438\u043d\u0430"
+        "title": "Година"
       },
       "scale": {
         "domain": [
@@ -1238,7 +1239,7 @@ type: "blog"
         "grid": false
       },
       "field": "tot_pup_bel",
-      "title": "\u0411\u0440\u043e\u0439 \u0443\u0447\u0435\u043d\u0438\u0446\u0438 \u0441 \u043c\u0430\u0442\u0443\u0440\u0430 \u043f\u043e \u0411\u0415\u041b",
+      "title": "Брой ученици с матура по БЕЛ",
       "type": "quantitative"
     },
     "y": {
@@ -1267,6 +1268,7 @@ type: "blog"
 {
 
   "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+  "background": "#fff7d3",
   "config": {
     "view": {
       "continuousHeight": 300,
@@ -1280,7 +1282,7 @@ type: "blog"
   "datasets": {
     "data-ded6310303e98fe74c9fbb31a707bed5": [
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "tot_pup_bel": 2425.0,
         "tot_pup_other": 413.0,
         "tot_pup_second": 1224.0,
@@ -1288,7 +1290,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "tot_pup_bel": 2571.0,
         "tot_pup_other": 1111.0,
         "tot_pup_second": 1683.0,
@@ -1296,7 +1298,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "tot_pup_bel": 2322.0,
         "tot_pup_other": 912.0,
         "tot_pup_second": 1417.0,
@@ -1304,7 +1306,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "tot_pup_bel": 2423.0,
         "tot_pup_other": 1138.0,
         "tot_pup_second": 1604.0,
@@ -1312,7 +1314,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "tot_pup_bel": 2300.0,
         "tot_pup_other": 1965.0,
         "tot_pup_second": 2212.0,
@@ -1320,7 +1322,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "tot_pup_bel": 2927.0,
         "tot_pup_other": 914.0,
         "tot_pup_second": 2100.0,
@@ -1328,7 +1330,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "tot_pup_bel": 3057.0,
         "tot_pup_other": 1404.0,
         "tot_pup_second": 2449.0,
@@ -1336,7 +1338,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "tot_pup_bel": 2811.0,
         "tot_pup_other": 1177.0,
         "tot_pup_second": 2059.0,
@@ -1344,7 +1346,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "tot_pup_bel": 2853.0,
         "tot_pup_other": 1511.0,
         "tot_pup_second": 2277.0,
@@ -1352,7 +1354,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "tot_pup_bel": 2824.0,
         "tot_pup_other": 2351.0,
         "tot_pup_second": 2705.0,
@@ -1360,7 +1362,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "tot_pup_bel": 3355.0,
         "tot_pup_other": 1156.0,
         "tot_pup_second": 2112.0,
@@ -1368,7 +1370,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "tot_pup_bel": 3325.0,
         "tot_pup_other": 1632.0,
         "tot_pup_second": 2313.0,
@@ -1376,7 +1378,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "tot_pup_bel": 3210.0,
         "tot_pup_other": 1508.0,
         "tot_pup_second": 2163.0,
@@ -1384,7 +1386,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "tot_pup_bel": 3121.0,
         "tot_pup_other": 1660.0,
         "tot_pup_second": 2286.0,
@@ -1392,7 +1394,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "tot_pup_bel": 3101.0,
         "tot_pup_other": 2632.0,
         "tot_pup_second": 3017.0,
@@ -1400,7 +1402,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "tot_pup_bel": 1604.0,
         "tot_pup_other": 394.0,
         "tot_pup_second": 822.0,
@@ -1408,7 +1410,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "tot_pup_bel": 1598.0,
         "tot_pup_other": 688.0,
         "tot_pup_second": 1057.0,
@@ -1416,7 +1418,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "tot_pup_bel": 1449.0,
         "tot_pup_other": 569.0,
         "tot_pup_second": 941.0,
@@ -1424,7 +1426,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "tot_pup_bel": 1475.0,
         "tot_pup_other": 718.0,
         "tot_pup_second": 1001.0,
@@ -1432,7 +1434,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "tot_pup_bel": 1388.0,
         "tot_pup_other": 1267.0,
         "tot_pup_second": 1357.0,
@@ -1440,7 +1442,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "tot_pup_bel": 576.0,
         "tot_pup_other": 168.0,
         "tot_pup_second": 356.0,
@@ -1448,7 +1450,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "tot_pup_bel": 556.0,
         "tot_pup_other": 286.0,
         "tot_pup_second": 471.0,
@@ -1456,7 +1458,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "tot_pup_bel": 555.0,
         "tot_pup_other": 250.0,
         "tot_pup_second": 433.0,
@@ -1464,7 +1466,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "tot_pup_bel": 500.0,
         "tot_pup_other": 225.0,
         "tot_pup_second": 386.0,
@@ -1472,7 +1474,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "tot_pup_bel": 447.0,
         "tot_pup_other": 382.0,
         "tot_pup_second": 440.0,
@@ -1480,7 +1482,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "tot_pup_bel": 1234.0,
         "tot_pup_other": 186.0,
         "tot_pup_second": 543.0,
@@ -1488,7 +1490,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "tot_pup_bel": 1304.0,
         "tot_pup_other": 477.0,
         "tot_pup_second": 714.0,
@@ -1496,7 +1498,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "tot_pup_bel": 1126.0,
         "tot_pup_other": 390.0,
         "tot_pup_second": 591.0,
@@ -1504,7 +1506,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "tot_pup_bel": 1182.0,
         "tot_pup_other": 608.0,
         "tot_pup_second": 779.0,
@@ -1512,7 +1514,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "tot_pup_bel": 1093.0,
         "tot_pup_other": 959.0,
         "tot_pup_second": 1017.0,
@@ -1520,7 +1522,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "tot_pup_bel": 706.0,
         "tot_pup_other": 184.0,
         "tot_pup_second": 429.0,
@@ -1528,7 +1530,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "tot_pup_bel": 704.0,
         "tot_pup_other": 301.0,
         "tot_pup_second": 536.0,
@@ -1536,7 +1538,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "tot_pup_bel": 696.0,
         "tot_pup_other": 248.0,
         "tot_pup_second": 497.0,
@@ -1544,7 +1546,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "tot_pup_bel": 706.0,
         "tot_pup_other": 402.0,
         "tot_pup_second": 590.0,
@@ -1552,7 +1554,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "tot_pup_bel": 641.0,
         "tot_pup_other": 565.0,
         "tot_pup_second": 634.0,
@@ -1560,7 +1562,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "tot_pup_bel": 1001.0,
         "tot_pup_other": 280.0,
         "tot_pup_second": 473.0,
@@ -1568,7 +1570,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "tot_pup_bel": 952.0,
         "tot_pup_other": 464.0,
         "tot_pup_second": 566.0,
@@ -1576,7 +1578,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "tot_pup_bel": 865.0,
         "tot_pup_other": 416.0,
         "tot_pup_second": 523.0,
@@ -1584,7 +1586,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "tot_pup_bel": 915.0,
         "tot_pup_other": 459.0,
         "tot_pup_second": 560.0,
@@ -1592,7 +1594,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "tot_pup_bel": 809.0,
         "tot_pup_other": 741.0,
         "tot_pup_second": 798.0,
@@ -1600,7 +1602,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "tot_pup_bel": 1078.0,
         "tot_pup_other": 188.0,
         "tot_pup_second": 658.0,
@@ -1608,7 +1610,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "tot_pup_bel": 1239.0,
         "tot_pup_other": 446.0,
         "tot_pup_second": 877.0,
@@ -1616,7 +1618,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "tot_pup_bel": 1108.0,
         "tot_pup_other": 375.0,
         "tot_pup_second": 755.0,
@@ -1624,7 +1626,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "tot_pup_bel": 1089.0,
         "tot_pup_other": 358.0,
         "tot_pup_second": 748.0,
@@ -1632,7 +1634,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "tot_pup_bel": 1017.0,
         "tot_pup_other": 714.0,
         "tot_pup_second": 959.0,
@@ -1640,7 +1642,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "tot_pup_bel": 758.0,
         "tot_pup_other": 154.0,
         "tot_pup_second": 477.0,
@@ -1648,7 +1650,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "tot_pup_bel": 821.0,
         "tot_pup_other": 311.0,
         "tot_pup_second": 636.0,
@@ -1656,7 +1658,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "tot_pup_bel": 718.0,
         "tot_pup_other": 252.0,
         "tot_pup_second": 546.0,
@@ -1664,7 +1666,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "tot_pup_bel": 711.0,
         "tot_pup_other": 346.0,
         "tot_pup_second": 625.0,
@@ -1672,7 +1674,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "tot_pup_bel": 666.0,
         "tot_pup_other": 570.0,
         "tot_pup_second": 636.0,
@@ -1680,7 +1682,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "tot_pup_bel": 978.0,
         "tot_pup_other": 282.0,
         "tot_pup_second": 497.0,
@@ -1688,7 +1690,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "tot_pup_bel": 1025.0,
         "tot_pup_other": 619.0,
         "tot_pup_second": 806.0,
@@ -1696,7 +1698,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "tot_pup_bel": 905.0,
         "tot_pup_other": 492.0,
         "tot_pup_second": 697.0,
@@ -1704,7 +1706,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "tot_pup_bel": 868.0,
         "tot_pup_other": 502.0,
         "tot_pup_second": 679.0,
@@ -1712,7 +1714,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "tot_pup_bel": 730.0,
         "tot_pup_other": 656.0,
         "tot_pup_second": 716.0,
@@ -1720,7 +1722,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "tot_pup_bel": 924.0,
         "tot_pup_other": 194.0,
         "tot_pup_second": 533.0,
@@ -1728,7 +1730,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "tot_pup_bel": 862.0,
         "tot_pup_other": 370.0,
         "tot_pup_second": 621.0,
@@ -1736,7 +1738,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "tot_pup_bel": 793.0,
         "tot_pup_other": 324.0,
         "tot_pup_second": 500.0,
@@ -1744,7 +1746,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "tot_pup_bel": 796.0,
         "tot_pup_other": 339.0,
         "tot_pup_second": 532.0,
@@ -1752,7 +1754,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "tot_pup_bel": 638.0,
         "tot_pup_other": 579.0,
         "tot_pup_second": 627.0,
@@ -1760,7 +1762,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "tot_pup_bel": 1814.0,
         "tot_pup_other": 341.0,
         "tot_pup_second": 986.0,
@@ -1768,7 +1770,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "tot_pup_bel": 1680.0,
         "tot_pup_other": 660.0,
         "tot_pup_second": 1172.0,
@@ -1776,7 +1778,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "tot_pup_bel": 1534.0,
         "tot_pup_other": 497.0,
         "tot_pup_second": 958.0,
@@ -1784,7 +1786,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "tot_pup_bel": 1677.0,
         "tot_pup_other": 601.0,
         "tot_pup_second": 989.0,
@@ -1792,7 +1794,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "tot_pup_bel": 1498.0,
         "tot_pup_other": 1310.0,
         "tot_pup_second": 1407.0,
@@ -1800,7 +1802,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "tot_pup_bel": 841.0,
         "tot_pup_other": 199.0,
         "tot_pup_second": 322.0,
@@ -1808,7 +1810,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "tot_pup_bel": 751.0,
         "tot_pup_other": 360.0,
         "tot_pup_second": 462.0,
@@ -1816,7 +1818,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "tot_pup_bel": 724.0,
         "tot_pup_other": 263.0,
         "tot_pup_second": 365.0,
@@ -1824,7 +1826,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "tot_pup_bel": 679.0,
         "tot_pup_other": 519.0,
         "tot_pup_second": 596.0,
@@ -1832,7 +1834,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "tot_pup_bel": 668.0,
         "tot_pup_other": 629.0,
         "tot_pup_second": 646.0,
@@ -1840,7 +1842,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "tot_pup_bel": 1841.0,
         "tot_pup_other": 374.0,
         "tot_pup_second": 1090.0,
@@ -1848,7 +1850,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "tot_pup_bel": 1684.0,
         "tot_pup_other": 621.0,
         "tot_pup_second": 1120.0,
@@ -1856,7 +1858,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "tot_pup_bel": 1608.0,
         "tot_pup_other": 564.0,
         "tot_pup_second": 1023.0,
@@ -1864,7 +1866,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "tot_pup_bel": 1581.0,
         "tot_pup_other": 601.0,
         "tot_pup_second": 917.0,
@@ -1872,7 +1874,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "tot_pup_bel": 1473.0,
         "tot_pup_other": 1174.0,
         "tot_pup_second": 1386.0,
@@ -1880,7 +1882,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "tot_pup_bel": 4413.0,
         "tot_pup_other": 1338.0,
         "tot_pup_second": 2862.0,
@@ -1888,7 +1890,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "tot_pup_bel": 4514.0,
         "tot_pup_other": 2199.0,
         "tot_pup_second": 3253.0,
@@ -1896,7 +1898,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "tot_pup_bel": 4206.0,
         "tot_pup_other": 1740.0,
         "tot_pup_second": 2935.0,
@@ -1904,7 +1906,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "tot_pup_bel": 4241.0,
         "tot_pup_other": 2274.0,
         "tot_pup_second": 3307.0,
@@ -1912,7 +1914,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "tot_pup_bel": 3847.0,
         "tot_pup_other": 3437.0,
         "tot_pup_second": 3724.0,
@@ -1920,7 +1922,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "tot_pup_bel": 862.0,
         "tot_pup_other": 131.0,
         "tot_pup_second": 613.0,
@@ -1928,7 +1930,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "tot_pup_bel": 845.0,
         "tot_pup_other": 265.0,
         "tot_pup_second": 667.0,
@@ -1936,7 +1938,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "tot_pup_bel": 748.0,
         "tot_pup_other": 203.0,
         "tot_pup_second": 526.0,
@@ -1944,7 +1946,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "tot_pup_bel": 795.0,
         "tot_pup_other": 230.0,
         "tot_pup_second": 516.0,
@@ -1952,7 +1954,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "tot_pup_bel": 718.0,
         "tot_pup_other": 602.0,
         "tot_pup_second": 703.0,
@@ -1960,7 +1962,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "tot_pup_bel": 1502.0,
         "tot_pup_other": 439.0,
         "tot_pup_second": 900.0,
@@ -1968,7 +1970,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "tot_pup_bel": 1453.0,
         "tot_pup_other": 704.0,
         "tot_pup_second": 1082.0,
@@ -1976,7 +1978,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "tot_pup_bel": 1332.0,
         "tot_pup_other": 585.0,
         "tot_pup_second": 988.0,
@@ -1984,7 +1986,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "tot_pup_bel": 1395.0,
         "tot_pup_other": 724.0,
         "tot_pup_second": 1073.0,
@@ -1992,7 +1994,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "tot_pup_bel": 1254.0,
         "tot_pup_other": 1110.0,
         "tot_pup_second": 1225.0,
@@ -2000,7 +2002,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "tot_pup_bel": 831.0,
         "tot_pup_other": 136.0,
         "tot_pup_second": 446.0,
@@ -2008,7 +2010,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "tot_pup_bel": 748.0,
         "tot_pup_other": 292.0,
         "tot_pup_second": 493.0,
@@ -2016,7 +2018,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "tot_pup_bel": 688.0,
         "tot_pup_other": 217.0,
         "tot_pup_second": 394.0,
@@ -2024,7 +2026,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "tot_pup_bel": 684.0,
         "tot_pup_other": 258.0,
         "tot_pup_second": 377.0,
@@ -2032,7 +2034,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "tot_pup_bel": 597.0,
         "tot_pup_other": 523.0,
         "tot_pup_second": 586.0,
@@ -2040,7 +2042,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "tot_pup_bel": 1098.0,
         "tot_pup_other": 261.0,
         "tot_pup_second": 560.0,
@@ -2048,7 +2050,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "tot_pup_bel": 1041.0,
         "tot_pup_other": 416.0,
         "tot_pup_second": 645.0,
@@ -2056,7 +2058,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "tot_pup_bel": 1007.0,
         "tot_pup_other": 374.0,
         "tot_pup_second": 582.0,
@@ -2064,7 +2066,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "tot_pup_bel": 1002.0,
         "tot_pup_other": 567.0,
         "tot_pup_second": 778.0,
@@ -2072,7 +2074,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "tot_pup_bel": 935.0,
         "tot_pup_other": 868.0,
         "tot_pup_second": 910.0,
@@ -2080,7 +2082,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "tot_pup_bel": 762.0,
         "tot_pup_other": 102.0,
         "tot_pup_second": 450.0,
@@ -2088,7 +2090,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "tot_pup_bel": 837.0,
         "tot_pup_other": 302.0,
         "tot_pup_second": 656.0,
@@ -2096,7 +2098,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "tot_pup_bel": 694.0,
         "tot_pup_other": 237.0,
         "tot_pup_second": 495.0,
@@ -2104,7 +2106,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "tot_pup_bel": 798.0,
         "tot_pup_other": 365.0,
         "tot_pup_second": 640.0,
@@ -2112,7 +2114,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "tot_pup_bel": 688.0,
         "tot_pup_other": 559.0,
         "tot_pup_second": 673.0,
@@ -2120,7 +2122,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "tot_pup_bel": 8419.0,
         "tot_pup_other": 3998.0,
         "tot_pup_second": 6130.0,
@@ -2128,7 +2130,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "tot_pup_bel": 8942.0,
         "tot_pup_other": 5457.0,
         "tot_pup_second": 7242.0,
@@ -2136,7 +2138,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "tot_pup_bel": 8548.0,
         "tot_pup_other": 4668.0,
         "tot_pup_second": 6495.0,
@@ -2144,7 +2146,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "tot_pup_bel": 8805.0,
         "tot_pup_other": 5667.0,
         "tot_pup_second": 7323.0,
@@ -2152,7 +2154,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "tot_pup_bel": 8686.0,
         "tot_pup_other": 7933.0,
         "tot_pup_second": 8581.0,
@@ -2160,7 +2162,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "tot_pup_bel": 2260.0,
         "tot_pup_other": 605.0,
         "tot_pup_second": 1429.0,
@@ -2168,7 +2170,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "tot_pup_bel": 2331.0,
         "tot_pup_other": 962.0,
         "tot_pup_second": 1555.0,
@@ -2176,7 +2178,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "tot_pup_bel": 2120.0,
         "tot_pup_other": 899.0,
         "tot_pup_second": 1423.0,
@@ -2184,7 +2186,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "tot_pup_bel": 2048.0,
         "tot_pup_other": 993.0,
         "tot_pup_second": 1432.0,
@@ -2192,7 +2194,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "tot_pup_bel": 1805.0,
         "tot_pup_other": 1582.0,
         "tot_pup_second": 1749.0,
@@ -2200,7 +2202,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "tot_pup_bel": 729.0,
         "tot_pup_other": 74.0,
         "tot_pup_second": 411.0,
@@ -2208,7 +2210,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "tot_pup_bel": 723.0,
         "tot_pup_other": 191.0,
         "tot_pup_second": 458.0,
@@ -2216,7 +2218,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "tot_pup_bel": 666.0,
         "tot_pup_other": 156.0,
         "tot_pup_second": 349.0,
@@ -2224,7 +2226,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "tot_pup_bel": 629.0,
         "tot_pup_other": 184.0,
         "tot_pup_second": 392.0,
@@ -2232,7 +2234,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "tot_pup_bel": 594.0,
         "tot_pup_other": 495.0,
         "tot_pup_second": 582.0,
@@ -2240,7 +2242,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "tot_pup_bel": 1551.0,
         "tot_pup_other": 426.0,
         "tot_pup_second": 1048.0,
@@ -2248,7 +2250,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "tot_pup_bel": 1569.0,
         "tot_pup_other": 659.0,
         "tot_pup_second": 1140.0,
@@ -2256,7 +2258,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "tot_pup_bel": 1421.0,
         "tot_pup_other": 540.0,
         "tot_pup_second": 941.0,
@@ -2264,7 +2266,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "tot_pup_bel": 1311.0,
         "tot_pup_other": 580.0,
         "tot_pup_second": 913.0,
@@ -2272,7 +2274,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "tot_pup_bel": 1366.0,
         "tot_pup_other": 1126.0,
         "tot_pup_second": 1287.0,
@@ -2280,7 +2282,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "tot_pup_bel": 1151.0,
         "tot_pup_other": 239.0,
         "tot_pup_second": 866.0,
@@ -2288,7 +2290,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "tot_pup_bel": 1292.0,
         "tot_pup_other": 369.0,
         "tot_pup_second": 1039.0,
@@ -2296,7 +2298,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "tot_pup_bel": 1185.0,
         "tot_pup_other": 294.0,
         "tot_pup_second": 878.0,
@@ -2304,7 +2306,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "tot_pup_bel": 1172.0,
         "tot_pup_other": 522.0,
         "tot_pup_second": 1066.0,
@@ -2312,7 +2314,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "tot_pup_bel": 1073.0,
         "tot_pup_other": 818.0,
         "tot_pup_second": 1017.0,
@@ -2320,7 +2322,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "tot_pup_bel": 848.0,
         "tot_pup_other": 152.0,
         "tot_pup_second": 305.0,
@@ -2328,7 +2330,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "tot_pup_bel": 900.0,
         "tot_pup_other": 306.0,
         "tot_pup_second": 402.0,
@@ -2336,7 +2338,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "tot_pup_bel": 717.0,
         "tot_pup_other": 222.0,
         "tot_pup_second": 310.0,
@@ -2344,7 +2346,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "tot_pup_bel": 712.0,
         "tot_pup_other": 284.0,
         "tot_pup_second": 357.0,
@@ -2352,7 +2354,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "tot_pup_bel": 616.0,
         "tot_pup_other": 518.0,
         "tot_pup_second": 602.0,
@@ -2360,7 +2362,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "tot_pup_bel": 1665.0,
         "tot_pup_other": 286.0,
         "tot_pup_second": 761.0,
@@ -2368,7 +2370,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "tot_pup_bel": 1611.0,
         "tot_pup_other": 667.0,
         "tot_pup_second": 980.0,
@@ -2376,7 +2378,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "tot_pup_bel": 1538.0,
         "tot_pup_other": 528.0,
         "tot_pup_second": 826.0,
@@ -2384,7 +2386,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "tot_pup_bel": 1402.0,
         "tot_pup_other": 737.0,
         "tot_pup_second": 950.0,
@@ -2392,7 +2394,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "tot_pup_bel": 1408.0,
         "tot_pup_other": 1236.0,
         "tot_pup_second": 1308.0,
@@ -2400,7 +2402,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "tot_pup_bel": 221.0,
         "tot_pup_other": 34.0,
         "tot_pup_second": 123.0,
@@ -2408,7 +2410,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "tot_pup_bel": 221.0,
         "tot_pup_other": 90.0,
         "tot_pup_second": 135.0,
@@ -2416,7 +2418,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "tot_pup_bel": 184.0,
         "tot_pup_other": 66.0,
         "tot_pup_second": 100.0,
@@ -2424,7 +2426,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "tot_pup_bel": 191.0,
         "tot_pup_other": 81.0,
         "tot_pup_second": 105.0,
@@ -2432,7 +2434,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "tot_pup_bel": 173.0,
         "tot_pup_other": 143.0,
         "tot_pup_second": 168.0,
@@ -2445,7 +2447,7 @@ type: "blog"
     "color": {
       "field": "year",
       "legend": {
-        "title": "\u0413\u043e\u0434\u0438\u043d\u0430"
+        "title": "Година"
       },
       "scale": {
         "domain": [
@@ -2482,7 +2484,7 @@ type: "blog"
         "grid": false
       },
       "field": "tot_pup_second",
-      "title": "\u0411\u0440\u043e\u0439 \u0443\u0447\u0435\u043d\u0438\u0446\u0438 \u0441 \u0432\u0442\u043e\u0440\u0430 \u043c\u0430\u0442\u0443\u0440\u0430",
+      "title": "Брой ученици с втора матура",
       "type": "quantitative"
     },
     "y": {
@@ -2513,6 +2515,7 @@ type: "blog"
 {
 
   "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+  "background": "#fff7d3",
   "config": {
     "view": {
       "continuousHeight": 300,
@@ -2526,7 +2529,7 @@ type: "blog"
   "datasets": {
     "data-ded6310303e98fe74c9fbb31a707bed5": [
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "tot_pup_bel": 2425.0,
         "tot_pup_other": 413.0,
         "tot_pup_second": 1224.0,
@@ -2534,7 +2537,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "tot_pup_bel": 2571.0,
         "tot_pup_other": 1111.0,
         "tot_pup_second": 1683.0,
@@ -2542,7 +2545,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "tot_pup_bel": 2322.0,
         "tot_pup_other": 912.0,
         "tot_pup_second": 1417.0,
@@ -2550,7 +2553,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "tot_pup_bel": 2423.0,
         "tot_pup_other": 1138.0,
         "tot_pup_second": 1604.0,
@@ -2558,7 +2561,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "tot_pup_bel": 2300.0,
         "tot_pup_other": 1965.0,
         "tot_pup_second": 2212.0,
@@ -2566,7 +2569,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "tot_pup_bel": 2927.0,
         "tot_pup_other": 914.0,
         "tot_pup_second": 2100.0,
@@ -2574,7 +2577,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "tot_pup_bel": 3057.0,
         "tot_pup_other": 1404.0,
         "tot_pup_second": 2449.0,
@@ -2582,7 +2585,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "tot_pup_bel": 2811.0,
         "tot_pup_other": 1177.0,
         "tot_pup_second": 2059.0,
@@ -2590,7 +2593,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "tot_pup_bel": 2853.0,
         "tot_pup_other": 1511.0,
         "tot_pup_second": 2277.0,
@@ -2598,7 +2601,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "tot_pup_bel": 2824.0,
         "tot_pup_other": 2351.0,
         "tot_pup_second": 2705.0,
@@ -2606,7 +2609,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "tot_pup_bel": 3355.0,
         "tot_pup_other": 1156.0,
         "tot_pup_second": 2112.0,
@@ -2614,7 +2617,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "tot_pup_bel": 3325.0,
         "tot_pup_other": 1632.0,
         "tot_pup_second": 2313.0,
@@ -2622,7 +2625,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "tot_pup_bel": 3210.0,
         "tot_pup_other": 1508.0,
         "tot_pup_second": 2163.0,
@@ -2630,7 +2633,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "tot_pup_bel": 3121.0,
         "tot_pup_other": 1660.0,
         "tot_pup_second": 2286.0,
@@ -2638,7 +2641,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "tot_pup_bel": 3101.0,
         "tot_pup_other": 2632.0,
         "tot_pup_second": 3017.0,
@@ -2646,7 +2649,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "tot_pup_bel": 1604.0,
         "tot_pup_other": 394.0,
         "tot_pup_second": 822.0,
@@ -2654,7 +2657,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "tot_pup_bel": 1598.0,
         "tot_pup_other": 688.0,
         "tot_pup_second": 1057.0,
@@ -2662,7 +2665,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "tot_pup_bel": 1449.0,
         "tot_pup_other": 569.0,
         "tot_pup_second": 941.0,
@@ -2670,7 +2673,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "tot_pup_bel": 1475.0,
         "tot_pup_other": 718.0,
         "tot_pup_second": 1001.0,
@@ -2678,7 +2681,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "tot_pup_bel": 1388.0,
         "tot_pup_other": 1267.0,
         "tot_pup_second": 1357.0,
@@ -2686,7 +2689,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "tot_pup_bel": 576.0,
         "tot_pup_other": 168.0,
         "tot_pup_second": 356.0,
@@ -2694,7 +2697,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "tot_pup_bel": 556.0,
         "tot_pup_other": 286.0,
         "tot_pup_second": 471.0,
@@ -2702,7 +2705,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "tot_pup_bel": 555.0,
         "tot_pup_other": 250.0,
         "tot_pup_second": 433.0,
@@ -2710,7 +2713,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "tot_pup_bel": 500.0,
         "tot_pup_other": 225.0,
         "tot_pup_second": 386.0,
@@ -2718,7 +2721,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "tot_pup_bel": 447.0,
         "tot_pup_other": 382.0,
         "tot_pup_second": 440.0,
@@ -2726,7 +2729,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "tot_pup_bel": 1234.0,
         "tot_pup_other": 186.0,
         "tot_pup_second": 543.0,
@@ -2734,7 +2737,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "tot_pup_bel": 1304.0,
         "tot_pup_other": 477.0,
         "tot_pup_second": 714.0,
@@ -2742,7 +2745,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "tot_pup_bel": 1126.0,
         "tot_pup_other": 390.0,
         "tot_pup_second": 591.0,
@@ -2750,7 +2753,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "tot_pup_bel": 1182.0,
         "tot_pup_other": 608.0,
         "tot_pup_second": 779.0,
@@ -2758,7 +2761,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "tot_pup_bel": 1093.0,
         "tot_pup_other": 959.0,
         "tot_pup_second": 1017.0,
@@ -2766,7 +2769,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "tot_pup_bel": 706.0,
         "tot_pup_other": 184.0,
         "tot_pup_second": 429.0,
@@ -2774,7 +2777,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "tot_pup_bel": 704.0,
         "tot_pup_other": 301.0,
         "tot_pup_second": 536.0,
@@ -2782,7 +2785,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "tot_pup_bel": 696.0,
         "tot_pup_other": 248.0,
         "tot_pup_second": 497.0,
@@ -2790,7 +2793,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "tot_pup_bel": 706.0,
         "tot_pup_other": 402.0,
         "tot_pup_second": 590.0,
@@ -2798,7 +2801,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "tot_pup_bel": 641.0,
         "tot_pup_other": 565.0,
         "tot_pup_second": 634.0,
@@ -2806,7 +2809,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "tot_pup_bel": 1001.0,
         "tot_pup_other": 280.0,
         "tot_pup_second": 473.0,
@@ -2814,7 +2817,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "tot_pup_bel": 952.0,
         "tot_pup_other": 464.0,
         "tot_pup_second": 566.0,
@@ -2822,7 +2825,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "tot_pup_bel": 865.0,
         "tot_pup_other": 416.0,
         "tot_pup_second": 523.0,
@@ -2830,7 +2833,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "tot_pup_bel": 915.0,
         "tot_pup_other": 459.0,
         "tot_pup_second": 560.0,
@@ -2838,7 +2841,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "tot_pup_bel": 809.0,
         "tot_pup_other": 741.0,
         "tot_pup_second": 798.0,
@@ -2846,7 +2849,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "tot_pup_bel": 1078.0,
         "tot_pup_other": 188.0,
         "tot_pup_second": 658.0,
@@ -2854,7 +2857,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "tot_pup_bel": 1239.0,
         "tot_pup_other": 446.0,
         "tot_pup_second": 877.0,
@@ -2862,7 +2865,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "tot_pup_bel": 1108.0,
         "tot_pup_other": 375.0,
         "tot_pup_second": 755.0,
@@ -2870,7 +2873,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "tot_pup_bel": 1089.0,
         "tot_pup_other": 358.0,
         "tot_pup_second": 748.0,
@@ -2878,7 +2881,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "tot_pup_bel": 1017.0,
         "tot_pup_other": 714.0,
         "tot_pup_second": 959.0,
@@ -2886,7 +2889,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "tot_pup_bel": 758.0,
         "tot_pup_other": 154.0,
         "tot_pup_second": 477.0,
@@ -2894,7 +2897,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "tot_pup_bel": 821.0,
         "tot_pup_other": 311.0,
         "tot_pup_second": 636.0,
@@ -2902,7 +2905,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "tot_pup_bel": 718.0,
         "tot_pup_other": 252.0,
         "tot_pup_second": 546.0,
@@ -2910,7 +2913,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "tot_pup_bel": 711.0,
         "tot_pup_other": 346.0,
         "tot_pup_second": 625.0,
@@ -2918,7 +2921,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "tot_pup_bel": 666.0,
         "tot_pup_other": 570.0,
         "tot_pup_second": 636.0,
@@ -2926,7 +2929,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "tot_pup_bel": 978.0,
         "tot_pup_other": 282.0,
         "tot_pup_second": 497.0,
@@ -2934,7 +2937,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "tot_pup_bel": 1025.0,
         "tot_pup_other": 619.0,
         "tot_pup_second": 806.0,
@@ -2942,7 +2945,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "tot_pup_bel": 905.0,
         "tot_pup_other": 492.0,
         "tot_pup_second": 697.0,
@@ -2950,7 +2953,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "tot_pup_bel": 868.0,
         "tot_pup_other": 502.0,
         "tot_pup_second": 679.0,
@@ -2958,7 +2961,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "tot_pup_bel": 730.0,
         "tot_pup_other": 656.0,
         "tot_pup_second": 716.0,
@@ -2966,7 +2969,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "tot_pup_bel": 924.0,
         "tot_pup_other": 194.0,
         "tot_pup_second": 533.0,
@@ -2974,7 +2977,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "tot_pup_bel": 862.0,
         "tot_pup_other": 370.0,
         "tot_pup_second": 621.0,
@@ -2982,7 +2985,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "tot_pup_bel": 793.0,
         "tot_pup_other": 324.0,
         "tot_pup_second": 500.0,
@@ -2990,7 +2993,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "tot_pup_bel": 796.0,
         "tot_pup_other": 339.0,
         "tot_pup_second": 532.0,
@@ -2998,7 +3001,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "tot_pup_bel": 638.0,
         "tot_pup_other": 579.0,
         "tot_pup_second": 627.0,
@@ -3006,7 +3009,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "tot_pup_bel": 1814.0,
         "tot_pup_other": 341.0,
         "tot_pup_second": 986.0,
@@ -3014,7 +3017,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "tot_pup_bel": 1680.0,
         "tot_pup_other": 660.0,
         "tot_pup_second": 1172.0,
@@ -3022,7 +3025,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "tot_pup_bel": 1534.0,
         "tot_pup_other": 497.0,
         "tot_pup_second": 958.0,
@@ -3030,7 +3033,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "tot_pup_bel": 1677.0,
         "tot_pup_other": 601.0,
         "tot_pup_second": 989.0,
@@ -3038,7 +3041,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "tot_pup_bel": 1498.0,
         "tot_pup_other": 1310.0,
         "tot_pup_second": 1407.0,
@@ -3046,7 +3049,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "tot_pup_bel": 841.0,
         "tot_pup_other": 199.0,
         "tot_pup_second": 322.0,
@@ -3054,7 +3057,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "tot_pup_bel": 751.0,
         "tot_pup_other": 360.0,
         "tot_pup_second": 462.0,
@@ -3062,7 +3065,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "tot_pup_bel": 724.0,
         "tot_pup_other": 263.0,
         "tot_pup_second": 365.0,
@@ -3070,7 +3073,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "tot_pup_bel": 679.0,
         "tot_pup_other": 519.0,
         "tot_pup_second": 596.0,
@@ -3078,7 +3081,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "tot_pup_bel": 668.0,
         "tot_pup_other": 629.0,
         "tot_pup_second": 646.0,
@@ -3086,7 +3089,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "tot_pup_bel": 1841.0,
         "tot_pup_other": 374.0,
         "tot_pup_second": 1090.0,
@@ -3094,7 +3097,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "tot_pup_bel": 1684.0,
         "tot_pup_other": 621.0,
         "tot_pup_second": 1120.0,
@@ -3102,7 +3105,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "tot_pup_bel": 1608.0,
         "tot_pup_other": 564.0,
         "tot_pup_second": 1023.0,
@@ -3110,7 +3113,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "tot_pup_bel": 1581.0,
         "tot_pup_other": 601.0,
         "tot_pup_second": 917.0,
@@ -3118,7 +3121,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "tot_pup_bel": 1473.0,
         "tot_pup_other": 1174.0,
         "tot_pup_second": 1386.0,
@@ -3126,7 +3129,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "tot_pup_bel": 4413.0,
         "tot_pup_other": 1338.0,
         "tot_pup_second": 2862.0,
@@ -3134,7 +3137,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "tot_pup_bel": 4514.0,
         "tot_pup_other": 2199.0,
         "tot_pup_second": 3253.0,
@@ -3142,7 +3145,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "tot_pup_bel": 4206.0,
         "tot_pup_other": 1740.0,
         "tot_pup_second": 2935.0,
@@ -3150,7 +3153,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "tot_pup_bel": 4241.0,
         "tot_pup_other": 2274.0,
         "tot_pup_second": 3307.0,
@@ -3158,7 +3161,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "tot_pup_bel": 3847.0,
         "tot_pup_other": 3437.0,
         "tot_pup_second": 3724.0,
@@ -3166,7 +3169,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "tot_pup_bel": 862.0,
         "tot_pup_other": 131.0,
         "tot_pup_second": 613.0,
@@ -3174,7 +3177,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "tot_pup_bel": 845.0,
         "tot_pup_other": 265.0,
         "tot_pup_second": 667.0,
@@ -3182,7 +3185,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "tot_pup_bel": 748.0,
         "tot_pup_other": 203.0,
         "tot_pup_second": 526.0,
@@ -3190,7 +3193,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "tot_pup_bel": 795.0,
         "tot_pup_other": 230.0,
         "tot_pup_second": 516.0,
@@ -3198,7 +3201,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "tot_pup_bel": 718.0,
         "tot_pup_other": 602.0,
         "tot_pup_second": 703.0,
@@ -3206,7 +3209,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "tot_pup_bel": 1502.0,
         "tot_pup_other": 439.0,
         "tot_pup_second": 900.0,
@@ -3214,7 +3217,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "tot_pup_bel": 1453.0,
         "tot_pup_other": 704.0,
         "tot_pup_second": 1082.0,
@@ -3222,7 +3225,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "tot_pup_bel": 1332.0,
         "tot_pup_other": 585.0,
         "tot_pup_second": 988.0,
@@ -3230,7 +3233,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "tot_pup_bel": 1395.0,
         "tot_pup_other": 724.0,
         "tot_pup_second": 1073.0,
@@ -3238,7 +3241,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "tot_pup_bel": 1254.0,
         "tot_pup_other": 1110.0,
         "tot_pup_second": 1225.0,
@@ -3246,7 +3249,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "tot_pup_bel": 831.0,
         "tot_pup_other": 136.0,
         "tot_pup_second": 446.0,
@@ -3254,7 +3257,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "tot_pup_bel": 748.0,
         "tot_pup_other": 292.0,
         "tot_pup_second": 493.0,
@@ -3262,7 +3265,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "tot_pup_bel": 688.0,
         "tot_pup_other": 217.0,
         "tot_pup_second": 394.0,
@@ -3270,7 +3273,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "tot_pup_bel": 684.0,
         "tot_pup_other": 258.0,
         "tot_pup_second": 377.0,
@@ -3278,7 +3281,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "tot_pup_bel": 597.0,
         "tot_pup_other": 523.0,
         "tot_pup_second": 586.0,
@@ -3286,7 +3289,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "tot_pup_bel": 1098.0,
         "tot_pup_other": 261.0,
         "tot_pup_second": 560.0,
@@ -3294,7 +3297,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "tot_pup_bel": 1041.0,
         "tot_pup_other": 416.0,
         "tot_pup_second": 645.0,
@@ -3302,7 +3305,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "tot_pup_bel": 1007.0,
         "tot_pup_other": 374.0,
         "tot_pup_second": 582.0,
@@ -3310,7 +3313,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "tot_pup_bel": 1002.0,
         "tot_pup_other": 567.0,
         "tot_pup_second": 778.0,
@@ -3318,7 +3321,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "tot_pup_bel": 935.0,
         "tot_pup_other": 868.0,
         "tot_pup_second": 910.0,
@@ -3326,7 +3329,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "tot_pup_bel": 762.0,
         "tot_pup_other": 102.0,
         "tot_pup_second": 450.0,
@@ -3334,7 +3337,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "tot_pup_bel": 837.0,
         "tot_pup_other": 302.0,
         "tot_pup_second": 656.0,
@@ -3342,7 +3345,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "tot_pup_bel": 694.0,
         "tot_pup_other": 237.0,
         "tot_pup_second": 495.0,
@@ -3350,7 +3353,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "tot_pup_bel": 798.0,
         "tot_pup_other": 365.0,
         "tot_pup_second": 640.0,
@@ -3358,7 +3361,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "tot_pup_bel": 688.0,
         "tot_pup_other": 559.0,
         "tot_pup_second": 673.0,
@@ -3366,7 +3369,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "tot_pup_bel": 8419.0,
         "tot_pup_other": 3998.0,
         "tot_pup_second": 6130.0,
@@ -3374,7 +3377,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "tot_pup_bel": 8942.0,
         "tot_pup_other": 5457.0,
         "tot_pup_second": 7242.0,
@@ -3382,7 +3385,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "tot_pup_bel": 8548.0,
         "tot_pup_other": 4668.0,
         "tot_pup_second": 6495.0,
@@ -3390,7 +3393,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "tot_pup_bel": 8805.0,
         "tot_pup_other": 5667.0,
         "tot_pup_second": 7323.0,
@@ -3398,7 +3401,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "tot_pup_bel": 8686.0,
         "tot_pup_other": 7933.0,
         "tot_pup_second": 8581.0,
@@ -3406,7 +3409,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "tot_pup_bel": 2260.0,
         "tot_pup_other": 605.0,
         "tot_pup_second": 1429.0,
@@ -3414,7 +3417,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "tot_pup_bel": 2331.0,
         "tot_pup_other": 962.0,
         "tot_pup_second": 1555.0,
@@ -3422,7 +3425,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "tot_pup_bel": 2120.0,
         "tot_pup_other": 899.0,
         "tot_pup_second": 1423.0,
@@ -3430,7 +3433,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "tot_pup_bel": 2048.0,
         "tot_pup_other": 993.0,
         "tot_pup_second": 1432.0,
@@ -3438,7 +3441,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "tot_pup_bel": 1805.0,
         "tot_pup_other": 1582.0,
         "tot_pup_second": 1749.0,
@@ -3446,7 +3449,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "tot_pup_bel": 729.0,
         "tot_pup_other": 74.0,
         "tot_pup_second": 411.0,
@@ -3454,7 +3457,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "tot_pup_bel": 723.0,
         "tot_pup_other": 191.0,
         "tot_pup_second": 458.0,
@@ -3462,7 +3465,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "tot_pup_bel": 666.0,
         "tot_pup_other": 156.0,
         "tot_pup_second": 349.0,
@@ -3470,7 +3473,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "tot_pup_bel": 629.0,
         "tot_pup_other": 184.0,
         "tot_pup_second": 392.0,
@@ -3478,7 +3481,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "tot_pup_bel": 594.0,
         "tot_pup_other": 495.0,
         "tot_pup_second": 582.0,
@@ -3486,7 +3489,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "tot_pup_bel": 1551.0,
         "tot_pup_other": 426.0,
         "tot_pup_second": 1048.0,
@@ -3494,7 +3497,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "tot_pup_bel": 1569.0,
         "tot_pup_other": 659.0,
         "tot_pup_second": 1140.0,
@@ -3502,7 +3505,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "tot_pup_bel": 1421.0,
         "tot_pup_other": 540.0,
         "tot_pup_second": 941.0,
@@ -3510,7 +3513,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "tot_pup_bel": 1311.0,
         "tot_pup_other": 580.0,
         "tot_pup_second": 913.0,
@@ -3518,7 +3521,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "tot_pup_bel": 1366.0,
         "tot_pup_other": 1126.0,
         "tot_pup_second": 1287.0,
@@ -3526,7 +3529,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "tot_pup_bel": 1151.0,
         "tot_pup_other": 239.0,
         "tot_pup_second": 866.0,
@@ -3534,7 +3537,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "tot_pup_bel": 1292.0,
         "tot_pup_other": 369.0,
         "tot_pup_second": 1039.0,
@@ -3542,7 +3545,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "tot_pup_bel": 1185.0,
         "tot_pup_other": 294.0,
         "tot_pup_second": 878.0,
@@ -3550,7 +3553,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "tot_pup_bel": 1172.0,
         "tot_pup_other": 522.0,
         "tot_pup_second": 1066.0,
@@ -3558,7 +3561,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "tot_pup_bel": 1073.0,
         "tot_pup_other": 818.0,
         "tot_pup_second": 1017.0,
@@ -3566,7 +3569,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "tot_pup_bel": 848.0,
         "tot_pup_other": 152.0,
         "tot_pup_second": 305.0,
@@ -3574,7 +3577,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "tot_pup_bel": 900.0,
         "tot_pup_other": 306.0,
         "tot_pup_second": 402.0,
@@ -3582,7 +3585,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "tot_pup_bel": 717.0,
         "tot_pup_other": 222.0,
         "tot_pup_second": 310.0,
@@ -3590,7 +3593,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "tot_pup_bel": 712.0,
         "tot_pup_other": 284.0,
         "tot_pup_second": 357.0,
@@ -3598,7 +3601,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "tot_pup_bel": 616.0,
         "tot_pup_other": 518.0,
         "tot_pup_second": 602.0,
@@ -3606,7 +3609,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "tot_pup_bel": 1665.0,
         "tot_pup_other": 286.0,
         "tot_pup_second": 761.0,
@@ -3614,7 +3617,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "tot_pup_bel": 1611.0,
         "tot_pup_other": 667.0,
         "tot_pup_second": 980.0,
@@ -3622,7 +3625,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "tot_pup_bel": 1538.0,
         "tot_pup_other": 528.0,
         "tot_pup_second": 826.0,
@@ -3630,7 +3633,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "tot_pup_bel": 1402.0,
         "tot_pup_other": 737.0,
         "tot_pup_second": 950.0,
@@ -3638,7 +3641,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "tot_pup_bel": 1408.0,
         "tot_pup_other": 1236.0,
         "tot_pup_second": 1308.0,
@@ -3646,7 +3649,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "tot_pup_bel": 221.0,
         "tot_pup_other": 34.0,
         "tot_pup_second": 123.0,
@@ -3654,7 +3657,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "tot_pup_bel": 221.0,
         "tot_pup_other": 90.0,
         "tot_pup_second": 135.0,
@@ -3662,7 +3665,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "tot_pup_bel": 184.0,
         "tot_pup_other": 66.0,
         "tot_pup_second": 100.0,
@@ -3670,7 +3673,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "tot_pup_bel": 191.0,
         "tot_pup_other": 81.0,
         "tot_pup_second": 105.0,
@@ -3678,7 +3681,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "tot_pup_bel": 173.0,
         "tot_pup_other": 143.0,
         "tot_pup_second": 168.0,
@@ -3691,7 +3694,7 @@ type: "blog"
     "color": {
       "field": "year",
       "legend": {
-        "title": "\u0413\u043e\u0434\u0438\u043d\u0430"
+        "title": "Година"
       },
       "scale": {
         "domain": [
@@ -3728,7 +3731,7 @@ type: "blog"
         "grid": false
       },
       "field": "tot_pup_stem",
-      "title": "\u0411\u0440\u043e\u0439 \u0443\u0447\u0435\u043d\u0438\u0446\u0438 \u0441 \u043c\u0430\u0442\u0443\u0440\u0430 \u043f\u043e \u0421\u0422\u0415\u041c",
+      "title": "Брой ученици с матура по СТЕМ",
       "type": "quantitative"
     },
     "y": {
@@ -3761,6 +3764,7 @@ type: "blog"
 ```json:vega-light
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+  "background": "#fff7d3",
   "config": {
     "view": {
       "continuousHeight": 300,
@@ -3774,7 +3778,7 @@ type: "blog"
   "datasets": {
     "data-7518a193b4993f56ff9dfb15d1a9cea9": [
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "tot_pup_bel": 1018.0,
         "tot_pup_other": 49.0,
         "tot_pup_second": 289.0,
@@ -3782,7 +3786,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "tot_pup_bel": 1153.0,
         "tot_pup_other": 310.0,
         "tot_pup_second": 437.0,
@@ -3790,7 +3794,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "tot_pup_bel": 954.0,
         "tot_pup_other": 224.0,
         "tot_pup_second": 323.0,
@@ -3798,7 +3802,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "tot_pup_bel": 1103.0,
         "tot_pup_other": 228.0,
         "tot_pup_second": 298.0,
@@ -3806,7 +3810,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "tot_pup_bel": 937.0,
         "tot_pup_other": 885.0,
         "tot_pup_second": 885.0,
@@ -3814,7 +3818,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "tot_pup_bel": 1174.0,
         "tot_pup_other": 173.0,
         "tot_pup_second": 746.0,
@@ -3822,7 +3826,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "tot_pup_bel": 1226.0,
         "tot_pup_other": 406.0,
         "tot_pup_second": 856.0,
@@ -3830,7 +3834,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "tot_pup_bel": 997.0,
         "tot_pup_other": 246.0,
         "tot_pup_second": 535.0,
@@ -3838,7 +3842,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "tot_pup_bel": 999.0,
         "tot_pup_other": 370.0,
         "tot_pup_second": 594.0,
@@ -3846,7 +3850,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "tot_pup_bel": 996.0,
         "tot_pup_other": 912.0,
         "tot_pup_second": 912.0,
@@ -3854,7 +3858,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "tot_pup_bel": 1128.0,
         "tot_pup_other": 149.0,
         "tot_pup_second": 435.0,
@@ -3862,7 +3866,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "tot_pup_bel": 1103.0,
         "tot_pup_other": 299.0,
         "tot_pup_second": 420.0,
@@ -3870,7 +3874,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "tot_pup_bel": 962.0,
         "tot_pup_other": 171.0,
         "tot_pup_second": 297.0,
@@ -3878,7 +3882,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "tot_pup_bel": 912.0,
         "tot_pup_other": 225.0,
         "tot_pup_second": 306.0,
@@ -3886,7 +3890,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "tot_pup_bel": 889.0,
         "tot_pup_other": 838.0,
         "tot_pup_second": 838.0,
@@ -3894,7 +3898,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "tot_pup_bel": 738.0,
         "tot_pup_other": 91.0,
         "tot_pup_second": 288.0,
@@ -3902,7 +3906,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "tot_pup_bel": 781.0,
         "tot_pup_other": 175.0,
         "tot_pup_second": 374.0,
@@ -3910,7 +3914,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "tot_pup_bel": 678.0,
         "tot_pup_other": 125.0,
         "tot_pup_second": 285.0,
@@ -3918,7 +3922,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "tot_pup_bel": 607.0,
         "tot_pup_other": 123.0,
         "tot_pup_second": 215.0,
@@ -3926,7 +3930,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "tot_pup_bel": 554.0,
         "tot_pup_other": 533.0,
         "tot_pup_second": 533.0,
@@ -3934,7 +3938,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "tot_pup_bel": 211.0,
         "tot_pup_other": 30.0,
         "tot_pup_second": 93.0,
@@ -3942,7 +3946,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "tot_pup_bel": 160.0,
         "tot_pup_other": 35.0,
         "tot_pup_second": 89.0,
@@ -3950,7 +3954,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "tot_pup_bel": 176.0,
         "tot_pup_other": 28.0,
         "tot_pup_second": 76.0,
@@ -3958,7 +3962,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "tot_pup_bel": 155.0,
         "tot_pup_other": 22.0,
         "tot_pup_second": 64.0,
@@ -3966,7 +3970,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "tot_pup_bel": 105.0,
         "tot_pup_other": 105.0,
         "tot_pup_second": 105.0,
@@ -3974,7 +3978,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "tot_pup_bel": 372.0,
         "tot_pup_other": 21.0,
         "tot_pup_second": 109.0,
@@ -3982,7 +3986,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "tot_pup_bel": 432.0,
         "tot_pup_other": 73.0,
         "tot_pup_second": 116.0,
@@ -3990,7 +3994,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "tot_pup_bel": 329.0,
         "tot_pup_other": 46.0,
         "tot_pup_second": 72.0,
@@ -3998,7 +4002,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "tot_pup_bel": 371.0,
         "tot_pup_other": 60.0,
         "tot_pup_second": 74.0,
@@ -4006,7 +4010,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "tot_pup_bel": 350.0,
         "tot_pup_other": 287.0,
         "tot_pup_second": 287.0,
@@ -4014,7 +4018,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "tot_pup_bel": 350.0,
         "tot_pup_other": 54.0,
         "tot_pup_second": 170.0,
@@ -4022,7 +4026,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "tot_pup_bel": 327.0,
         "tot_pup_other": 101.0,
         "tot_pup_second": 230.0,
@@ -4030,7 +4034,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "tot_pup_bel": 326.0,
         "tot_pup_other": 78.0,
         "tot_pup_second": 217.0,
@@ -4038,7 +4042,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "tot_pup_bel": 328.0,
         "tot_pup_other": 141.0,
         "tot_pup_second": 239.0,
@@ -4046,7 +4050,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "tot_pup_bel": 252.0,
         "tot_pup_other": 246.0,
         "tot_pup_second": 246.0,
@@ -4054,7 +4058,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "tot_pup_bel": 239.0,
         "tot_pup_other": 2.0,
         "tot_pup_second": 50.0,
@@ -4062,7 +4066,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "tot_pup_bel": 255.0,
         "tot_pup_other": 20.0,
         "tot_pup_second": 42.0,
@@ -4070,7 +4074,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "tot_pup_bel": 241.0,
         "tot_pup_other": 12.0,
         "tot_pup_second": 22.0,
@@ -4078,7 +4082,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "tot_pup_bel": 298.0,
         "tot_pup_other": 13.0,
         "tot_pup_second": 31.0,
@@ -4086,7 +4090,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "tot_pup_bel": 203.0,
         "tot_pup_other": 201.0,
         "tot_pup_second": 201.0,
@@ -4094,7 +4098,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "tot_pup_bel": 381.0,
         "tot_pup_other": 17.0,
         "tot_pup_second": 113.0,
@@ -4102,7 +4106,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "tot_pup_bel": 453.0,
         "tot_pup_other": 73.0,
         "tot_pup_second": 145.0,
@@ -4110,7 +4114,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "tot_pup_bel": 378.0,
         "tot_pup_other": 20.0,
         "tot_pup_second": 67.0,
@@ -4118,7 +4122,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "tot_pup_bel": 386.0,
         "tot_pup_other": 27.0,
         "tot_pup_second": 70.0,
@@ -4126,7 +4130,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "tot_pup_bel": 274.0,
         "tot_pup_other": 224.0,
         "tot_pup_second": 224.0,
@@ -4134,7 +4138,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "tot_pup_bel": 359.0,
         "tot_pup_other": 44.0,
         "tot_pup_second": 193.0,
@@ -4142,7 +4146,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "tot_pup_bel": 366.0,
         "tot_pup_other": 144.0,
         "tot_pup_second": 282.0,
@@ -4150,7 +4154,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "tot_pup_bel": 337.0,
         "tot_pup_other": 101.0,
         "tot_pup_second": 255.0,
@@ -4158,7 +4162,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "tot_pup_bel": 293.0,
         "tot_pup_other": 121.0,
         "tot_pup_second": 234.0,
@@ -4166,7 +4170,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "tot_pup_bel": 217.0,
         "tot_pup_other": 192.0,
         "tot_pup_second": 192.0,
@@ -4174,7 +4178,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "tot_pup_bel": 355.0,
         "tot_pup_other": 29.0,
         "tot_pup_second": 94.0,
@@ -4182,7 +4186,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "tot_pup_bel": 359.0,
         "tot_pup_other": 170.0,
         "tot_pup_second": 205.0,
@@ -4190,7 +4194,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "tot_pup_bel": 297.0,
         "tot_pup_other": 126.0,
         "tot_pup_second": 162.0,
@@ -4198,7 +4202,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "tot_pup_bel": 256.0,
         "tot_pup_other": 98.0,
         "tot_pup_second": 133.0,
@@ -4206,7 +4210,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "tot_pup_bel": 234.0,
         "tot_pup_other": 226.0,
         "tot_pup_second": 226.0,
@@ -4214,7 +4218,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "tot_pup_bel": 494.0,
         "tot_pup_other": 63.0,
         "tot_pup_second": 283.0,
@@ -4222,7 +4226,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "tot_pup_bel": 449.0,
         "tot_pup_other": 130.0,
         "tot_pup_second": 269.0,
@@ -4230,7 +4234,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "tot_pup_bel": 412.0,
         "tot_pup_other": 90.0,
         "tot_pup_second": 169.0,
@@ -4238,7 +4242,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "tot_pup_bel": 428.0,
         "tot_pup_other": 104.0,
         "tot_pup_second": 179.0,
@@ -4246,7 +4250,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "tot_pup_bel": 282.0,
         "tot_pup_other": 278.0,
         "tot_pup_second": 278.0,
@@ -4254,7 +4258,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "tot_pup_bel": 964.0,
         "tot_pup_other": 43.0,
         "tot_pup_second": 358.0,
@@ -4262,7 +4266,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "tot_pup_bel": 822.0,
         "tot_pup_other": 157.0,
         "tot_pup_second": 392.0,
@@ -4270,7 +4274,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "tot_pup_bel": 808.0,
         "tot_pup_other": 89.0,
         "tot_pup_second": 310.0,
@@ -4278,7 +4282,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "tot_pup_bel": 798.0,
         "tot_pup_other": 77.0,
         "tot_pup_second": 212.0,
@@ -4286,7 +4290,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "tot_pup_bel": 651.0,
         "tot_pup_other": 584.0,
         "tot_pup_second": 584.0,
@@ -4294,7 +4298,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "tot_pup_bel": 422.0,
         "tot_pup_other": 39.0,
         "tot_pup_second": 97.0,
@@ -4302,7 +4306,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "tot_pup_bel": 388.0,
         "tot_pup_other": 125.0,
         "tot_pup_second": 190.0,
@@ -4310,7 +4314,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "tot_pup_bel": 372.0,
         "tot_pup_other": 107.0,
         "tot_pup_second": 144.0,
@@ -4318,7 +4322,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "tot_pup_bel": 353.0,
         "tot_pup_other": 250.0,
         "tot_pup_second": 275.0,
@@ -4326,7 +4330,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "tot_pup_bel": 288.0,
         "tot_pup_other": 273.0,
         "tot_pup_second": 273.0,
@@ -4334,7 +4338,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "tot_pup_bel": 826.0,
         "tot_pup_other": 71.0,
         "tot_pup_second": 383.0,
@@ -4342,7 +4346,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "tot_pup_bel": 693.0,
         "tot_pup_other": 131.0,
         "tot_pup_second": 289.0,
@@ -4350,7 +4354,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "tot_pup_bel": 673.0,
         "tot_pup_other": 125.0,
         "tot_pup_second": 240.0,
@@ -4358,7 +4362,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "tot_pup_bel": 666.0,
         "tot_pup_other": 98.0,
         "tot_pup_second": 162.0,
@@ -4366,7 +4370,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "tot_pup_bel": 514.0,
         "tot_pup_other": 450.0,
         "tot_pup_second": 450.0,
@@ -4374,7 +4378,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "tot_pup_bel": 1730.0,
         "tot_pup_other": 271.0,
         "tot_pup_second": 931.0,
@@ -4382,7 +4386,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "tot_pup_bel": 1772.0,
         "tot_pup_other": 554.0,
         "tot_pup_second": 1046.0,
@@ -4390,7 +4394,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "tot_pup_bel": 1555.0,
         "tot_pup_other": 414.0,
         "tot_pup_second": 904.0,
@@ -4398,7 +4402,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "tot_pup_bel": 1594.0,
         "tot_pup_other": 612.0,
         "tot_pup_second": 978.0,
@@ -4406,7 +4410,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "tot_pup_bel": 1324.0,
         "tot_pup_other": 1230.0,
         "tot_pup_second": 1230.0,
@@ -4414,7 +4418,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "tot_pup_bel": 462.0,
         "tot_pup_other": 10.0,
         "tot_pup_second": 303.0,
@@ -4422,7 +4426,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "tot_pup_bel": 447.0,
         "tot_pup_other": 84.0,
         "tot_pup_second": 295.0,
@@ -4430,7 +4434,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "tot_pup_bel": 366.0,
         "tot_pup_other": 33.0,
         "tot_pup_second": 196.0,
@@ -4438,7 +4442,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "tot_pup_bel": 413.0,
         "tot_pup_other": 44.0,
         "tot_pup_second": 163.0,
@@ -4446,7 +4450,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "tot_pup_bel": 338.0,
         "tot_pup_other": 320.0,
         "tot_pup_second": 320.0,
@@ -4454,7 +4458,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "tot_pup_bel": 813.0,
         "tot_pup_other": 144.0,
         "tot_pup_second": 363.0,
@@ -4462,7 +4466,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "tot_pup_bel": 718.0,
         "tot_pup_other": 235.0,
         "tot_pup_second": 406.0,
@@ -4470,7 +4474,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "tot_pup_bel": 656.0,
         "tot_pup_other": 196.0,
         "tot_pup_second": 355.0,
@@ -4478,7 +4482,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "tot_pup_bel": 665.0,
         "tot_pup_other": 225.0,
         "tot_pup_second": 364.0,
@@ -4486,7 +4490,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "tot_pup_bel": 551.0,
         "tot_pup_other": 528.0,
         "tot_pup_second": 528.0,
@@ -4494,7 +4498,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "tot_pup_bel": 424.0,
         "tot_pup_other": 32.0,
         "tot_pup_second": 179.0,
@@ -4502,7 +4506,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "tot_pup_bel": 360.0,
         "tot_pup_other": 71.0,
         "tot_pup_second": 162.0,
@@ -4510,7 +4514,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "tot_pup_bel": 339.0,
         "tot_pup_other": 34.0,
         "tot_pup_second": 113.0,
@@ -4518,7 +4522,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "tot_pup_bel": 302.0,
         "tot_pup_other": 53.0,
         "tot_pup_second": 80.0,
@@ -4526,7 +4530,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "tot_pup_bel": 257.0,
         "tot_pup_other": 250.0,
         "tot_pup_second": 250.0,
@@ -4534,7 +4538,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "tot_pup_bel": 406.0,
         "tot_pup_other": 55.0,
         "tot_pup_second": 113.0,
@@ -4542,7 +4546,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "tot_pup_bel": 446.0,
         "tot_pup_other": 128.0,
         "tot_pup_second": 203.0,
@@ -4550,7 +4554,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "tot_pup_bel": 449.0,
         "tot_pup_other": 113.0,
         "tot_pup_second": 197.0,
@@ -4558,7 +4562,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "tot_pup_bel": 370.0,
         "tot_pup_other": 232.0,
         "tot_pup_second": 277.0,
@@ -4566,7 +4570,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "tot_pup_bel": 348.0,
         "tot_pup_other": 328.0,
         "tot_pup_second": 328.0,
@@ -4574,7 +4578,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "tot_pup_bel": 198.0,
         "tot_pup_other": 4.0,
         "tot_pup_second": 93.0,
@@ -4582,7 +4586,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "tot_pup_bel": 247.0,
         "tot_pup_other": 51.0,
         "tot_pup_second": 169.0,
@@ -4590,7 +4594,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "tot_pup_bel": 158.0,
         "tot_pup_other": 15.0,
         "tot_pup_second": 69.0,
@@ -4598,7 +4602,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "tot_pup_bel": 212.0,
         "tot_pup_other": 22.0,
         "tot_pup_second": 97.0,
@@ -4606,7 +4610,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "tot_pup_bel": 197.0,
         "tot_pup_other": 189.0,
         "tot_pup_second": 189.0,
@@ -4614,7 +4618,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "tot_pup_bel": 1624.0,
         "tot_pup_other": 475.0,
         "tot_pup_second": 910.0,
@@ -4622,7 +4626,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "tot_pup_bel": 1784.0,
         "tot_pup_other": 817.0,
         "tot_pup_second": 1210.0,
@@ -4630,7 +4634,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "tot_pup_bel": 1596.0,
         "tot_pup_other": 585.0,
         "tot_pup_second": 877.0,
@@ -4638,7 +4642,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "tot_pup_bel": 1727.0,
         "tot_pup_other": 756.0,
         "tot_pup_second": 1032.0,
@@ -4646,7 +4650,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "tot_pup_bel": 1581.0,
         "tot_pup_other": 1561.0,
         "tot_pup_second": 1561.0,
@@ -4654,7 +4658,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "tot_pup_bel": 1067.0,
         "tot_pup_other": 136.0,
         "tot_pup_second": 528.0,
@@ -4662,7 +4666,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "tot_pup_bel": 1144.0,
         "tot_pup_other": 304.0,
         "tot_pup_second": 610.0,
@@ -4670,7 +4674,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "tot_pup_bel": 992.0,
         "tot_pup_other": 254.0,
         "tot_pup_second": 510.0,
@@ -4678,7 +4682,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "tot_pup_bel": 920.0,
         "tot_pup_other": 287.0,
         "tot_pup_second": 458.0,
@@ -4686,7 +4690,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "tot_pup_bel": 695.0,
         "tot_pup_other": 668.0,
         "tot_pup_second": 668.0,
@@ -4694,7 +4698,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "tot_pup_bel": 377.0,
         "tot_pup_other": 18.0,
         "tot_pup_second": 143.0,
@@ -4702,7 +4706,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "tot_pup_bel": 374.0,
         "tot_pup_other": 49.0,
         "tot_pup_second": 124.0,
@@ -4710,7 +4714,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "tot_pup_bel": 378.0,
         "tot_pup_other": 40.0,
         "tot_pup_second": 89.0,
@@ -4718,7 +4722,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "tot_pup_bel": 315.0,
         "tot_pup_other": 27.0,
         "tot_pup_second": 83.0,
@@ -4726,7 +4730,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "tot_pup_bel": 271.0,
         "tot_pup_other": 268.0,
         "tot_pup_second": 268.0,
@@ -4734,7 +4738,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "tot_pup_bel": 513.0,
         "tot_pup_other": 57.0,
         "tot_pup_second": 308.0,
@@ -4742,7 +4746,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "tot_pup_bel": 550.0,
         "tot_pup_other": 131.0,
         "tot_pup_second": 315.0,
@@ -4750,7 +4754,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "tot_pup_bel": 457.0,
         "tot_pup_other": 84.0,
         "tot_pup_second": 217.0,
@@ -4758,7 +4762,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "tot_pup_bel": 388.0,
         "tot_pup_other": 54.0,
         "tot_pup_second": 114.0,
@@ -4766,7 +4770,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "tot_pup_bel": 407.0,
         "tot_pup_other": 364.0,
         "tot_pup_second": 364.0,
@@ -4774,7 +4778,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "tot_pup_bel": 458.0,
         "tot_pup_other": 33.0,
         "tot_pup_second": 321.0,
@@ -4782,7 +4786,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "tot_pup_bel": 504.0,
         "tot_pup_other": 82.0,
         "tot_pup_second": 401.0,
@@ -4790,7 +4794,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "tot_pup_bel": 460.0,
         "tot_pup_other": 60.0,
         "tot_pup_second": 324.0,
@@ -4798,7 +4802,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "tot_pup_bel": 415.0,
         "tot_pup_other": 99.0,
         "tot_pup_second": 335.0,
@@ -4806,7 +4810,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "tot_pup_bel": 341.0,
         "tot_pup_other": 312.0,
         "tot_pup_second": 312.0,
@@ -4814,7 +4818,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "tot_pup_bel": 447.0,
         "tot_pup_other": 32.0,
         "tot_pup_second": 65.0,
@@ -4822,7 +4826,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "tot_pup_bel": 430.0,
         "tot_pup_other": 47.0,
         "tot_pup_second": 53.0,
@@ -4830,7 +4834,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "tot_pup_bel": 336.0,
         "tot_pup_other": 21.0,
         "tot_pup_second": 22.0,
@@ -4838,7 +4842,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "tot_pup_bel": 348.0,
         "tot_pup_other": 18.0,
         "tot_pup_second": 20.0,
@@ -4846,7 +4850,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "tot_pup_bel": 217.0,
         "tot_pup_other": 213.0,
         "tot_pup_second": 213.0,
@@ -4854,7 +4858,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "tot_pup_bel": 789.0,
         "tot_pup_other": 54.0,
         "tot_pup_second": 259.0,
@@ -4862,7 +4866,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "tot_pup_bel": 770.0,
         "tot_pup_other": 207.0,
         "tot_pup_second": 311.0,
@@ -4870,7 +4874,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "tot_pup_bel": 763.0,
         "tot_pup_other": 131.0,
         "tot_pup_second": 244.0,
@@ -4878,7 +4882,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "tot_pup_bel": 632.0,
         "tot_pup_other": 166.0,
         "tot_pup_second": 220.0,
@@ -4886,7 +4890,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "tot_pup_bel": 629.0,
         "tot_pup_other": 552.0,
         "tot_pup_second": 552.0,
@@ -4894,7 +4898,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "tot_pup_bel": 118.0,
         "tot_pup_other": 18.0,
         "tot_pup_second": 79.0,
@@ -4902,7 +4906,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "tot_pup_bel": 121.0,
         "tot_pup_other": 31.0,
         "tot_pup_second": 58.0,
@@ -4910,7 +4914,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "tot_pup_bel": 83.0,
         "tot_pup_other": 15.0,
         "tot_pup_second": 22.0,
@@ -4918,7 +4922,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "tot_pup_bel": 91.0,
         "tot_pup_other": 6.0,
         "tot_pup_second": 9.0,
@@ -4926,7 +4930,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "tot_pup_bel": 78.0,
         "tot_pup_other": 75.0,
         "tot_pup_second": 75.0,
@@ -4939,7 +4943,7 @@ type: "blog"
     "color": {
       "field": "year",
       "legend": {
-        "title": "\u0413\u043e\u0434\u0438\u043d\u0430"
+        "title": "Година"
       },
       "scale": {
         "domain": [
@@ -4976,7 +4980,7 @@ type: "blog"
         "grid": false
       },
       "field": "tot_pup_stem",
-      "title": "\u0411\u0440\u043e\u0439 \u0443\u0447\u0435\u043d\u0438\u0446\u0438 \u0441 \u043c\u0430\u0442\u0443\u0440\u0430 \u043f\u043e \u0421\u0422\u0415\u041c, \u043f\u0440\u043e\u0444\u0435\u0441\u0438\u043e\u043d\u0430\u043b\u043d\u0438 \u0443\u0447\u0438\u043b\u0438\u0449\u0430",
+      "title": "Брой ученици с матура по СТЕМ, професионални училища",
       "type": "quantitative"
     },
     "y": {
@@ -5006,6 +5010,7 @@ type: "blog"
 ```json:vega-light
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+  "background": "#fff7d3",
   "config": {
     "view": {
       "continuousHeight": 300,
@@ -5027,7 +5032,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "tot_pup_bel": 1418.0,
         "tot_pup_other": 801.0,
         "tot_pup_second": 1246.0,
@@ -5035,7 +5040,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "tot_pup_bel": 1368.0,
         "tot_pup_other": 688.0,
         "tot_pup_second": 1094.0,
@@ -5043,7 +5048,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "tot_pup_bel": 1320.0,
         "tot_pup_other": 910.0,
         "tot_pup_second": 1306.0,
@@ -5051,7 +5056,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "tot_pup_bel": 1363.0,
         "tot_pup_other": 1080.0,
         "tot_pup_second": 1327.0,
@@ -5059,7 +5064,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "tot_pup_bel": 1753.0,
         "tot_pup_other": 741.0,
         "tot_pup_second": 1354.0,
@@ -5067,7 +5072,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "tot_pup_bel": 1831.0,
         "tot_pup_other": 998.0,
         "tot_pup_second": 1593.0,
@@ -5075,7 +5080,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "tot_pup_bel": 1814.0,
         "tot_pup_other": 931.0,
         "tot_pup_second": 1524.0,
@@ -5083,7 +5088,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "tot_pup_bel": 1854.0,
         "tot_pup_other": 1141.0,
         "tot_pup_second": 1683.0,
@@ -5091,7 +5096,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "tot_pup_bel": 1828.0,
         "tot_pup_other": 1439.0,
         "tot_pup_second": 1793.0,
@@ -5099,7 +5104,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "tot_pup_bel": 2227.0,
         "tot_pup_other": 1007.0,
         "tot_pup_second": 1677.0,
@@ -5107,7 +5112,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "tot_pup_bel": 2222.0,
         "tot_pup_other": 1333.0,
         "tot_pup_second": 1893.0,
@@ -5115,7 +5120,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "tot_pup_bel": 2248.0,
         "tot_pup_other": 1337.0,
         "tot_pup_second": 1866.0,
@@ -5123,7 +5128,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "tot_pup_bel": 2209.0,
         "tot_pup_other": 1435.0,
         "tot_pup_second": 1980.0,
@@ -5131,7 +5136,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "tot_pup_bel": 2212.0,
         "tot_pup_other": 1794.0,
         "tot_pup_second": 2179.0,
@@ -5139,7 +5144,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "tot_pup_bel": 866.0,
         "tot_pup_other": 303.0,
         "tot_pup_second": 534.0,
@@ -5147,7 +5152,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "tot_pup_bel": 817.0,
         "tot_pup_other": 513.0,
         "tot_pup_second": 683.0,
@@ -5155,7 +5160,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "tot_pup_bel": 771.0,
         "tot_pup_other": 444.0,
         "tot_pup_second": 656.0,
@@ -5163,7 +5168,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "tot_pup_bel": 868.0,
         "tot_pup_other": 595.0,
         "tot_pup_second": 786.0,
@@ -5171,7 +5176,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "tot_pup_bel": 834.0,
         "tot_pup_other": 734.0,
         "tot_pup_second": 824.0,
@@ -5179,7 +5184,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "tot_pup_bel": 365.0,
         "tot_pup_other": 138.0,
         "tot_pup_second": 263.0,
@@ -5187,7 +5192,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "tot_pup_bel": 396.0,
         "tot_pup_other": 251.0,
         "tot_pup_second": 382.0,
@@ -5195,7 +5200,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "tot_pup_bel": 379.0,
         "tot_pup_other": 222.0,
         "tot_pup_second": 357.0,
@@ -5203,7 +5208,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "tot_pup_bel": 345.0,
         "tot_pup_other": 203.0,
         "tot_pup_second": 322.0,
@@ -5211,7 +5216,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "tot_pup_bel": 342.0,
         "tot_pup_other": 277.0,
         "tot_pup_second": 335.0,
@@ -5219,7 +5224,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "tot_pup_bel": 862.0,
         "tot_pup_other": 165.0,
         "tot_pup_second": 434.0,
@@ -5227,7 +5232,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "tot_pup_bel": 872.0,
         "tot_pup_other": 404.0,
         "tot_pup_second": 598.0,
@@ -5235,7 +5240,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "tot_pup_bel": 797.0,
         "tot_pup_other": 344.0,
         "tot_pup_second": 519.0,
@@ -5243,7 +5248,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "tot_pup_bel": 811.0,
         "tot_pup_other": 548.0,
         "tot_pup_second": 705.0,
@@ -5251,7 +5256,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "tot_pup_bel": 743.0,
         "tot_pup_other": 672.0,
         "tot_pup_second": 730.0,
@@ -5259,7 +5264,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "tot_pup_bel": 356.0,
         "tot_pup_other": 130.0,
         "tot_pup_second": 259.0,
@@ -5267,7 +5272,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "tot_pup_bel": 377.0,
         "tot_pup_other": 200.0,
         "tot_pup_second": 306.0,
@@ -5275,7 +5280,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "tot_pup_bel": 370.0,
         "tot_pup_other": 170.0,
         "tot_pup_second": 280.0,
@@ -5283,7 +5288,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "tot_pup_bel": 378.0,
         "tot_pup_other": 261.0,
         "tot_pup_second": 351.0,
@@ -5291,7 +5296,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "tot_pup_bel": 389.0,
         "tot_pup_other": 319.0,
         "tot_pup_second": 388.0,
@@ -5299,7 +5304,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "tot_pup_bel": 762.0,
         "tot_pup_other": 278.0,
         "tot_pup_second": 423.0,
@@ -5307,7 +5312,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "tot_pup_bel": 697.0,
         "tot_pup_other": 444.0,
         "tot_pup_second": 524.0,
@@ -5315,7 +5320,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "tot_pup_bel": 624.0,
         "tot_pup_other": 404.0,
         "tot_pup_second": 501.0,
@@ -5323,7 +5328,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "tot_pup_bel": 617.0,
         "tot_pup_other": 446.0,
         "tot_pup_second": 529.0,
@@ -5331,7 +5336,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "tot_pup_bel": 606.0,
         "tot_pup_other": 540.0,
         "tot_pup_second": 597.0,
@@ -5339,7 +5344,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "tot_pup_bel": 697.0,
         "tot_pup_other": 171.0,
         "tot_pup_second": 545.0,
@@ -5347,7 +5352,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "tot_pup_bel": 786.0,
         "tot_pup_other": 373.0,
         "tot_pup_second": 732.0,
@@ -5355,7 +5360,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "tot_pup_bel": 730.0,
         "tot_pup_other": 355.0,
         "tot_pup_second": 688.0,
@@ -5363,7 +5368,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "tot_pup_bel": 703.0,
         "tot_pup_other": 331.0,
         "tot_pup_second": 678.0,
@@ -5371,7 +5376,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "tot_pup_bel": 743.0,
         "tot_pup_other": 490.0,
         "tot_pup_second": 735.0,
@@ -5379,7 +5384,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "tot_pup_bel": 399.0,
         "tot_pup_other": 110.0,
         "tot_pup_second": 284.0,
@@ -5387,7 +5392,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "tot_pup_bel": 455.0,
         "tot_pup_other": 167.0,
         "tot_pup_second": 354.0,
@@ -5395,7 +5400,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "tot_pup_bel": 381.0,
         "tot_pup_other": 151.0,
         "tot_pup_second": 291.0,
@@ -5403,7 +5408,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "tot_pup_bel": 418.0,
         "tot_pup_other": 225.0,
         "tot_pup_second": 391.0,
@@ -5411,7 +5416,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "tot_pup_bel": 449.0,
         "tot_pup_other": 378.0,
         "tot_pup_second": 444.0,
@@ -5419,7 +5424,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "tot_pup_bel": 623.0,
         "tot_pup_other": 253.0,
         "tot_pup_second": 403.0,
@@ -5427,7 +5432,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "tot_pup_bel": 666.0,
         "tot_pup_other": 449.0,
         "tot_pup_second": 601.0,
@@ -5435,7 +5440,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "tot_pup_bel": 608.0,
         "tot_pup_other": 366.0,
         "tot_pup_second": 535.0,
@@ -5443,7 +5448,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "tot_pup_bel": 612.0,
         "tot_pup_other": 404.0,
         "tot_pup_second": 546.0,
@@ -5451,7 +5456,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "tot_pup_bel": 496.0,
         "tot_pup_other": 430.0,
         "tot_pup_second": 490.0,
@@ -5459,7 +5464,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "tot_pup_bel": 430.0,
         "tot_pup_other": 131.0,
         "tot_pup_second": 250.0,
@@ -5467,7 +5472,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "tot_pup_bel": 413.0,
         "tot_pup_other": 240.0,
         "tot_pup_second": 352.0,
@@ -5475,7 +5480,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "tot_pup_bel": 381.0,
         "tot_pup_other": 234.0,
         "tot_pup_second": 331.0,
@@ -5483,7 +5488,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "tot_pup_bel": 368.0,
         "tot_pup_other": 235.0,
         "tot_pup_second": 353.0,
@@ -5491,7 +5496,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "tot_pup_bel": 356.0,
         "tot_pup_other": 301.0,
         "tot_pup_second": 349.0,
@@ -5499,7 +5504,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "tot_pup_bel": 850.0,
         "tot_pup_other": 298.0,
         "tot_pup_second": 628.0,
@@ -5507,7 +5512,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "tot_pup_bel": 858.0,
         "tot_pup_other": 503.0,
         "tot_pup_second": 780.0,
@@ -5515,7 +5520,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "tot_pup_bel": 726.0,
         "tot_pup_other": 408.0,
         "tot_pup_second": 648.0,
@@ -5523,7 +5528,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "tot_pup_bel": 879.0,
         "tot_pup_other": 524.0,
         "tot_pup_second": 777.0,
@@ -5531,7 +5536,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "tot_pup_bel": 847.0,
         "tot_pup_other": 726.0,
         "tot_pup_second": 823.0,
@@ -5539,7 +5544,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "tot_pup_bel": 419.0,
         "tot_pup_other": 160.0,
         "tot_pup_second": 225.0,
@@ -5547,7 +5552,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "tot_pup_bel": 363.0,
         "tot_pup_other": 235.0,
         "tot_pup_second": 272.0,
@@ -5555,7 +5560,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "tot_pup_bel": 352.0,
         "tot_pup_other": 156.0,
         "tot_pup_second": 221.0,
@@ -5563,7 +5568,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "tot_pup_bel": 326.0,
         "tot_pup_other": 269.0,
         "tot_pup_second": 321.0,
@@ -5571,7 +5576,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "tot_pup_bel": 380.0,
         "tot_pup_other": 356.0,
         "tot_pup_second": 373.0,
@@ -5579,7 +5584,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "tot_pup_bel": 1015.0,
         "tot_pup_other": 303.0,
         "tot_pup_second": 707.0,
@@ -5587,7 +5592,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "tot_pup_bel": 991.0,
         "tot_pup_other": 490.0,
         "tot_pup_second": 831.0,
@@ -5595,7 +5600,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "tot_pup_bel": 935.0,
         "tot_pup_other": 439.0,
         "tot_pup_second": 783.0,
@@ -5603,7 +5608,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "tot_pup_bel": 915.0,
         "tot_pup_other": 503.0,
         "tot_pup_second": 755.0,
@@ -5611,7 +5616,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "tot_pup_bel": 959.0,
         "tot_pup_other": 724.0,
         "tot_pup_second": 936.0,
@@ -5619,7 +5624,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "tot_pup_bel": 2683.0,
         "tot_pup_other": 1067.0,
         "tot_pup_second": 1931.0,
@@ -5627,7 +5632,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "tot_pup_bel": 2742.0,
         "tot_pup_other": 1645.0,
         "tot_pup_second": 2207.0,
@@ -5635,7 +5640,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "tot_pup_bel": 2651.0,
         "tot_pup_other": 1326.0,
         "tot_pup_second": 2031.0,
@@ -5643,7 +5648,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "tot_pup_bel": 2647.0,
         "tot_pup_other": 1662.0,
         "tot_pup_second": 2329.0,
@@ -5651,7 +5656,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "tot_pup_bel": 2523.0,
         "tot_pup_other": 2207.0,
         "tot_pup_second": 2494.0,
@@ -5659,7 +5664,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "tot_pup_bel": 400.0,
         "tot_pup_other": 121.0,
         "tot_pup_second": 310.0,
@@ -5667,7 +5672,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "tot_pup_bel": 398.0,
         "tot_pup_other": 181.0,
         "tot_pup_second": 372.0,
@@ -5675,7 +5680,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "tot_pup_bel": 382.0,
         "tot_pup_other": 170.0,
         "tot_pup_second": 330.0,
@@ -5683,7 +5688,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "tot_pup_bel": 382.0,
         "tot_pup_other": 186.0,
         "tot_pup_second": 353.0,
@@ -5691,7 +5696,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "tot_pup_bel": 380.0,
         "tot_pup_other": 282.0,
         "tot_pup_second": 383.0,
@@ -5699,7 +5704,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "tot_pup_bel": 689.0,
         "tot_pup_other": 295.0,
         "tot_pup_second": 537.0,
@@ -5707,7 +5712,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "tot_pup_bel": 735.0,
         "tot_pup_other": 469.0,
         "tot_pup_second": 676.0,
@@ -5715,7 +5720,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "tot_pup_bel": 676.0,
         "tot_pup_other": 389.0,
         "tot_pup_second": 633.0,
@@ -5723,7 +5728,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "tot_pup_bel": 730.0,
         "tot_pup_other": 499.0,
         "tot_pup_second": 709.0,
@@ -5731,7 +5736,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "tot_pup_bel": 703.0,
         "tot_pup_other": 582.0,
         "tot_pup_second": 697.0,
@@ -5739,7 +5744,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "tot_pup_bel": 407.0,
         "tot_pup_other": 104.0,
         "tot_pup_second": 267.0,
@@ -5747,7 +5752,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "tot_pup_bel": 388.0,
         "tot_pup_other": 221.0,
         "tot_pup_second": 331.0,
@@ -5755,7 +5760,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "tot_pup_bel": 349.0,
         "tot_pup_other": 183.0,
         "tot_pup_second": 281.0,
@@ -5763,7 +5768,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "tot_pup_bel": 382.0,
         "tot_pup_other": 205.0,
         "tot_pup_second": 297.0,
@@ -5771,7 +5776,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "tot_pup_bel": 340.0,
         "tot_pup_other": 273.0,
         "tot_pup_second": 336.0,
@@ -5779,7 +5784,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "tot_pup_bel": 692.0,
         "tot_pup_other": 206.0,
         "tot_pup_second": 447.0,
@@ -5787,7 +5792,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "tot_pup_bel": 595.0,
         "tot_pup_other": 288.0,
         "tot_pup_second": 442.0,
@@ -5795,7 +5800,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "tot_pup_bel": 558.0,
         "tot_pup_other": 261.0,
         "tot_pup_second": 385.0,
@@ -5803,7 +5808,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "tot_pup_bel": 632.0,
         "tot_pup_other": 335.0,
         "tot_pup_second": 501.0,
@@ -5811,7 +5816,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "tot_pup_bel": 587.0,
         "tot_pup_other": 540.0,
         "tot_pup_second": 582.0,
@@ -5819,7 +5824,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "tot_pup_bel": 564.0,
         "tot_pup_other": 98.0,
         "tot_pup_second": 357.0,
@@ -5827,7 +5832,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "tot_pup_bel": 590.0,
         "tot_pup_other": 251.0,
         "tot_pup_second": 487.0,
@@ -5835,7 +5840,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "tot_pup_bel": 536.0,
         "tot_pup_other": 222.0,
         "tot_pup_second": 426.0,
@@ -5843,7 +5848,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "tot_pup_bel": 586.0,
         "tot_pup_other": 343.0,
         "tot_pup_second": 543.0,
@@ -5851,7 +5856,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "tot_pup_bel": 491.0,
         "tot_pup_other": 370.0,
         "tot_pup_second": 484.0,
@@ -5859,7 +5864,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "tot_pup_bel": 6795.0,
         "tot_pup_other": 3523.0,
         "tot_pup_second": 5220.0,
@@ -5867,7 +5872,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "tot_pup_bel": 7158.0,
         "tot_pup_other": 4640.0,
         "tot_pup_second": 6032.0,
@@ -5875,7 +5880,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "tot_pup_bel": 6952.0,
         "tot_pup_other": 4083.0,
         "tot_pup_second": 5618.0,
@@ -5883,7 +5888,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "tot_pup_bel": 7078.0,
         "tot_pup_other": 4911.0,
         "tot_pup_second": 6291.0,
@@ -5891,7 +5896,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "tot_pup_bel": 7105.0,
         "tot_pup_other": 6372.0,
         "tot_pup_second": 7020.0,
@@ -5899,7 +5904,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "tot_pup_bel": 1193.0,
         "tot_pup_other": 469.0,
         "tot_pup_second": 901.0,
@@ -5907,7 +5912,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "tot_pup_bel": 1187.0,
         "tot_pup_other": 658.0,
         "tot_pup_second": 945.0,
@@ -5915,7 +5920,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "tot_pup_bel": 1128.0,
         "tot_pup_other": 645.0,
         "tot_pup_second": 913.0,
@@ -5923,7 +5928,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "tot_pup_bel": 1128.0,
         "tot_pup_other": 706.0,
         "tot_pup_second": 974.0,
@@ -5931,7 +5936,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "tot_pup_bel": 1110.0,
         "tot_pup_other": 914.0,
         "tot_pup_second": 1081.0,
@@ -5939,7 +5944,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "tot_pup_bel": 352.0,
         "tot_pup_other": 56.0,
         "tot_pup_second": 268.0,
@@ -5947,7 +5952,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "tot_pup_bel": 349.0,
         "tot_pup_other": 142.0,
         "tot_pup_second": 334.0,
@@ -5955,7 +5960,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "tot_pup_bel": 288.0,
         "tot_pup_other": 116.0,
         "tot_pup_second": 260.0,
@@ -5963,7 +5968,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "tot_pup_bel": 314.0,
         "tot_pup_other": 157.0,
         "tot_pup_second": 309.0,
@@ -5971,7 +5976,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "tot_pup_bel": 323.0,
         "tot_pup_other": 227.0,
         "tot_pup_second": 314.0,
@@ -5979,7 +5984,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "tot_pup_bel": 1038.0,
         "tot_pup_other": 369.0,
         "tot_pup_second": 740.0,
@@ -5987,7 +5992,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "tot_pup_bel": 1019.0,
         "tot_pup_other": 528.0,
         "tot_pup_second": 825.0,
@@ -5995,7 +6000,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "tot_pup_bel": 964.0,
         "tot_pup_other": 456.0,
         "tot_pup_second": 724.0,
@@ -6003,7 +6008,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "tot_pup_bel": 923.0,
         "tot_pup_other": 526.0,
         "tot_pup_second": 799.0,
@@ -6011,7 +6016,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "tot_pup_bel": 959.0,
         "tot_pup_other": 762.0,
         "tot_pup_second": 923.0,
@@ -6019,7 +6024,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "tot_pup_bel": 693.0,
         "tot_pup_other": 206.0,
         "tot_pup_second": 545.0,
@@ -6027,7 +6032,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "tot_pup_bel": 788.0,
         "tot_pup_other": 287.0,
         "tot_pup_second": 638.0,
@@ -6035,7 +6040,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "tot_pup_bel": 725.0,
         "tot_pup_other": 234.0,
         "tot_pup_second": 554.0,
@@ -6043,7 +6048,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "tot_pup_bel": 757.0,
         "tot_pup_other": 423.0,
         "tot_pup_second": 731.0,
@@ -6051,7 +6056,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "tot_pup_bel": 732.0,
         "tot_pup_other": 506.0,
         "tot_pup_second": 705.0,
@@ -6059,7 +6064,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "tot_pup_bel": 401.0,
         "tot_pup_other": 120.0,
         "tot_pup_second": 240.0,
@@ -6067,7 +6072,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "tot_pup_bel": 470.0,
         "tot_pup_other": 259.0,
         "tot_pup_second": 349.0,
@@ -6075,7 +6080,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "tot_pup_bel": 381.0,
         "tot_pup_other": 201.0,
         "tot_pup_second": 288.0,
@@ -6083,7 +6088,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "tot_pup_bel": 364.0,
         "tot_pup_other": 266.0,
         "tot_pup_second": 337.0,
@@ -6091,7 +6096,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "tot_pup_bel": 399.0,
         "tot_pup_other": 305.0,
         "tot_pup_second": 389.0,
@@ -6099,7 +6104,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "tot_pup_bel": 876.0,
         "tot_pup_other": 232.0,
         "tot_pup_second": 502.0,
@@ -6107,7 +6112,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "tot_pup_bel": 841.0,
         "tot_pup_other": 460.0,
         "tot_pup_second": 669.0,
@@ -6115,7 +6120,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "tot_pup_bel": 775.0,
         "tot_pup_other": 397.0,
         "tot_pup_second": 582.0,
@@ -6123,7 +6128,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "tot_pup_bel": 770.0,
         "tot_pup_other": 571.0,
         "tot_pup_second": 730.0,
@@ -6131,7 +6136,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "tot_pup_bel": 779.0,
         "tot_pup_other": 684.0,
         "tot_pup_second": 756.0,
@@ -6139,7 +6144,7 @@ type: "blog"
         "year": 2022
       },
       {
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "tot_pup_bel": 103.0,
         "tot_pup_other": 16.0,
         "tot_pup_second": 44.0,
@@ -6147,7 +6152,7 @@ type: "blog"
         "year": 2017
       },
       {
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "tot_pup_bel": 100.0,
         "tot_pup_other": 59.0,
         "tot_pup_second": 77.0,
@@ -6155,7 +6160,7 @@ type: "blog"
         "year": 2019
       },
       {
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "tot_pup_bel": 101.0,
         "tot_pup_other": 51.0,
         "tot_pup_second": 78.0,
@@ -6163,7 +6168,7 @@ type: "blog"
         "year": 2020
       },
       {
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "tot_pup_bel": 100.0,
         "tot_pup_other": 75.0,
         "tot_pup_second": 96.0,
@@ -6171,7 +6176,7 @@ type: "blog"
         "year": 2021
       },
       {
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "tot_pup_bel": 95.0,
         "tot_pup_other": 68.0,
         "tot_pup_second": 93.0,
@@ -6184,7 +6189,7 @@ type: "blog"
     "color": {
       "field": "year",
       "legend": {
-        "title": "\u0413\u043e\u0434\u0438\u043d\u0430"
+        "title": "Година"
       },
       "scale": {
         "domain": [
@@ -6221,7 +6226,7 @@ type: "blog"
         "grid": false
       },
       "field": "tot_pup_stem",
-      "title": "\u0411\u0440\u043e\u0439 \u0443\u0447\u0435\u043d\u0438\u0446\u0438 \u0441 \u043c\u0430\u0442\u0443\u0440\u0430 \u043f\u043e \u0421\u0422\u0415\u041c, \u0443\u0447\u0438\u043b\u0438\u0449\u0430, \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u0438 \u043e\u0442 \u043f\u0440\u043e\u0444\u0435\u0441\u0438\u043e\u043d\u0430\u043b\u043d\u0438",
+      "title": "Брой ученици с матура по СТЕМ, училища, различни от професионални",
       "type": "quantitative"
     },
     "y": {
@@ -6254,6 +6259,7 @@ type: "blog"
 ```json:vega-light
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+  "background": "#fff7d3",
   "config": {
     "view": {
       "continuousHeight": 300,
@@ -6268,727 +6274,727 @@ type: "blog"
     "data-eae588f18bb23085acd6c79c0fe90d32": [
       {
         "average_grade_stem": 4.64,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "year": 2017
       },
       {
         "average_grade_stem": 4.84,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "year": 2019
       },
       {
         "average_grade_stem": 4.69,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "year": 2020
       },
       {
         "average_grade_stem": 4.57,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "year": 2021
       },
       {
         "average_grade_stem": 3.87,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u043b\u0430\u0433\u043e\u0435\u0432\u0433\u0440\u0430\u0434",
+        "province": "Област Благоевград",
         "year": 2022
       },
       {
         "average_grade_stem": 4.51,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "year": 2017
       },
       {
         "average_grade_stem": 4.56,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "year": 2019
       },
       {
         "average_grade_stem": 4.45,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "year": 2020
       },
       {
         "average_grade_stem": 4.41,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "year": 2021
       },
       {
         "average_grade_stem": 3.76,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0411\u0443\u0440\u0433\u0430\u0441",
+        "province": "Област Бургас",
         "year": 2022
       },
       {
         "average_grade_stem": 4.55,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "year": 2017
       },
       {
         "average_grade_stem": 4.5,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "year": 2019
       },
       {
         "average_grade_stem": 4.41,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "year": 2020
       },
       {
         "average_grade_stem": 4.57,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "year": 2021
       },
       {
         "average_grade_stem": 4.28,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0430\u0440\u043d\u0430",
+        "province": "Област Варна",
         "year": 2022
       },
       {
         "average_grade_stem": 4.84,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "year": 2017
       },
       {
         "average_grade_stem": 4.68,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "year": 2019
       },
       {
         "average_grade_stem": 4.74,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "year": 2020
       },
       {
         "average_grade_stem": 4.73,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "year": 2021
       },
       {
         "average_grade_stem": 4.17,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0435\u043b\u0438\u043a\u043e \u0422\u044a\u0440\u043d\u043e\u0432\u043e",
+        "province": "Област Велико Търново",
         "year": 2022
       },
       {
         "average_grade_stem": 4.5,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "year": 2017
       },
       {
         "average_grade_stem": 4.36,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "year": 2019
       },
       {
         "average_grade_stem": 4.3,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "year": 2020
       },
       {
         "average_grade_stem": 4.02,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "year": 2021
       },
       {
         "average_grade_stem": 3.64,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0438\u0434\u0438\u043d",
+        "province": "Област Видин",
         "year": 2022
       },
       {
         "average_grade_stem": 4.8,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "year": 2017
       },
       {
         "average_grade_stem": 4.94,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "year": 2019
       },
       {
         "average_grade_stem": 4.65,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "year": 2020
       },
       {
         "average_grade_stem": 4.74,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "year": 2021
       },
       {
         "average_grade_stem": 4.34,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0412\u0440\u0430\u0446\u0430",
+        "province": "Област Враца",
         "year": 2022
       },
       {
         "average_grade_stem": 4.73,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "year": 2017
       },
       {
         "average_grade_stem": 4.79,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "year": 2019
       },
       {
         "average_grade_stem": 5.0,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "year": 2020
       },
       {
         "average_grade_stem": 4.65,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "year": 2021
       },
       {
         "average_grade_stem": 3.91,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0413\u0430\u0431\u0440\u043e\u0432\u043e",
+        "province": "Област Габрово",
         "year": 2022
       },
       {
         "average_grade_stem": 4.39,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "year": 2017
       },
       {
         "average_grade_stem": 4.56,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "year": 2019
       },
       {
         "average_grade_stem": 4.33,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "year": 2020
       },
       {
         "average_grade_stem": 4.33,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "year": 2021
       },
       {
         "average_grade_stem": 3.19,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0414\u043e\u0431\u0440\u0438\u0447",
+        "province": "Област Добрич",
         "year": 2022
       },
       {
         "average_grade_stem": 4.25,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "year": 2017
       },
       {
         "average_grade_stem": 4.52,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "year": 2019
       },
       {
         "average_grade_stem": 4.37,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "year": 2020
       },
       {
         "average_grade_stem": 4.64,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "year": 2021
       },
       {
         "average_grade_stem": 3.47,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044a\u0440\u0434\u0436\u0430\u043b\u0438",
+        "province": "Област Кърджали",
         "year": 2022
       },
       {
         "average_grade_stem": 4.46,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "year": 2017
       },
       {
         "average_grade_stem": 4.31,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "year": 2019
       },
       {
         "average_grade_stem": 4.7,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "year": 2020
       },
       {
         "average_grade_stem": 4.58,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "year": 2021
       },
       {
         "average_grade_stem": 3.91,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041a\u044e\u0441\u0442\u0435\u043d\u0434\u0438\u043b",
+        "province": "Област Кюстендил",
         "year": 2022
       },
       {
         "average_grade_stem": 4.59,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "year": 2017
       },
       {
         "average_grade_stem": 4.49,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "year": 2019
       },
       {
         "average_grade_stem": 4.25,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "year": 2020
       },
       {
         "average_grade_stem": 4.38,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "year": 2021
       },
       {
         "average_grade_stem": 3.79,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041b\u043e\u0432\u0435\u0447",
+        "province": "Област Ловеч",
         "year": 2022
       },
       {
         "average_grade_stem": 4.51,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "year": 2017
       },
       {
         "average_grade_stem": 4.38,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "year": 2019
       },
       {
         "average_grade_stem": 4.41,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "year": 2020
       },
       {
         "average_grade_stem": 4.31,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "year": 2021
       },
       {
         "average_grade_stem": 3.84,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041c\u043e\u043d\u0442\u0430\u043d\u0430",
+        "province": "Област Монтана",
         "year": 2022
       },
       {
         "average_grade_stem": 4.51,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "year": 2017
       },
       {
         "average_grade_stem": 4.32,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "year": 2019
       },
       {
         "average_grade_stem": 4.38,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "year": 2020
       },
       {
         "average_grade_stem": 4.29,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "year": 2021
       },
       {
         "average_grade_stem": 3.5,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0430\u0437\u0430\u0440\u0434\u0436\u0438\u043a",
+        "province": "Област Пазарджик",
         "year": 2022
       },
       {
         "average_grade_stem": 4.78,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "year": 2017
       },
       {
         "average_grade_stem": 4.73,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "year": 2019
       },
       {
         "average_grade_stem": 4.64,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "year": 2020
       },
       {
         "average_grade_stem": 4.6,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "year": 2021
       },
       {
         "average_grade_stem": 3.75,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u0435\u0440\u043d\u0438\u043a",
+        "province": "Област Перник",
         "year": 2022
       },
       {
         "average_grade_stem": 4.5,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "year": 2017
       },
       {
         "average_grade_stem": 4.45,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "year": 2019
       },
       {
         "average_grade_stem": 4.31,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "year": 2020
       },
       {
         "average_grade_stem": 4.27,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "year": 2021
       },
       {
         "average_grade_stem": 3.63,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u0435\u0432\u0435\u043d",
+        "province": "Област Плевен",
         "year": 2022
       },
       {
         "average_grade_stem": 4.39,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "year": 2017
       },
       {
         "average_grade_stem": 4.36,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "year": 2019
       },
       {
         "average_grade_stem": 4.41,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "year": 2020
       },
       {
         "average_grade_stem": 4.33,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "year": 2021
       },
       {
         "average_grade_stem": 3.69,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u041f\u043b\u043e\u0432\u0434\u0438\u0432",
+        "province": "Област Пловдив",
         "year": 2022
       },
       {
         "average_grade_stem": 4.55,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "year": 2017
       },
       {
         "average_grade_stem": 4.46,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "year": 2019
       },
       {
         "average_grade_stem": 4.44,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "year": 2020
       },
       {
         "average_grade_stem": 4.42,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "year": 2021
       },
       {
         "average_grade_stem": 3.78,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0430\u0437\u0433\u0440\u0430\u0434",
+        "province": "Област Разград",
         "year": 2022
       },
       {
         "average_grade_stem": 4.8,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "year": 2017
       },
       {
         "average_grade_stem": 4.62,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "year": 2019
       },
       {
         "average_grade_stem": 4.65,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "year": 2020
       },
       {
         "average_grade_stem": 4.49,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "year": 2021
       },
       {
         "average_grade_stem": 4.11,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0420\u0443\u0441\u0435",
+        "province": "Област Русе",
         "year": 2022
       },
       {
         "average_grade_stem": 4.93,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "year": 2017
       },
       {
         "average_grade_stem": 4.72,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "year": 2019
       },
       {
         "average_grade_stem": 4.37,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "year": 2020
       },
       {
         "average_grade_stem": 4.59,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "year": 2021
       },
       {
         "average_grade_stem": 3.79,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0438\u043b\u0438\u0441\u0442\u0440\u0430",
+        "province": "Област Силистра",
         "year": 2022
       },
       {
         "average_grade_stem": 4.5,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "year": 2017
       },
       {
         "average_grade_stem": 4.5,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "year": 2019
       },
       {
         "average_grade_stem": 4.44,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "year": 2020
       },
       {
         "average_grade_stem": 4.3,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "year": 2021
       },
       {
         "average_grade_stem": 2.95,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043b\u0438\u0432\u0435\u043d",
+        "province": "Област Сливен",
         "year": 2022
       },
       {
         "average_grade_stem": 4.79,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "year": 2017
       },
       {
         "average_grade_stem": 4.88,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "year": 2019
       },
       {
         "average_grade_stem": 4.98,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "year": 2020
       },
       {
         "average_grade_stem": 4.83,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "year": 2021
       },
       {
         "average_grade_stem": 4.24,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043c\u043e\u043b\u044f\u043d",
+        "province": "Област Смолян",
         "year": 2022
       },
       {
         "average_grade_stem": 4.6,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "year": 2017
       },
       {
         "average_grade_stem": 4.64,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "year": 2019
       },
       {
         "average_grade_stem": 4.67,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "year": 2020
       },
       {
         "average_grade_stem": 4.61,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "year": 2021
       },
       {
         "average_grade_stem": 4.53,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u043e\u0444\u0438\u044f \u0413\u0440\u0430\u0434",
+        "province": "Област София Град",
         "year": 2022
       },
       {
         "average_grade_stem": 4.52,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "year": 2017
       },
       {
         "average_grade_stem": 4.62,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "year": 2019
       },
       {
         "average_grade_stem": 4.53,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "year": 2020
       },
       {
         "average_grade_stem": 4.25,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "year": 2021
       },
       {
         "average_grade_stem": 4.23,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430",
+        "province": "Област Стара Загора",
         "year": 2022
       },
       {
         "average_grade_stem": 4.95,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "year": 2017
       },
       {
         "average_grade_stem": 4.82,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "year": 2019
       },
       {
         "average_grade_stem": 4.66,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "year": 2020
       },
       {
         "average_grade_stem": 4.9,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "year": 2021
       },
       {
         "average_grade_stem": 3.76,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0422\u044a\u0440\u0433\u043e\u0432\u0438\u0449\u0435",
+        "province": "Област Търговище",
         "year": 2022
       },
       {
         "average_grade_stem": 4.23,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "year": 2017
       },
       {
         "average_grade_stem": 4.3,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "year": 2019
       },
       {
         "average_grade_stem": 4.44,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "year": 2020
       },
       {
         "average_grade_stem": 4.06,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "year": 2021
       },
       {
         "average_grade_stem": 3.67,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0425\u0430\u0441\u043a\u043e\u0432\u043e",
+        "province": "Област Хасково",
         "year": 2022
       },
       {
         "average_grade_stem": 4.42,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "year": 2017
       },
       {
         "average_grade_stem": 4.18,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "year": 2019
       },
       {
         "average_grade_stem": 4.12,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "year": 2020
       },
       {
         "average_grade_stem": 4.13,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "year": 2021
       },
       {
         "average_grade_stem": 3.14,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u0428\u0443\u043c\u0435\u043d",
+        "province": "Област Шумен",
         "year": 2022
       },
       {
         "average_grade_stem": 4.55,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "year": 2017
       },
       {
         "average_grade_stem": 5.05,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "year": 2019
       },
       {
         "average_grade_stem": 4.92,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "year": 2020
       },
       {
         "average_grade_stem": 4.27,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "year": 2021
       },
       {
         "average_grade_stem": 3.93,
-        "province": "\u041e\u0431\u043b\u0430\u0441\u0442 \u042f\u043c\u0431\u043e\u043b",
+        "province": "Област Ямбол",
         "year": 2022
       },
       {
         "average_grade_stem": 4.27,
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "year": 2017
       },
       {
         "average_grade_stem": 4.42,
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "year": 2019
       },
       {
         "average_grade_stem": 4.53,
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "year": 2020
       },
       {
         "average_grade_stem": 4.34,
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "year": 2021
       },
       {
         "average_grade_stem": 3.29,
-        "province": "\u0421\u043e\u0444\u0438\u0439\u0441\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442",
+        "province": "Софийска област",
         "year": 2022
       },
       {
         "average_grade_stem": 4.01,
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "year": 2017
       },
       {
         "average_grade_stem": 3.65,
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "year": 2019
       },
       {
         "average_grade_stem": 3.46,
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "year": 2020
       },
       {
         "average_grade_stem": 3.51,
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "year": 2021
       },
       {
         "average_grade_stem": 2.52,
-        "province": "\u0421\u0442\u043e\u043b\u0438\u0447\u043d\u0430 \u043e\u0431\u0449\u0438\u043d\u0430",
+        "province": "Столична община",
         "year": 2022
       }
     ]
@@ -6997,7 +7003,7 @@ type: "blog"
     "color": {
       "field": "year",
       "legend": {
-        "title": "\u0413\u043e\u0434\u0438\u043d\u0430"
+        "title": "Година"
       },
       "scale": {
         "domain": [
@@ -7031,7 +7037,7 @@ type: "blog"
     ],
     "x": {
       "axis": {
-        "title": "\u0421\u0440\u0435\u0434\u043d\u0430 \u043e\u0446\u0435\u043d\u043a\u0430 \u043e\u0442 \u043c\u0430\u0442\u0443\u0440\u0430 \u043f\u043e \u0421\u0422\u0415\u041c \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u0438"
+        "title": "Средна оценка от матура по СТЕМ предмети"
       },
       "field": "average_grade_stem",
       "scale": {
@@ -7046,7 +7052,7 @@ type: "blog"
       "axis": {
         "grid": true,
         "labelLimit": 450,
-        "title": "\u041e\u0431\u043b\u0430\u0441\u0442"
+        "title": "Област"
       },
       "field": "province",
       "sort": "x",
@@ -7057,7 +7063,7 @@ type: "blog"
     "step": 20
   },
   "mark": "point",
-  "title": "\u0421\u0440\u0435\u0434\u043d\u0430 \u043e\u0446\u0435\u043d\u043a\u0430 \u043e\u0442 \u043c\u0430\u0442\u0443\u0440\u0430 \u043f\u043e \u0421\u0422\u0415\u041c \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u0438 \u043f\u043e \u043e\u0431\u043b\u0430\u0441\u0442\u0438, \u0443\u0447\u0438\u043b\u0438\u0449\u0430, \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u0438 \u043e\u0442 \u043f\u0440\u043e\u0444\u0435\u0441\u0438\u043e\u043d\u0430\u043b\u043d\u0438 (2019-2022)"
+  "title": "Средна оценка от матура по СТЕМ предмети по области, училища, различни от професионални (2019-2022)"
 }
 ```
 

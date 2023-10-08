@@ -41,7 +41,7 @@ draft: false
 ## Основни сфери на дейност
 В „Данни за добро“ сме готови да помогнем за всякакъв вид предизвикателства свързани с данни, които биха помогнали за общественото благо. Най-ясно се отличават следните сфери, в които нашите умения имат значително позитивно въздействие.
 
-<a href="../categories/education" class="btn btn-sm btn-orange border-2 px-3 text-uppercase my-1">Образование</a>
-<a href="../categories/democracy" class="btn btn-sm btn-cyan border-2 px-3 text-uppercase my-1">Демокрация</a>
-<a href="../categories/environment" class="btn btn-sm btn-green border-2 px-3 text-uppercase my-1">Околна среда</a>
-<a href="../categories/cultural-heritage" class="btn btn-sm btn-purple border-2 px-3 text-uppercase my-1">Културно наследство</a>
+<a href="../categories/education" class="btn btn-sm btn-orange border-3 px-3 text-uppercase my-1">Образование</a>
+<a href="../categories/democracy" class="btn btn-sm btn-cyan border-3 px-3 text-uppercase my-1">Демокрация</a>
+<a href="../categories/environment" class="btn btn-sm btn-green border-3 px-3 text-uppercase my-1">Околна среда</a>
+<a href="../categories/cultural-heritage" class="btn btn-sm btn-purple border-3 px-3 text-uppercase my-1">Културно наследство</a>
