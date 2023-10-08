@@ -3,7 +3,7 @@
   {{ $path :=  path.Join $lang}}
   {{ $outlined := cond (strings.Contains $path (trim $.Page.RelPermalink "/")) "" "-outline" }}
   {{ if not (isset $.Params "categories") }}
-  <a href="{{ site.BaseURL }}{{ $path }}" class="btn btn-sm btn{{ $outlined }}-black border-2 px-3 text-uppercase my-1">
+  <a href="{{ site.BaseURL }}{{ $path }}" class="btn btn-sm btn{{ $outlined }}-black border-3 px-3 text-uppercase my-1">
     {{ i18n "allProjects" }}
   </a>
   {{ else }}
@@ -27,7 +27,7 @@
         (in $.Params.categories $key)
       )
     ) "" "-outline" }}
-    <a href="{{ site.BaseURL }}{{ $path }}" class="btn btn-sm btn{{ $outlined }}-{{ $color }} border-2 px-3 text-uppercase my-1">
+    <a href="{{ site.BaseURL }}{{ $path }}" class="btn btn-sm btn{{ $outlined }}-{{ $color }} border-3 px-3 text-uppercase my-1">
       {{ i18n $key }}
     </a>
   {{ end }}

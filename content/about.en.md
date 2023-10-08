@@ -39,7 +39,7 @@ We match you with volunteers to build the designed solution. We actively work wi
 ## Main areas of activity
 We in Data for Good - Bulgaria are ready to help with any data related challenges which are good for the public. Here are the most prominant areas where our skills bring the most positive impact.
 
-<a href="../categories/education" class="btn btn-sm btn-orange border-2 px-3 text-uppercase my-1">Education</a>
-<a href="../categories/democracy" class="btn btn-sm btn-cyan border-2 px-3 text-uppercase my-1">Democracy</a>
-<a href="../categories/environment" class="btn btn-sm btn-green border-2 px-3 text-uppercase my-1">Environment</a>
-<a href="../categories/cultural-heritage" class="btn btn-sm btn-purple border-2 px-3 text-uppercase my-1">Cultural heritage</a>
+<a href="../categories/education" class="btn btn-sm btn-orange border-3 px-3 text-uppercase my-1">Education</a>
+<a href="../categories/democracy" class="btn btn-sm btn-cyan border-3 px-3 text-uppercase my-1">Democracy</a>
+<a href="../categories/environment" class="btn btn-sm btn-green border-3 px-3 text-uppercase my-1">Environment</a>
+<a href="../categories/cultural-heritage" class="btn btn-sm btn-purple border-3 px-3 text-uppercase my-1">Cultural heritage</a>
