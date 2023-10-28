@@ -11,15 +11,23 @@
         <article>
           <h1 class="h5 text-uppercase mb-0">{{ .Title }}</h1>
           <hr class="border-top border-3 border-black opacity-100 my-1">
-          <div class="pt-3">
-            <a href="{{ site.BaseURL }}{{ $path }}" class="btn btn-sm btn-outline-black border-3 px-3 my-1">
-              {{ i18n "about" }}
-            </a>
+
+          <div class="nav nav-tabs" id="v-tab" role="tablist">
+            <button class="btn btn-sm btn-outline-black border-3 px-3 my-1 me-1 active" id="v-about-tab" data-bs-toggle="pill" data-bs-target="#v-about" type="button" role="tab" aria-controls="v-about" aria-selected="true">{{ i18n "about" }}</button>
+            <button class="btn btn-sm btn-outline-blue border-3 px-3 my-1" id="v-volunteers-tab" data-bs-toggle="pill" data-bs-target="#v-volunteers" type="button" role="tab" aria-controls="v-volunteers" aria-selected="false">{{ i18n "forVolunteers" }}</button>
           </div>
-          <div class="pt-3">
-            {{ .Content }}
+          <div class="tab-content" id="v-tabContent">
+            <div class="tab-pane fade show active pt-3" id="v-about" role="tabpanel" aria-labelledby="v-about-tab" tabindex="0">
+              {{ .Content }}
+            </div>
+            <div class="tab-pane fade pt-3" id="v-volunteers" role="tabpanel" aria-labelledby="v-volunteers-tab" tabindex="0">
+              <p>{{ i18n "volunteersText" }}</p>
+            </div>
           </div>
-          <h2 class="h5 text-uppercase mb-0 mt-2">{{ i18n "ourApps" }} Нашите приложения</h1>
+          <a href="{{ site.BaseURL }}{{ $path }}" class="btn btn-outline-green btn-sm border-3 my-1 mb-4">
+            {{ i18n "learnMore" }}
+          </a>
+          <h2 class="h5 text-uppercase mb-0 mt-2">{{ i18n "ourApps" }}</h1>
           <hr class="border-top border-3 border-black opacity-100 my-1">
           <div class="py-3">
             <a href="{{ site.BaseURL }}/sebra" class="btn btn-sm btn-outline-orange border-3 px-3 my-1">
@@ -29,12 +37,6 @@
               {{ i18n "kindergartens" }}
             </a>
           </div>
-          <h2 class="h5 text-uppercase mb-0 mt-2"> {{ i18n "forVolunteers" }}</h1>
-          <hr class="border-top border-3 border-black opacity-100 my-1">
-          <p>{{ i18n "volunteersText" }}</p>
-          <a href="{{ site.BaseURL }}{{ $path }}" class="btn btn-outline-green btn-sm border-3 my-1 mb-4">
-            {{ i18n "learnMore" }}
-          </a>
         </article>
       </div>
       <div class="col-12 col-lg-8 col-xl-9 col-xxl-10">

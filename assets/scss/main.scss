@@ -147,7 +147,7 @@ body {
   .border-primary {
     border-color: var(--bs-cyan)!important;
   }
-  
+
   .btn-outline-primary {
     --bs-btn-border-color: var(--bs-cyan);
     --bs-btn-color: var(--bs-cyan);
@@ -589,3 +589,7 @@ table {
   }
 }
 
+
+.nav-tabs {
+  border-bottom: 0;
+}
