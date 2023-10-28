@@ -11,8 +11,8 @@
     <div class="row">
       <div class="col-12 col-lg-4 col-xl-3 col-xxl-2">
         <article>
-          <h1 class="h5 text-uppercase mb-0">{{ $i18nCategory.title }}</h1>
-          <hr class="border-top border-3 border-black opacity-100 my-1">
+          <h1 class="h5 text-uppercase mt-2 mb-0 text-primary">{{ $i18nCategory.title }}</h1>
+          <hr class="border-top border-3 border-primary opacity-100 my-1">
           <div class="pt-3">
             {{ $i18nCategory.description }}
           </div>
@@ -20,8 +20,8 @@
       </div>
       <div class="col-12 col-lg-8 col-xl-9 col-xxl-10 px-0">
         <div class="px-2">
-          <h1 class="h5 text-uppercase mb-0">{{ i18n "projects" }}</h1>
-          <hr class="border-top border-3 border-black opacity-100 my-1">
+          <h1 class="h5 text-uppercase mt-2 d-none d-lg-flex mb-0">{{ i18n "projects" }}</h1>
+          <hr class="border-top border-3 border-black opacity-100 d-none d-lg-flex my-1">
 
           {{ partial "common/categories" . }}
         </div>

@@ -1,7 +1,7 @@
 <div class="py-3">
   {{ $lang := cond (eq .Lang "en") "en" "" }}
   {{ $path :=  path.Join $lang}}
-  {{ $outlined := cond (strings.Contains $path (trim $.Page.RelPermalink "/")) "" "-outline" }}
+  {{ $outlined := cond (strings.Contains $path (trim $.Page.RelPermalink "/")) "-outline" "" }}
   {{ if not (isset $.Params "categories") }}
   <a href="{{ site.BaseURL }}{{ $path }}" class="btn btn-sm btn{{ $outlined }}-black border-3 px-3 text-uppercase my-1">
     {{ i18n "allProjects" }}
@@ -26,7 +26,7 @@
         (isset $.Params "categories")
         (in $.Params.categories $key)
       )
-    ) "" "-outline" }}
+    ) "-outline" "" }}
     <a href="{{ site.BaseURL }}{{ $path }}" class="btn btn-sm btn{{ $outlined }}-{{ $color }} border-3 px-3 text-uppercase my-1">
       {{ i18n $key }}
     </a>
