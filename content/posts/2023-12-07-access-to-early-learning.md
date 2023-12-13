@@ -2,7 +2,7 @@
 title:  Предизвикателства пред достъпа до ранно учене
 date: 2023-12-07 00:00:00
 description: Събиране и анализ на данни относно съществуващи бариери пред достъпа до детска градина 13 януари 2023 - 31 октомври 2023
-featured_image: /img/posts/sofia-kindergartens-map.PNG
+featured_image: img/posts/2023-12-07-access-to-early-learning/cover.jpg
 authors: ["ognyana-hristova"]
 categories: [ "education" ]
 tags: []

@@ -2,7 +2,7 @@
 title: Малки общини постигат високи резултати на матурите
 date: 2023-12-04 00:00:00
 description: Анализ на представянето на матурите по БЕЛ в малките общини в България за 2023 г.
-featured_image: []
+featured_image: img/posts/2023-12-04-matura-bel-top-schools/cover.jpg
 authors: [ "teodora-atanasova", "daniel-cholakov" ]
 categories: [ "education" ]
 tags: []
