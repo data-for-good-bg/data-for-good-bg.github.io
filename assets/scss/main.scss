@@ -54,6 +54,10 @@ body {
   font-weight: 300;
 }
 
+.text-nowrap {
+  text-wrap: nowrap;
+}
+
 .bg-light-cyan {
   background-color: var(--bs-light-cyan);
 }
