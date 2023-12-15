@@ -38,20 +38,18 @@ type: "blog"
 
 Наличието на добре хармонизирани данни в среда като Уикиданни позволява също да се търсят и показват по всякакъв начин. 
 
-Ето го например регистъра показан на карта[^1], с оцветяване отговарящо на биологичния вид на всяко дърво:
-
-<iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3AMap%0Aselect%20%2a%20%7B%0A%20%20%3Fx%20wdt%3AP31%20wd%3AQ811534%20%3B%20wdt%3AP625%20%3Fcoords%20%3B%20%0A%20%20%20%20%20wdt%3AP17%20wd%3AQ219%20%3B%20%0A%20%20%20%20%20wdt%3AP10241%20%3Fspecies%20.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Fx%20rdfs%3Alabel%20%3Flabel%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Fspecies%20rdfs%3Alabel%20%3Flayer%20.%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
+Ето го например регистъра показан на карта, с оцветяване отговарящо на биологичния вид на всяко дърво:
 
 Ето и галерия[^2] с всички налични до момента снимки на вековни дървета:
 
-<iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%0Aselect%20%3Fimg%20%3Flabel%20%3Flayer%20%3Fx%20%3Fcoords%20%7B%0A%20%20%3Fx%20wdt%3AP31%20wd%3AQ811534%20%3B%20wdt%3AP625%20%3Fcoords%20%3B%20wdt%3AP17%20wd%3AQ219%20%3B%20wdt%3AP18%20%3Fimg%20%3B%20wdt%3AP10241%20%3Fspecies%20.%20%0A%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22bg%22.%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Fx%20rdfs%3Alabel%20%3Flabel%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Fspecies%20rdfs%3Alabel%20%3Flayer%20.%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
+<iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3AImageGrid%0Aselect%20%3Fimg%20%3Flabel%20%3Flayer%20%3Fx%20%3Fcoords%20%7B%0A%20%20%3Fx%20wdt%3AP31%20wd%3AQ811534%20%3B%20wdt%3AP625%20%3Fcoords%20%3B%20wdt%3AP17%20wd%3AQ219%20%3B%20wdt%3AP18%20%3Fimg%20%3B%20wdt%3AP10241%20%3Fspecies%20.%20%0A%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22bg%22.%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Fx%20rdfs%3Alabel%20%3Flabel%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Fspecies%20rdfs%3Alabel%20%3Flayer%20.%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
 
 # Всеки може да надгради върху данните
 
 Уикданни е част от Уики- екосистемата. Всеки ден хиляди потребители допринасят в нея. И вие можете да допринесете като например добавяте снимки на вековни дървета, които все още не са снимани. Изберете си някое на картата, намерете го. Напрсавето му няколко хубави снимки и ги качете в Общомедия, като добавите обекта, които отговаря на дървото от картата. 
 
 [^1]: Линк към картата [https://w.wiki/4huv](https://w.wiki/4huv)
-[^2]: Линк към галерията [https://w.wiki/8WS6](https://w.wiki/8WS6)
+[^2]: Линк към галерията [https://w.wiki/8WSP](https://w.wiki/8WSP)
 
 
 
