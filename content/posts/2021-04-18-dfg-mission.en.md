@@ -4,7 +4,7 @@ date: 2021-04-08 00:00:00
 description: We are Data for Good - Bulgaria. Our goal is to support the civil sector in Bulgaria by providing services related to data processing and data analysis.
 featured_image: /img/posts/color-graph.png
 authors: [ "nikola-tulechki" ]
-categories: [ "environment", "cultural-heritage" ]
+categories: []
 tags: []
 lang: en
 draft: false
