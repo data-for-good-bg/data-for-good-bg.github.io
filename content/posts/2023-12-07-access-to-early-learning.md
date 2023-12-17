@@ -57,7 +57,7 @@ type: "blog"
   "width": 1019,
   "height": 600,
   "data": {
-    "url": "https://raw.githubusercontent.com/data-for-good-bg/data-for-good-bg.github.io/main/data/posts/2023-12-07-access-to-early-learning/tsa-scatter.csv"
+    "url": "/data/posts/2023-12-07-access-to-early-learning/tsa-scatter.csv"
   },
     "transform": [
     {"filter": "datum['Население на възраст 2-7г'] > 0"},
