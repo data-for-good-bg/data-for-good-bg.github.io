@@ -23,26 +23,46 @@
           {{ $contacts := $person.contacts }}
           <div class="social my-3">
             {{ if isset $contacts "email" }}
-              <a href="mailto:{{ $contacts.email }}" class="btn btn-outline-dark me-1 py-2 my-1">
+              <a href="mailto:{{ $contacts.email }}" class="btn btn-outline-dark py-2 my-1">
                 <i class="bi bi-envelope align-middle"></i>
               </a>
             {{ end }}
-            {{/*  <a href="https://www.facebook.com/dataforgoodbg" target="_blank" class="btn btn-outline-dark me-1 py-2 my-1">
-              <i class="bi bi-facebook align-middle"></i>
-            </a>  */}}
+            {{ if isset $contacts "tel" }}
+              <a href="tel:{{ $contacts.tel }}" class="btn btn-outline-dark py-2 my-1">
+                <i class="bi bi-telephone align-middle"></i>
+              </a>
+            {{ end }}
+            {{ if isset $contacts "github" }}
+              <a href="{{ $contacts.github }}" target="_blank" class="btn btn-outline-dark py-2 my-1">
+                <i class="bi bi-github align-middle"></i>
+              </a>
+            {{ end }}
             {{ if isset $contacts "twitter" }}
-              <a href="{{ $contacts.twitter }}" target="_blank" class="btn btn-outline-dark me-1 py-2 my-1">
+              <a href="{{ $contacts.twitter }}" target="_blank" class="btn btn-outline-dark py-2 my-1">
                 <i class="bi bi-twitter-x align-middle"></i>
               </a>
             {{ end }}
-            {{/*  <a href="https://github.com/data-for-good-bg" target="_blank" class="btn btn-outline-dark me-1 py-2 my-1">
-              <i class="bi bi-github align-middle"></i>
-            </a>  */}}
+            {{ if isset $contacts "facebook" }}
+              <a href="{{ $contacts.facebook }}" target="_blank" class="btn btn-outline-dark py-2 my-1">
+                <i class="bi bi-facebook align-middle"></i>
+              </a>
+            {{ end }}
             {{ if isset $contacts "linkedin" }}
               <a href="{{ $contacts.linkedin }}" target="_blank" class="btn btn-outline-dark py-2 my-1">
                 <i class="bi bi-linkedin align-middle"></i>
               </a>
             {{ end }}
+            {{ if isset $contacts "wikidata" }}
+              <a href="{{ $contacts.wikidata }}" target="_blank" class="btn btn-outline-dark py-2 my-1">
+                <i class="bi bi-wikipedia align-middle"></i>
+              </a>
+            {{ end }}
+            {{ if isset $contacts "instagram" }}
+              <a href="{{ $contacts.instagram }}" target="_blank" class="btn btn-outline-dark py-2 my-1">
+                <i class="bi bi-instagram align-middle"></i>
+              </a>
+            {{ end }}
+
           </div>
         </article>
       </div>
