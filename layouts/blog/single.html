@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ $categoryName := cond (and (isset .Params "categories") (gt (len .Params.categories) 0)) (index .Params.categories 0) "" }}
 {{ $category := index $.Site.Data.categories $categoryName }}
-{{ $color := cond (isset .Params "color") .Params.color (cond (isset $category "color") $category.color "") }}
+{{ $color := cond (isset .Params "color") .Params.color (cond (isset $category "color") $category.color "black") }}
 <main class="page-{{ $color }}">
   <script src="https://cdn.jsdelivr.net/npm/vega@5.21.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>

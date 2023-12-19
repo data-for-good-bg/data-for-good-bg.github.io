@@ -1,6 +1,6 @@
 {{ $categoryName := cond (and (isset .Params "categories") (gt (len .Params.categories) 0)) (index .Params.categories 0) "" }}
 {{ $category := index $.Site.Data.categories $categoryName }}
-{{ $color := cond (isset .Params "color") .Params.color (cond (isset $category "color") $category.color "") }}
+{{ $color := cond (isset .Params "color") .Params.color (cond (isset $category "color") $category.color "black") }}
 <a href="{{ .Permalink }}">
   <div class="card border-3 border-{{ $color }} opacity-100 p-2">
     <div class="p-3 text-center">

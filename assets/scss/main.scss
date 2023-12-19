@@ -276,6 +276,25 @@ body {
   }
 }
 
+.page-black {
+  .text-primary {
+    color: var(--bs-black)!important;
+  }
+
+  .border-primary {
+    border-color: var(--bs-black)!important;
+  }
+
+  .btn-outline-primary {
+    --bs-btn-border-color: var(--bs-black);
+    --bs-btn-color: var(--bs-black);
+    --bs-btn-hover-bg: var(--bs-black);
+    --bs-btn-hover-border-color: var(--bs-black);
+    --bs-btn-active-bg: var(--bs-black);
+    --bs-btn-active-border-color: var(--bs-black);
+  }
+}
+
 .btn {
   border-radius: 25px;
 
