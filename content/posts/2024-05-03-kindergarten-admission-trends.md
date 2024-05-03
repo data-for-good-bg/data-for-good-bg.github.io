@@ -1,0 +1,41 @@
+---
+title: Тенденции в приема в ясли и дески градини в София
+date: 2024-05-03 00:00:00
+description: 4-годишни наблюдения над кандидатстването за ясли и детски градини в Столична община.     
+featured_image: /img/posts/Sofia-kindergarten-admission-map.png
+authors: [ "magdalena-petrova" ]
+categories: [ "education" ]
+tags: []
+lang: bg
+draft: false
+type: "blog"
+---
+
+<body onload="initViz();">
+    <div id="vizContainer" style="width:100%; min-width: 600px; height:800px;" class="mx-auto"></div>
+    <div class="mt-5">
+        <p>
+            С нашите 4-годишни наблюдения над кандидатстването за ясли и детски градини в Столична община натрупахме данни, които дават ориентир дали в даден район се влиза по-лесно в ясла или в детска градина.
+        </p>
+        <p>
+            Споделяме с вас сравнение на това колко свободни места се обявяват всяка година за 1-ва ясла, 2-ра ясла и 1-ва група в детска градина на голямото класиране през месец май. Колко деца кандидатстват като сме преброили всяко дете само веднъж в района, в който е кандидатурата му по първо желание.
+        </p>
+        <p>
+            Изчислихме също за какъв процент от кандидатстващите деца има места по райони.
+        </p>
+    </div>
+    <script type="text/javascript" src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+    <script type="text/javascript">
+        function initViz() {
+            var containerDiv = document.getElementById("vizContainer"),
+                url = "https://public.tableau.com/views/KindergartenAdmissionTrendsinSofia4Years/Story1",
+                options = {
+                    hideTabs: true,
+                    onFirstInteractive: function () {
+                        console.log("Run this code when the viz has finished loading.");
+                    }
+                };
+            var viz = new tableau.Viz(containerDiv, url, options);
+            // Create a viz object and embed it in the container div.
+        }</script>
+</body>
