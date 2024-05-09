@@ -2,7 +2,7 @@
 title: Тенденции в приема в ясли и дески градини в София
 date: 2024-05-03 00:00:00
 description: 4-годишни наблюдения над кандидатстването за ясли и детски градини в Столична община.     
-featured_image: /img/posts/Sofia-kindergarten-admission-trends-4years.jpg
+featured_image: /img/posts/2024-05-03-kindergarten-admission-trends/cover.jpg
 authors: [ "magdalena-petrova" ]
 categories: [ "education" ]
 tags: []
