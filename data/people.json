@@ -162,6 +162,19 @@
     "contacts": {},
     "isMember": true
   },
+  "kosara-keskinova": {
+    "picture": "/img/people/no-avatar.png",
+    "bg": {
+      "name": "Косара Кескинова",
+      "facts": []
+    },
+    "en": {
+      "name": "Kosara Keskinova",
+      "facts": []
+    },
+    "contacts": {},
+    "isMember": true
+  },
   "laura-tolosi": {
     "picture": "/img/people/no-avatar.png",
     "bg": {
@@ -178,7 +191,7 @@
   "ivailo-partchev": {
     "picture": "/img/people/no-avatar.png",
     "bg": {
-      "name": "Ивайло Партчев",
+      "name": "Ивайло Парчев",
       "facts": []
     },
     "en": {
