@@ -164,15 +164,30 @@
   },
   "kosara-keskinova": {
     "picture": "/img/people/no-avatar.png",
+    "contacts": {
+      "email": "kosara.keskinova@data-for-good.bg",
+      "instagram": "https://www.instagram.com/kosara_keskinova/",
+      "linkedin": "https://www.linkedin.com/in/kosara-keskinova-a268a3147/"
+    },
     "bg": {
       "name": "Косара Кескинова",
-      "facts": []
+      "facts": [
+        "Дизайнер и създател на инфографики",
+        "Прави данните красиви"
+      ]
     },
     "en": {
       "name": "Kosara Keskinova",
-      "facts": []
+      "facts": [
+        "Designer and creator of infographics",
+        "Makes data beautiful"
+      ]
     },
-    "contacts": {},
+    "contacts": {
+      "email": "kosara.keskinova@data-for-good.bg",
+      "instagram": "https://www.instagram.com/kosara_keskinova/",
+      "linkedin": "https://www.linkedin.com/in/kosara-keskinova-a268a3147/"
+    },
     "isMember": true
   },
   "laura-tolosi": {
