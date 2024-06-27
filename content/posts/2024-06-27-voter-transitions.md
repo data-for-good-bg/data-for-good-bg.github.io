@@ -2,7 +2,7 @@
 title:  Политически промени и преливане на гласове на парламентарни избори (2017-2024)
 date: 2024-06-27 00:00:00
 description: Как резултатите от изборите разкриват прехода на гласове от една партия в друга?
-featured_image: /img/posts/voter-transitions.png
+featured_image: /img/posts/Easily-accessible-linked-open-elections-data.png
 authors: [ "nikola-tulechki", "ivailo-partchev", "kosara-keskinova" ]
 categories: [ "democracy" ]
 tags: []
