@@ -3,7 +3,7 @@ title:  Политически промени и преливане на гла�
 date: 2024-06-27 00:00:00
 description: Как резултатите от изборите разкриват прехода на гласове от една партия в друга?
 featured_image: /img/posts/2024-06-27-voter-transitions/cover.png
-authors: [ "nikola-tulechki", "ivailo-partchev", "kosara-keskinova" ]
+authors: [ "ivailo-partchev", "nikola-tulechki", "kosara-keskinova" ]
 categories: [ "democracy" ]
 tags: []
 lang: bg
