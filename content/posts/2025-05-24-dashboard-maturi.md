@@ -17,7 +17,7 @@ type: "blog"
 
 Дашбордът е достъпен на този [линк](https://dashboards.data-for-good.bg/eddata/)!
 
-[![Данни за матурите](/img/posts/2025-05-24-dashboard-maturi/map.png)](https://dashboards.data-for-good.bg/eddata/)
+[![Данни за матурите](static/img/posts/2025-05-24-dashboard-maturi/map.png)](https://dashboards.data-for-good.bg/eddata/)
 
 Въпросите, на които търсим отговор, включват:
 * Кои са добрите примери сред училищата и общините извън "елитните гимназии" в големите населени места?
