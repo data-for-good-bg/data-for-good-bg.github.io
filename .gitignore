@@ -4,6 +4,10 @@
 /assets/jsconfig.json
 hugo_stats.json
 
+# Pinned local Hugo binary (see scripts/install-hugo.sh)
+/bin/
+/scripts/
+
 # Executable may be added to repository
 hugo.exe
 hugo.darwin
